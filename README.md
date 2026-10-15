@@ -85,17 +85,23 @@ Betik, canlıdaki sayfa yeni sürümle aynı olana kadar (en çok ~5 dk) bekler,
 
 ## Günlük otomatik yazı
 
-Claude masaüstü uygulamasında zamanlanmış bir görev her gün 10:00'da şunları yapar:
+GitHub Actions'taki `daily` iş akışı (`.github/workflows/daily.yml`) her gün 10:17'de (TR) `tools/daily.mjs`'i çalıştırır.
+GitHub zamanlanmış çalıştırmaları bazen düşürdüğü için 18:43'te bir telafi çalıştırması daha vardır; bugün yazı varsa hiçbir şey yapmaz.
 
 1. `content/konular.json`'dan konu seçer: `durum` = `bekliyor` ve `planlanan` ≤ bugün olanlardan `planlanan` tarihi en eski olan.
    Mevsimlik bir konunun `son_tarih`i geçmişse yazılmaz; `planlanan` ve `son_tarih` bir yıl ileri alınır, sıradakine geçilir.
    Tarihi gelmiş konu yoksa sıradaki `bekliyor` konuyu öne alır. Günde en çok bir yazı çıkar.
-   Sırada 14'ten az konu kalırsa rehbere uyan yeni genel konular ekler.
-2. Rehbere göre yazar (`duzeltme` notu önce gelir, `yazilmayacaklar` kesin yasak) ve dürüstlük açısından kendini denetler.
-3. `build` ve `check` çalıştırır; 0 hata yoksa yayınlamaz. Herhangi bir adımda durursa yaptığı değişiklikleri geri alır
-   ve taslağı geçici bir klasörde bırakıp raporlar.
-4. Konuyu `yayinlandi` yapar (`yayin` = tarih), commit atıp gönderir.
-5. IndexNow ile bildirir ve canlıda açıldığını kontrol eder.
+2. Claude API ile (`claude-opus-5-5`) rehbere göre yazdırır: `duzeltme` notu önce gelir, `yazilmayacaklar` kesin yasak.
+3. `content/blog/<adres>.md`'yi yazar, konuyu `yayinlandi` yapar (`yayin` = tarih), `build` ve `check` çalıştırır.
+   `check` hata verirse hataları Claude'a verip bir kez daha dener; yine geçmezse hiçbir şey yazmadan kırmızı biter.
+4. İş akışı "Izmit Blog Bot" adıyla commit atıp gönderir, GitHub Pages yayınının başladığını doğrular
+   (başlamadıysa API ile başlatır) ve IndexNow ile bildirir.
+
+Sırada 14'ten az konu kalırsa iş akışı günlüğünde uyarı çıkar; yeni konuları elle eklemek gerekir.
+
+Gerekli secret: `ANTHROPIC_API_KEY` (`gh secret set ANTHROPIC_API_KEY -R berkay-hue/izmitetkinlik`).
+Elle denemek için Actions → daily → Run workflow; `dry` işaretliyse yazıyı üretir, build + check ile dener, commit etmez.
+Yerelde: `node tools/daily.mjs --dry` (çalışma ağacı temiz olmalı).
 
 Konu durumları:
 
@@ -105,7 +111,6 @@ Konu durumları:
   "Kullanılabilecek kesin bilgiler" bölümüne eklenir, konu `bekliyor` yapılıp bir `planlanan` tarih verilir.
 - `beklet` — yazılmaz
 
-Bunun için bilgisayarın ve uygulamanın açık olması gerekir. Kaçan çalıştırma, uygulama açıldığında yapılır.
 Konu eklemek için `konular.json`'a aynı biçimde, `planlanan` tarihi olan yeni bir kayıt eklemek yeterlidir.
 
 ## Yapay zeka ve arama görünürlüğü
