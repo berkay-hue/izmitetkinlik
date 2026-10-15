@@ -1,0 +1,71 @@
+# Günlük blog yazısı: tools/daily.mjs yazar (build + check geçmezse hiçbir şey yazmaz), burada commit edilir,
+# GitHub Pages yayını doğrulanır ve IndexNow'a bildirilir.
+# 07:17 UTC = 10:17 TR. Telafi: GitHub saat başı cron'larını düşürebiliyor; 15:43 UTC'de (18:43 TR) bugün yazı yoksa yazılır.
+# Günde en çok bir yazı: daily.mjs bugün tarihli yazı varsa hiçbir şey yapmaz.
+# Secret: ANTHROPIC_API_KEY
+name: daily
+on:
+  schedule:
+    - cron: "17 7 * * *"
+    - cron: "43 15 * * *"
+  workflow_dispatch:
+    inputs:
+      dry: { description: "Önizleme (yazdırır, build + check ile dener, commit etmez)", type: boolean, default: true }
+permissions: { contents: write, pages: write }
+concurrency: { group: daily, cancel-in-progress: false }
+jobs:
+  write:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - name: Yazı üret
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          DRY: ${{ inputs.dry }}
+        run: node tools/daily.mjs $([ "$DRY" = "true" ] && echo --dry)
+      - name: Commit + push
+        id: push
+        if: inputs.dry != true
+        run: |
+          # pull --rebase de commit yazar; kimlik tüm git komutları için gerekli
+          git config user.name "Izmit Blog Bot"
+          git config user.email "izmit-blog-bot@users.noreply.github.com"
+          git add content blog index.html feed.xml sitemap.xml llms.txt llms-full.txt 404.html
+          git diff --cached --quiet && { echo "Yeni yazı yok"; exit 0; }
+          before=$(git rev-parse HEAD)
+          git commit -q -m "Blog: $(git diff --cached --name-only --diff-filter=A -- content/blog | xargs -n1 basename | sed 's/\.md$//' | paste -sd, -)"
+          # main eşzamanlı ilerleyebilir: 5 deneme, hepsi düşerse adım kırmızı olur
+          for i in 1 2 3 4 5; do
+            git pull -q --rebase && git push -q && break
+            [ "$i" = 5 ] && exit 1; sleep $((i * 5))
+          done
+          echo "before=$(git rev-parse HEAD~1)" >> "$GITHUB_OUTPUT"
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+      - name: Pages yayınını doğrula
+        if: steps.push.outputs.sha != ''
+        env: { GH_TOKEN: "${{ github.token }}", SHA: "${{ steps.push.outputs.sha }}" }
+        run: |
+          # Pages main'den (legacy) yayınlanır. GITHUB_TOKEN push'u yayını tetiklemezse API ile istenir.
+          latest() { gh api "repos/$GITHUB_REPOSITORY/pages/builds/latest" --jq '.commit + " " + .status' 2>/dev/null || true; }
+          for i in $(seq 1 12); do
+            set -- $(latest); [ "$1" = "$SHA" ] && break; sleep 10
+          done
+          if [ "$1" != "$SHA" ]; then
+            echo "Pages yayını başlamadı; API ile tetikleniyor."
+            gh api -X POST "repos/$GITHUB_REPOSITORY/pages/builds" >/dev/null
+          fi
+          for i in $(seq 1 30); do
+            set -- $(latest)
+            [ "$1" = "$SHA" ] && [ "$2" = "built" ] && { echo "Pages yayınlandı: $SHA"; exit 0; }
+            [ "$1" = "$SHA" ] && [ "$2" = "errored" ] && { echo "Pages yayını hata verdi"; exit 1; }
+            sleep 10
+          done
+          echo "Pages yayını 5 dakikada bitmedi ($*)"; exit 1
+      - name: IndexNow
+        if: steps.push.outputs.sha != ''
+        # Canlı sayfaların push'taki dosyayla aynı olmasını bekler, sonra bildirir
+        run: node tools/indexnow.mjs --from-git "${{ steps.push.outputs.before }}"
