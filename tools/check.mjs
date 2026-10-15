@@ -103,28 +103,35 @@ for (const p of all) {
   if (al < 60) err(w, `answer (kısa cevap) ${al} karakter; en az 60 olmalı`);
   else if (al < 150 || al > 350) warn(w, `answer ${al} karakter; 150–350 arası olmalı`);
   if (!CATEGORIES[p.category]) err(w, `category geçersiz: ${p.category}`);
-  if (!Array.isArray(p.faq) || p.faq.length < 3 || p.faq.length > 5) err(w, "faq 3–5 soru içermeli");
+  if (!Array.isArray(p.faq) || p.faq.length < 3 || p.faq.length > 4) err(w, "faq 3–4 soru içermeli");
   else for (const f of p.faq) {
     if (typeof f?.q !== "string" || typeof f?.a !== "string") { err(w, "SSS maddesi { \"q\": \"…\", \"a\": \"…\" } biçiminde olmalı"); continue; }
-    if (!/\?$/.test(f.q.trim())) warn(w, `SSS sorusu soru işaretiyle bitmiyor: "${f.q}"`);
+    if (!/\?$/.test(f.q.trim())) err(w, `SSS sorusu soru işaretiyle bitmiyor: "${f.q}"`);
     if (f.a.length < 40) warn(w, `SSS cevabı çok kısa: "${f.q}"`);
   }
   if (p.updated && p.updated < p.date) err(w, "updated, date'ten önce olamaz");
   if (p.updated && p.updated > now) err(w, "updated bugünden sonra olamaz");
   if (p.words < 800 || p.words > 1400) warn(w, `${p.words} kelime; 800–1400 arası olmalı`);
   if (p.toc.length < 4 || p.toc.length > 7) warn(w, `${p.toc.length} adet "## " ara başlık var; 4–7 arası olmalı`);
+  // GEO: ara başlıkların bir kısmı okurun soracağı soru biçiminde olmalı; son başlık kapanış (rezervasyon çağrısı).
+  const questionH2 = p.toc.slice(0, -1).filter((t) => /\?$/.test(t.text.trim())).length;
+  if (questionH2 < 2) err(w, `${questionH2} adet soru biçiminde "## " başlık var; en az 2 olmalı`);
+  if (/^#{1,6} /m.test(p.body.split(/^## /m)[0])) err(w, "gövde \"## \" ara başlıkla başlamalı (giriş = answer)");
+  if (/^## .*s[ıi]k sorulan/im.test(p.body)) err(w, "SSS gövdeye yazılmaz; front matter'daki faq'tan üretilir");
+  const sentences = (p.answer || "").split(/[.!?…](\s|$)/).filter((x) => x && x.trim()).length;
+  if (sentences > 3) warn(w, `answer ${sentences} cümle; başlıktaki soruyu ilk 2–3 cümlede cevaplamalı`);
 
   // Bağlantılar: gövde, kısa cevap ve SSS cevapları (hepsi sayfada ve llms-full.txt'de görünür).
   const linkText = [p.body, p.answer, ...(Array.isArray(p.faq) ? p.faq.map((f) => f.a) : [])].join("\n");
   for (const m of linkText.matchAll(/\]\(((?!\/)[^)\s]*)\)/g)) {
     err(w, `yalnızca site içi bağlantı (/ ile başlayan) verilir: ${m[1]}`);
   }
-  let internal = 0;
+  const internal = new Set();
   for (const m of linkText.matchAll(/\]\((\/[^)\s]*)\)/g)) {
     const target = m[1];
     const [urlPath, hash] = target.split("#");
     const bm = urlPath.match(/^\/blog\/([^/]+)\/?$/);
-    if (urlPath !== "/blog/" && urlPath !== "/blog") internal++;
+    if (urlPath !== "/blog/" && urlPath !== "/blog") internal.add(target.replace(/\/$/, ""));
     if (bm) {
       const t = allSlugs.get(bm[1]);
       if (!t) { err(w, `bağlantı var olmayan yazıya gidiyor: ${target}`); continue; }
@@ -139,7 +146,7 @@ for (const p of all) {
     if (!file) { err(w, `bağlantı var olmayan sayfaya gidiyor: ${target}`); continue; }
     if (hash && !idsOf(file).has(hash)) err(w, `bağlantıdaki #${hash} hedef sayfada yok: ${target}`);
   }
-  if (internal < 2) warn(w, `${internal} site içi bağlantı var (ana sayfa bölümü ya da başka yazı); en az 2 olmalı`);
+  if (internal.size < 2 || internal.size > 4) err(w, `${internal.size} farklı site içi bağlantı var (ana sayfa bölümü ya da başka yazı); 2–4 arası olmalı`);
 
   const text = [p.title, p.description, p.answer, p.body, ...(Array.isArray(p.faq) ? p.faq.flatMap((f) => [f.q, f.a]) : [])].join("\n");
   scanClaims(w, text);

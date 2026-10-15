@@ -1,6 +1,7 @@
 {
   "aciklama": [
-    "Blog konu listesi. Haftalık görev 'durum' = 'bekliyor' ve 'planlanan' <= bugün olan konulardan planlanan tarihi en eski olanı yazar.",
+    "Blog konu listesi. Günlük görev her gün 'durum' = 'bekliyor' ve 'planlanan' <= bugün olan konulardan planlanan tarihi en eski olanı yazar.",
+    "'son_tarih' ya da 'ay' olmayan konular her yıl geçerlidir (genel) ve günlük sıraya dizilir; mevsimlik konular kendi tarihinde kalır. Sırada 14'ten az genel konu kalırsa görev rehbere uyan yeni genel konular ekler.",
     "Mevsimlik konunun 'son_tarih'i geçtiyse yazılmaz; planlanan ve son_tarih bir yıl ileri alınır, sıradaki konuya geçilir.",
     "Yazarken önce content/YAZIM-REHBERI.md okunur. 'duzeltme' notu outline'dan önce gelir; 'yazilmayacaklar' kesin yasaktır.",
     "Yazıda yalnızca yayında olan yazılara bağlantı verilir; duzeltme'de adı geçen yazı henüz yayında değilse bağlantı konmaz.",
@@ -165,7 +166,7 @@
     {
       "slug": "3-6-yas-cocuk-dogum-gunu-programi",
       "durum": "bekliyor",
-      "planlanan": "2026-10-20",
+      "planlanan": "2026-10-16",
       "title": "3-6 Yaş Çocuk Doğum Günü Programı: Oyun, Yüz Boyama ve Sosis Balon Nasıl Sıralanır?",
       "question": "4 ya da 5 yaş doğum gününde ne yapılır, okul öncesi çocuk partisi nasıl planlanır?",
       "category": "dogum-gunu",
@@ -189,6 +190,294 @@
         "Partide ebeveynler kalmalı mı?"
       ],
       "yazilmayacaklar": "Gelişimsel kesin iddialar yazma. Yüz boyama ve sosis balon için güvenlik garantisi verme. Fiyat ya da 'X balon figürü dahil' gibi paket sayıları yazma. Çocuk fotoğrafı kullanma."
+    },
+    {
+      "slug": "palyaco-kac-saat-kalmali",
+      "durum": "bekliyor",
+      "planlanan": "2026-10-17",
+      "title": "Doğum Gününde Palyaço Kaç Saat Kalmalı? Yaş ve Çocuk Sayısına Göre Süre Rehberi",
+      "question": "Çocuk doğum gününde palyaço ya da animatör kaç saat kalmalı, 1 saat yeterli mi?",
+      "category": "hizmet",
+      "ay": 0,
+      "link_targets": [
+        "/#hizmetler",
+        "/#sss",
+        "/#iletisim"
+      ],
+      "outline": [
+        "Sürenin tek bir cevabı neden yok: yaş, çocuk sayısı, mekân ve seçilen hizmetler",
+        "1-3 yaş: kısa, sakin, uyku saatine göre kurulan program",
+        "4-6 yaş: oyunlar ile yüz boyama ve sosis balon sırasının aldığı zaman",
+        "7-10 yaş: grup oyunları ve mini disco ağırlıklı daha hareketli akış",
+        "Çocuk sayısı arttıkça yüz boyama ve sosis balon sırasının uzaması",
+        "Pasta, ikram ve serbest oyun aralarını programa yerleştirmek",
+        "Doğru süreyi birlikte belirlemek için paylaşılacak bilgiler: tarih, yer, çocuk sayısı, yaş aralığı"
+      ],
+      "faq": [
+        "15 çocuk için kaç saatlik program uygun olur?",
+        "Sadece yüz boyama ya da sosis balon için daha kısa süre alınabilir mi?",
+        "Parti sırasında süre uzatılabilir mi?"
+      ],
+      "yazilmayacaklar": "Sabit paket süresi, saatlik fiyat ya da 'X çocuk = X saat' gibi kesin formül verme; 'duruma göre değişir, birlikte netleştiririz' çizgisinde kal. Rakiplerin paket tablolarını ya da piyasa fiyatlarını aktarma. Süre uzatma kuralı doğrulanmadıysa kesin politika yazma, sormaya yönlendir.",
+      "duzeltme": "Use the 1-2 / 3-6 / 7-10 bands, keep each to 2-3 sentences and link it to the matching age post. Keep the post about what drives duration: çocuk sayısı, yüz boyama/sosis balon sırası, mekân, pasta/ikram araları. Replace the FAQ with 'Çocuk sayısı programın süresini nasıl etkiler?'"
+    },
+    {
+      "slug": "evde-cocuk-dogum-gunu-partisi-nasil-yapilir",
+      "durum": "bekliyor",
+      "planlanan": "2026-10-18",
+      "title": "Evde Çocuk Doğum Günü Partisi Nasıl Yapılır? Hazırlık ve Örnek Akış",
+      "question": "Evde çocuk doğum günü partisi nasıl yapılır, ev nasıl hazırlanır?",
+      "category": "dogum-gunu",
+      "ay": 0,
+      "link_targets": [
+        "/#hizmetler",
+        "/#etkinlikler",
+        "/#iletisim"
+      ],
+      "outline": [
+        "Davetli sayısını evin alanına göre belirlemek",
+        "Odayı hazırlamak: oyun ve mini disco için boş alan, kırılabilecek eşyaları kaldırmak",
+        "Halı ve koltuğu yüz boyamaya karşı korumak: örtü ve ayrı boyama köşesi",
+        "2 saatlik örnek akış: karşılama, ısınma oyunu, yüz boyama/sosis balon, mini disco, pasta, kapanış",
+        "Komşular ve ses: saat seçimi ve kısa bir bilgilendirme notu",
+        "Palyaço/animatör geliyorsa: priz, alan, varış saati, park yeri",
+        "Parti sonrası toplama listesi (balon parçaları dahil)"
+      ],
+      "faq": [
+        "Evde doğum günü için ne kadar alan gerekir?",
+        "Palyaço evde ne kadar yer kaplar, priz gerekir mi?",
+        "Apartmanda parti sesi sorun olur mu?"
+      ],
+      "yazilmayacaklar": "Ses sistemi gibi ekipmanın her zaman getirildiğini kesinleştirme; 'rezervasyonda netleştirilir' de. Fiyat, deneyim yılı, yapılan parti sayısı ya da müşteri yorumu yazma. Süsleme, pasta, ikram hizmeti varmış gibi yazma. Ev içi çocuk fotoğrafı kullanma.",
+      "duzeltme": "Title: 'Evde Çocuk Doğum Günü Partisi Nasıl Yapılır? Hazırlık ve Örnek Akış'. Question: 'Evde çocuk doğum günü partisi nasıl yapılır, ev nasıl hazırlanır?' Focus the post on logistics (alan, eşyalar, örtü/boyama köşesi, komşular, priz, park yeri). Link to the oyunlar post for games and to the 3-6 post for an age-specific flow."
+    },
+    {
+      "slug": "7-10-yas-dogum-gunu-aktiviteleri",
+      "durum": "bekliyor",
+      "planlanan": "2026-10-19",
+      "title": "7-10 Yaş Doğum Günü Aktiviteleri: Büyük Çocuklar Palyaçoyu Çocukça Bulursa",
+      "question": "8 yaş ya da 10 yaş doğum gününde ne yapılır, büyük çocuklar için hangi aktiviteler uygun?",
+      "category": "dogum-gunu",
+      "ay": 0,
+      "link_targets": [
+        "/#hizmetler",
+        "/#etkinlikler",
+        "/#iletisim"
+      ],
+      "outline": [
+        "Bu yaşın beklentisi: rekabet, takım, müzik ve kendi seçimleri",
+        "Palyaço yerine animatör ağırlıklı program",
+        "Takım oyunları: halat çekme, yumurta taşıma yarışı, sandalye kapmaca turnuvası",
+        "Dans yarışması ve mini disco",
+        "Yüz boyama ve sosis balonda büyük çocuklara uygun tasarımlar",
+        "Doğum günü çocuğunu planlamaya dahil etmek"
+      ],
+      "faq": [
+        "10 yaşındaki çocuk palyaçodan hoşlanır mı?",
+        "Büyük çocuklar için kaç saatlik program uygun?",
+        "Bütün sınıf davetliyse program nasıl kurulur?"
+      ],
+      "yazilmayacaklar": "Sitede olmayan hizmetleri (lazer tag, sihirbaz, bilim şovu, karaoke ekipmanı vb.) sunuluyormuş gibi yazma. Fiyat yazma. Çocuk fotoğrafı kullanma."
+    },
+    {
+      "slug": "palyaco-ile-animator-farki",
+      "durum": "bekliyor",
+      "planlanan": "2026-10-20",
+      "title": "Palyaço ile Animatör Arasındaki Fark Ne? Hangi Etkinliğe Hangisi?",
+      "question": "Palyaço ile animatör arasında fark var mı, hangisini seçmeliyim?",
+      "category": "hizmet",
+      "ay": 0,
+      "link_targets": [
+        "/#hizmetler",
+        "/#etkinlikler",
+        "/#iletisim"
+      ],
+      "outline": [
+        "Doğru yazım: 'palyaço' ve yerelde duyulan 'palyanço' kullanımı",
+        "Palyaço: kostüm, makyaj ve şaka ağırlıklı eğlence",
+        "Animatör: oyun, dans ve grup yönetimi ağırlıklı program",
+        "Oyun ablası/abisi: sade kıyafetle oyun ve etkinlik yürüten kişi",
+        "Hangi etkinliğe hangisi: yaş, mekân ve çocuğun mizacı",
+        "Bu rollerin bir partide birlikte nasıl çalışabileceği"
+      ],
+      "faq": [
+        "Palyaço mu yazılır, palyanço mu?",
+        "Küçük yaş için palyaço mu animatör mü daha uygun?",
+        "Büyük çocuklar palyaçoyu çocukça bulursa ne yapılabilir?"
+      ],
+      "yazilmayacaklar": "İşletmenin sihirbaz, maskot, kukla, prenses/süper kahraman karakteri ya da vantrilok hizmeti varmış gibi yazma. Sitede hizmet 'palyaço & animatör' olarak geçiyor; ayrı bir 'oyun ablası' hizmeti doğrulanmadan vaat etme. Personel ismi ya da cinsiyet garantisi verme.",
+      "duzeltme": "Title: 'Palyaço ile Animatör Arasındaki Fark Ne? Hangi Etkinliğe Hangisi?' Slug: palyaco-ile-animator-farki. Question: 'Palyaço ile animatör arasında fark var mı, hangisini seçmeliyim?' Mention oyun ablası in one sentence only, saying it is not a service the business offers. Keep 'palyanço' to a single FAQ line or drop it. Replace the büyük çocuk FAQ with a link to 7-10-yas-dogum-gunu-aktiviteleri."
+    },
+    {
+      "slug": "1-2-yas-dogum-gunu-etkinlikleri",
+      "durum": "bekliyor",
+      "planlanan": "2026-10-21",
+      "title": "1 ve 2 Yaş Doğum Günü Etkinlikleri: Kısa, Sakin ve Keyifli Bir Parti Planı",
+      "question": "1 yaş doğum gününde neler yapılır, 2 yaş doğum günü için hangi etkinlikler uygun?",
+      "category": "dogum-gunu",
+      "ay": 0,
+      "link_targets": [
+        "/#hizmetler",
+        "/#etkinlikler",
+        "/#iletisim"
+      ],
+      "outline": [
+        "Bu yaşta parti büyük ölçüde aile için: beklentiyi doğru kurmak",
+        "Uyku ve beslenme saatine göre parti saatini seçmek",
+        "Eğlence bölümünü kısa tutmak",
+        "Uygun etkinlikler: müzik, baloncuk, basit hareketli şarkılar",
+        "Kaçınılacaklar: yüksek ses, ani sürprizler, küçük parçalar ve balon parçaları",
+        "Ağabey, abla ve kuzenler için ayrı eğlence köşesi",
+        "Animatöre önceden iletilmesi gerekenler"
+      ],
+      "faq": [
+        "1 yaş doğum gününe palyaço çağırmak mantıklı mı?",
+        "Yüz boyama 1-2 yaş için uygun mu?",
+        "Sosis balonu küçük bebeklerin yanında kullanırken nelere dikkat edilmeli?"
+      ],
+      "yazilmayacaklar": "'Bu yaşta dikkat süresi X dakikadır' gibi gelişimsel ya da tıbbi kesin iddialar yazma, genel gözlem dili kullan. Yüz boyama ve balon için 'güvenli' garantisi verme; küçük yaşta dikkat ve ebeveyn kararı vurgusu yap. Bebek fotoğrafı kullanma."
+    },
+    {
+      "slug": "yuz-boyamada-cilt-hassasiyeti-sorulacaklar",
+      "durum": "bekliyor",
+      "planlanan": "2026-10-22",
+      "title": "Yüz Boyama Zararlı mı? Cilt Hassasiyeti İçin Velinin Sorması Gerekenler",
+      "question": "Çocuklarda yüz boyası zararlı mı, yüz boyama yaptırmadan önce nelere dikkat etmeliyim?",
+      "category": "hizmet",
+      "ay": 0,
+      "link_targets": [
+        "/#hizmetler",
+        "/#sss",
+        "/#iletisim"
+      ],
+      "outline": [
+        "Yüz boyası ile el işi boyası farklıdır: cilde uygun ürün sorusu",
+        "Velinin sorabileceği sorular: hangi ürün, etiket, son kullanma tarihi",
+        "Ürün etiketini okumak: içerik listesi ve kullanım uyarıları",
+        "Bilinen hassasiyeti olan çocuk: önceden söylemek, küçük bir alanda deneme seçeneği",
+        "Göz çevresi, yara ve tahrişli ciltten kaçınmak",
+        "Boyamadan sonra kızarıklık olursa: boyayı nazikçe çıkarmak, gerekirse hekime danışmak",
+        "Yüz boyama istemeyen çocuğa alternatif: elde küçük desen, sosis balon"
+      ],
+      "faq": [
+        "Yüz boyası göze kaçarsa ne yapılmalı?",
+        "Hassas cildi olan çocuğa yüz boyama yapılır mı?",
+        "Yüz boyası yüzde ne kadar kalabilir?"
+      ],
+      "yazilmayacaklar": "İşletmenin kullandığı boyanın markası, EN 71-3/CE uygunluğu, 'Bakanlık onaylı', 'hipoalerjenik' ya da 'zararsız' olduğunu doğrulanmadıkça yazma. Tıbbi teşhis ya da tedavi önerme, reaksiyonda hekime yönlendir. Haberlerdeki Sağlık Bakanlığı uyarısına değinilecekse kaynak göster, yorum katma. Çocuk yüzü fotoğrafı yerine çizim kullan."
+    },
+    {
+      "slug": "palyacodan-korkan-cocuk",
+      "durum": "bekliyor",
+      "planlanan": "2026-10-23",
+      "title": "Palyaçodan Korkan Çocuk: Partide Nasıl Rahatlatılır, Hangi Alternatifler Var?",
+      "question": "Çocuğum palyaçodan korkuyor, doğum gününe yine de palyaço çağırmalı mıyım?",
+      "category": "rehber",
+      "ay": 0,
+      "link_targets": [
+        "/#hizmetler",
+        "/#sss",
+        "/#iletisim"
+      ],
+      "outline": [
+        "Palyaçodan çekinmek birçok çocukta görülen olağan bir tepki",
+        "Partiden önce hazırlık: palyaçoyu anlatmak, kostüm ve makyajı konuşmak",
+        "İlk tanışma anı: yavaş yaklaşmak, çocuğu zorlamamak",
+        "Rahatsızlık işaretleri ve ne zaman ara verilmeli",
+        "Alternatifler: sade kostümlü animatör, yalnızca yüz boyama, baloncuk şovu, müzikli oyunlar",
+        "Rezervasyonda bu durumu önceden belirtmenin önemi"
+      ],
+      "faq": [
+        "Palyaço yerine yalnızca yüz boyama ya da baloncuk şovu alınabilir mi?",
+        "Korkan çocuk partiden uzaklaşmak isterse ne yapılmalı?",
+        "Ağır makyajsız bir animatör seçeneği konuşulabilir mi?"
+      ],
+      "yazilmayacaklar": "Psikolojik ya da tıbbi teşhis yapma, 'fobi' tanımı verme; yoğun ve süren kaygı için uzmana yönlendirmekle sınırla. Makyajsız animatör seçeneğini işletme doğrulamadan kesin hizmet olarak vaat etme, 'rezervasyonda konuşalım' de. Gerçek vaka anlatma, korkan çocuk fotoğrafı kullanma.",
+      "duzeltme": "Phrase it as 'Ağır makyajlı palyaço yerine farklı seçenekleri rezervasyonda konuşun'. List as actual services only what the site backs: yalnızca yüz boyama, sosis balon, baloncuk şovu, müzikli oyunlar (the site says services can be booked separately)."
+    },
+    {
+      "slug": "yuz-boyasi-nasil-cikar",
+      "durum": "bekliyor",
+      "planlanan": "2026-10-24",
+      "title": "Yüz Boyası Nasıl Çıkar? Ciltten, Kıyafetten, Halıdan ve Koltuktan Temizleme",
+      "question": "Çocuğun yüz boyası nasıl çıkar, kıyafete ve halıya bulaşan yüz boyası nasıl temizlenir?",
+      "category": "hizmet",
+      "ay": 0,
+      "link_targets": [
+        "/#hizmetler",
+        "/#sss",
+        "/#iletisim"
+      ],
+      "outline": [
+        "Ciltten çıkarmak: ılık su ve yumuşak temizleyiciyle, ovalamadan",
+        "Göz çevresi ve hassas bölgeler için nazik yöntem",
+        "Kıyafetten çıkarmak: kurumadan müdahale, etiketteki yıkama talimatı",
+        "Halı ve koltuk: önce görünmeyen bir köşede denemek",
+        "Parti öncesi önlem: boyama köşesi, örtü ve önlük",
+        "Yatmadan önce yüzü temizlemeyi alışkanlık haline getirmek"
+      ],
+      "faq": [
+        "Yüz boyası kolay çıkmazsa ne kullanılmalı?",
+        "Yüz boyası kıyafette kalıcı leke bırakır mı?",
+        "Yüz boyasıyla uyumak sorun olur mu?"
+      ],
+      "yazilmayacaklar": "Kullanılan boyanın 'tamamen suyla çıkar' ya da 'leke bırakmaz' olduğunu doğrulamadan yazma. Aseton, çözücü gibi sert kimyasal önerme. Cilt reaksiyonunda tıbbi öneri verme, hekime yönlendir. Çocuk fotoğrafı kullanma."
+    },
+    {
+      "slug": "okulda-dogum-gunu-kutlamasi-yapilir-mi",
+      "durum": "bekliyor",
+      "planlanan": "2026-10-25",
+      "title": "Okulda veya Kreşte Doğum Günü Kutlaması Yapılabilir mi? İzin, İkram ve Kısa Program",
+      "question": "Okulda doğum günü kutlaması yasak mı, kreşte doğum günü nasıl kutlanır?",
+      "category": "okul-kres",
+      "ay": 0,
+      "link_targets": [
+        "/#okullar",
+        "/#sss",
+        "/#iletisim"
+      ],
+      "outline": [
+        "Kurallar okuldan okula değişir: önce öğretmen ve idareye sormak",
+        "Ev yapımı yiyecek kısıtları ve paketli ikram tercihi",
+        "Alerji ve beslenme hassasiyetlerini öğretmenle kontrol etmek",
+        "Yiyecek dışı ikramlık fikirleri: çıkartma, boyama kitabı, küçük el işi seti",
+        "Ders düzenini bozmayan kısa sınıf programı",
+        "Sınıfa animatör getirmek: okul izni, alan ve süre"
+      ],
+      "faq": [
+        "Okulda doğum günü kutlamak için kimden izin almalıyım?",
+        "Kreşe pasta götürülebilir mi?",
+        "Sınıfa palyaço getirmek mümkün mü?"
+      ],
+      "yazilmayacaklar": "Okulda doğum günü kutlamasına ilişkin mevzuat hakkında kesin hüküm yazma; 'okul idaresine sorun' çizgisinde kal. Belirli okul ya da kreş adı verme. Alerji konusunda tıbbi tavsiye verme. İkram veya hediyelik tedariki sunuluyormuş gibi yazma."
+    },
+    {
+      "slug": "sosis-balon-guvenligi-kucuk-cocuklar",
+      "durum": "bekliyor",
+      "planlanan": "2026-10-26",
+      "title": "Sosis Balon Güvenli mi? Küçük Çocuklarda Balon Parçaları ve Lateks Hassasiyeti",
+      "question": "Sosis balon küçük çocuklar için tehlikeli mi, partide balon güvenliği için nelere dikkat etmeli?",
+      "category": "hizmet",
+      "ay": 0,
+      "link_targets": [
+        "/#hizmetler",
+        "/#sss",
+        "/#iletisim"
+      ],
+      "outline": [
+        "Sosis balon nedir, partide nasıl yapılır",
+        "Patlayan ya da şişirilmemiş balon parçalarının küçük çocuklar için riski",
+        "Parti sırasında ve sonrasında balon parçalarını toplamak",
+        "Balonu ağza almamak, ısırmamak",
+        "Lateks hassasiyeti bilinen çocuk varsa önceden söylemek",
+        "Balonu eve götürürken ve araçta güvenli taşımak"
+      ],
+      "faq": [
+        "Küçük çocuklara sosis balon verirken nelere dikkat edilmeli?",
+        "Lateks hassasiyeti olan çocuk partide ne yapmalı?",
+        "Patlayan balon parçalarını nasıl toplamalıyım?"
+      ],
+      "yazilmayacaklar": "Kullanılan balonun lateks içermediğini, markasını ya da sertifikasını doğrulanmadıkça yazma. Alerji konusunda tıbbi tavsiye verme, hekime yönlendir. Kesin yaş sınırı yerine 'küçük yaşta yetişkin gözetimi' dilini kullan. Çocuk fotoğrafı kullanma."
     },
     {
       "slug": "yilbasinda-evde-cocuk-partisi-fikirleri",
@@ -222,99 +511,365 @@
       "son_tarih": "2026-12-20"
     },
     {
-      "slug": "palyaco-kac-saat-kalmali",
+      "slug": "kolay-yuz-boyama-desenleri-kedi-kelebek",
+      "durum": "bekliyor",
+      "planlanan": "2026-10-28",
+      "title": "Kolay Yüz Boyama Desenleri: Kedi, Kelebek ve Tavşan Adım Adım",
+      "question": "Evde kolay yüz boyama nasıl yapılır, kedi ve kelebek yüz boyama örnekleri neler?",
+      "category": "rehber",
+      "ay": 0,
+      "link_targets": [
+        "/#hizmetler",
+        "/#iletisim"
+      ],
+      "outline": [
+        "Başlamadan önce: cilde uygun yüz boyası, temiz fırça ve sünger, ayna",
+        "Kedi: burun, bıyık ve yanak deseni",
+        "Kelebek: kanatları göz kapağına taşımadan yerleştirmek",
+        "Tavşan: diş ve bıyık için basit çizgiler",
+        "Yüz boyama istemeyen ya da çok küçük çocuk için elde veya kolda mini desen",
+        "Kalabalık partide boyama sırası ve ne zaman profesyonel destek alınır"
+      ],
+      "faq": [
+        "Evde yüz boyama için hangi boya kullanılmalı?",
+        "Bir yüz boyama ne kadar sürer?",
+        "Göz çevresine boya sürmek doğru mu?"
+      ],
+      "yazilmayacaklar": "Görselleri çocuk yüzü fotoğrafı yerine çizim ve şablon olarak hazırla. Belirli marka önerme ya da 'zararsız' iddiası yazma. Akrilik ya da el işi boyası gibi cilde uygun olmayan ürünleri önerme."
+    },
+    {
+      "slug": "acilista-cocuk-animasyonu-nasil-planlanir",
+      "durum": "bekliyor",
+      "planlanan": "2026-10-29",
+      "title": "Mağaza ve İş Yeri Açılışında Çocuk Animasyonu Nasıl Planlanır?",
+      "question": "Açılışta palyaço çağırmak işe yarar mı, mağaza açılışında çocuk animasyonu nasıl planlanır?",
+      "category": "hizmet",
+      "ay": 0,
+      "link_targets": [
+        "/#etkinlikler",
+        "/#hizmetler",
+        "/#iletisim"
+      ],
+      "outline": [
+        "Açılışta çocuk animasyonunun amacı: çocuklu aileleri bir araya getirmek",
+        "Alan planı: mağaza içi, mağaza önü ve izin konusu",
+        "Uygun etkinlikler: yüz boyama ve sosis balon sırası, kısa dans bölümleri, baloncuk şovu",
+        "Saat seçimi: okul çıkışı, hafta sonu öğleden sonrası",
+        "Kalabalık ve sıra düzeni",
+        "Duyuru: etkinlik saatini önceden sosyal medyada paylaşmak"
+      ],
+      "faq": [
+        "Açılış etkinliği kaç saat sürmeli?",
+        "Mağaza önünde etkinlik için izin gerekir mi?",
+        "Açılışta kar spreyi kullanılabilir mi?"
+      ],
+      "yazilmayacaklar": "Satış ya da ziyaretçi artışı garantisi veya yüzde rakamı yazma. Daha önce açılışı yapılan marka ya da mağaza ismi verme. İzin konusunda kesin hüküm yerine 'belediyeye sorun' de. Fiyat yazma.",
+      "duzeltme": "Title: 'Mağaza ve İş Yeri Açılışında Çocuk Animasyonu Nasıl Planlanır?'"
+    },
+    {
+      "slug": "cocuk-dogum-gunu-davetiyesi-ne-zaman-gonderilir",
+      "durum": "bekliyor",
+      "planlanan": "2026-10-30",
+      "title": "Çocuk doğum günü davetiyesi ne zaman gönderilir, içinde ne yazmalı?",
+      "question": "Çocuk doğum günü davetiyesinde neler yazılır ve ne kadar önce gönderilir?",
+      "category": "dogum-gunu",
+      "ay": 0,
+      "link_targets": [
+        "/#hizmetler",
+        "/#etkinlikler",
+        "/#iletisim"
+      ],
+      "outline": [
+        "Davetiyede olması gerekenler: tarih, saat aralığı, adres, bitiş saati, cevap isteği",
+        "Ne kadar önceden: genel tavsiye, rakam vermeden",
+        "Dijital mi basılı mı",
+        "Velilerin kalıp kalmayacağını sormak",
+        "Alerji ve özel durumları sormak için bir satır"
+      ],
+      "faq": [
+        "Davetiyeye bitiş saati yazılmalı mı?",
+        "Cevap vermeyen velilere ne yapılır?",
+        "Kardeşler de davet edilmeli mi?"
+      ],
+      "yazilmayacaklar": "İşletme hakkında rehberdeki kesin bilgiler dışında bir şey yazma. Fiyat, rakamla süre, kişi sayısı, mekân/kişi/okul adı, uydurma anı ve güvenlik garantisi yazma."
+    },
+    {
+      "slug": "dogum-gunu-partisinde-hediyeler-ne-zaman-acilir",
+      "durum": "bekliyor",
+      "planlanan": "2026-10-31",
+      "title": "Doğum günü partisinde hediyeler ne zaman açılır?",
+      "question": "Çocuk partisinde hediyeleri misafirlerin önünde mi, sonra mı açmak daha iyi?",
+      "category": "dogum-gunu",
+      "ay": 0,
+      "link_targets": [
+        "/#hizmetler",
+        "/#etkinlikler",
+        "/#iletisim"
+      ],
+      "outline": [
+        "İki yaklaşım: parti sırasında ya da sonra",
+        "Küçük yaşlarda kıskançlık ve hayal kırıklığı",
+        "Teşekkür etmeyi öğretmek",
+        "Hediye masası düzeni",
+        "Hediye istemeyen davetler"
+      ],
+      "faq": [
+        "Hediyeyi sonra açmak kaba mı?",
+        "Aynı hediye iki kez gelirse ne yapılır?",
+        "Davetiyeye 'hediye getirmeyin' yazılabilir mi?"
+      ],
+      "yazilmayacaklar": "İşletme hakkında rehberdeki kesin bilgiler dışında bir şey yazma. Fiyat, rakamla süre, kişi sayısı, mekân/kişi/okul adı, uydurma anı ve güvenlik garantisi yazma."
+    },
+    {
+      "slug": "kardesler-icin-ortak-dogum-gunu-partisi",
+      "durum": "bekliyor",
+      "planlanan": "2026-11-01",
+      "title": "Kardeşlere ortak doğum günü partisi yapılır mı?",
+      "question": "Yaşları farklı iki kardeşin doğum günü aynı partide nasıl kutlanır?",
+      "category": "dogum-gunu",
+      "ay": 0,
+      "link_targets": [
+        "/#hizmetler",
+        "/#etkinlikler",
+        "/#iletisim"
+      ],
+      "outline": [
+        "Ortak partinin artıları ve eksileri",
+        "Her çocuğa ayrı an: iki pasta, iki şarkı",
+        "Yaş farkına göre oyun seçimi",
+        "Davetli listesini dengelemek",
+        "İkizlerde ortak ama ayrı kutlama"
+      ],
+      "faq": [
+        "İkizlere tek pasta yeter mi?",
+        "Yaş farkı büyükse ortak parti olur mu?",
+        "Davetliler iki hediye mi getirmeli?"
+      ],
+      "yazilmayacaklar": "İşletme hakkında rehberdeki kesin bilgiler dışında bir şey yazma. Fiyat, rakamla süre, kişi sayısı, mekân/kişi/okul adı, uydurma anı ve güvenlik garantisi yazma."
+    },
+    {
+      "slug": "utangac-cocuk-partiye-nasil-katilir",
+      "durum": "bekliyor",
+      "planlanan": "2026-11-02",
+      "title": "Utangaç çocuk partide nasıl rahatlar?",
+      "question": "Partide kalabalıktan çekinen, oyunlara katılmayan çocuğa nasıl yardım edilir?",
+      "category": "rehber",
+      "ay": 0,
+      "link_targets": [
+        "/#hizmetler",
+        "/#etkinlikler",
+        "/#iletisim"
+      ],
+      "outline": [
+        "Çekingenlik normaldir: zorlamamak",
+        "Erken gelip ortamı tanımak",
+        "İzleyerek katılma hakkı",
+        "Küçük görevler vermek: balon dağıtmak gibi",
+        "Animatörle önceden konuşmak"
+      ],
+      "faq": [
+        "Utangaç çocuğu sahneye çağırmak doğru mu?",
+        "Doğum günü çocuğu utangaçsa ne yapılır?",
+        "Ebeveyn yanında kalmalı mı?"
+      ],
+      "yazilmayacaklar": "Psikolojik tanı ya da kesin gelişimsel iddia yazma. İşletme hakkında rehberdeki kesin bilgiler dışında bir şey yazma. Fiyat, rakamla süre, kişi sayısı, mekân/kişi/okul adı, uydurma anı ve güvenlik garantisi yazma."
+    },
+    {
+      "slug": "cocuk-partisinde-pasta-ne-zaman-kesilir",
       "durum": "bekliyor",
       "planlanan": "2026-11-03",
-      "title": "Doğum Gününde Palyaço Kaç Saat Kalmalı? Yaş ve Çocuk Sayısına Göre Süre Rehberi",
-      "question": "Çocuk doğum gününde palyaço ya da animatör kaç saat kalmalı, 1 saat yeterli mi?",
+      "title": "Çocuk partisinde pasta ne zaman kesilir?",
+      "question": "Çocuk doğum gününde pasta partinin başında mı, ortasında mı, sonunda mı kesilir?",
+      "category": "dogum-gunu",
+      "ay": 0,
+      "link_targets": [
+        "/#hizmetler",
+        "/#etkinlikler",
+        "/#iletisim"
+      ],
+      "outline": [
+        "Akışta pastanın yeri",
+        "Enerji yüksekken mi, sakinleşirken mi",
+        "Mum üfleme anını herkesin görmesi",
+        "Pasta sonrası sakin etkinlik",
+        "Küçük yaşlarda erken pasta"
+      ],
+      "faq": [
+        "Pasta sonrası oyun oynanır mı?",
+        "Mum anında ışıklar kapatılmalı mı?",
+        "Pasta kesmeden önce çocuklar yemek yemeli mi?"
+      ],
+      "yazilmayacaklar": "İşletme hakkında rehberdeki kesin bilgiler dışında bir şey yazma. Fiyat, rakamla süre, kişi sayısı, mekân/kişi/okul adı, uydurma anı ve güvenlik garantisi yazma."
+    },
+    {
+      "slug": "sinifin-hepsini-dogum-gunune-davet-etmek",
+      "durum": "bekliyor",
+      "planlanan": "2026-11-04",
+      "title": "Doğum gününe bütün sınıf davet edilmeli mi?",
+      "question": "Çocuğun doğum gününe sınıfın tamamını mı, sadece yakın arkadaşlarını mı çağırmak gerekir?",
+      "category": "dogum-gunu",
+      "ay": 0,
+      "link_targets": [
+        "/#hizmetler",
+        "/#etkinlikler",
+        "/#iletisim"
+      ],
+      "outline": [
+        "Tüm sınıf ya da küçük grup: iki yaklaşım",
+        "Kırılan çocuk olmaması için",
+        "Mekâna ve bütçeye göre karar",
+        "Davetiyeyi okulda dağıtmamak",
+        "Kalabalık davet için program"
+      ],
+      "faq": [
+        "Sadece kızları ya da erkekleri çağırmak doğru mu?",
+        "Okulda davetiye dağıtılabilir mi?",
+        "Kalabalık sınıf için ev yeter mi?"
+      ],
+      "yazilmayacaklar": "İşletme hakkında rehberdeki kesin bilgiler dışında bir şey yazma. Fiyat, rakamla süre, kişi sayısı, mekân/kişi/okul adı, uydurma anı ve güvenlik garantisi yazma."
+    },
+    {
+      "slug": "apartmanda-dogum-gunu-komsulari-rahatsiz-etmeden",
+      "durum": "bekliyor",
+      "planlanan": "2026-11-05",
+      "title": "Apartmanda doğum günü partisi komşuları rahatsız etmeden nasıl yapılır?",
+      "question": "Apartman dairesinde çocuk partisi yaparken gürültü ve komşular için neye dikkat edilir?",
+      "category": "dogum-gunu",
+      "ay": 0,
+      "link_targets": [
+        "/#hizmetler",
+        "/#etkinlikler",
+        "/#iletisim"
+      ],
+      "outline": [
+        "Komşulara önceden haber vermek",
+        "Saat seçimi: genel öneri, rakamsız",
+        "Müzik ve zıplama: zemin, halı",
+        "Merdiven ve asansörde karşılama",
+        "Sessiz oyun aralıkları"
+      ],
+      "faq": [
+        "Komşulara not bırakmak gerekir mi?",
+        "Mini disco apartmanda yapılır mı?",
+        "Parti çok uzarsa ne yapılır?"
+      ],
+      "yazilmayacaklar": "Yönetmelik ya da yasal saat bilgisi yazma. İşletme hakkında rehberdeki kesin bilgiler dışında bir şey yazma. Fiyat, rakamla süre, kişi sayısı, mekân/kişi/okul adı, uydurma anı ve güvenlik garantisi yazma."
+    },
+    {
+      "slug": "cocuk-partisi-icin-ev-nasil-hazirlanir",
+      "durum": "bekliyor",
+      "planlanan": "2026-11-06",
+      "title": "Çocuk partisi için ev nasıl hazırlanır?",
+      "question": "Evde çocuk doğum günü yapmadan önce odalar ve eşyalar nasıl hazırlanmalı?",
+      "category": "dogum-gunu",
+      "ay": 0,
+      "link_targets": [
+        "/#hizmetler",
+        "/#etkinlikler",
+        "/#iletisim"
+      ],
+      "outline": [
+        "Kırılacak eşyaları kaldırmak",
+        "Oyun alanını boşaltmak",
+        "Montlar ve ayakkabılar için yer",
+        "Lavabo ve ıslak mendil",
+        "Sessiz köşe",
+        "Parti sonrası toplama kolaylığı"
+      ],
+      "faq": [
+        "Halı kaldırılmalı mı?",
+        "Evcil hayvanlar ne yapılmalı?",
+        "Balkon kullanılabilir mi?"
+      ],
+      "yazilmayacaklar": "İşletme hakkında rehberdeki kesin bilgiler dışında bir şey yazma. Fiyat, rakamla süre, kişi sayısı, mekân/kişi/okul adı, uydurma anı ve güvenlik garantisi yazma."
+    },
+    {
+      "slug": "cocuk-dogum-gunu-temasi-nasil-secilir",
+      "durum": "bekliyor",
+      "planlanan": "2026-11-07",
+      "title": "Çocuk doğum günü teması nasıl seçilir?",
+      "question": "Çocuk doğum günü için tema seçerken nelere bakılır, tema şart mı?",
+      "category": "dogum-gunu",
+      "ay": 0,
+      "link_targets": [
+        "/#hizmetler",
+        "/#etkinlikler",
+        "/#iletisim"
+      ],
+      "outline": [
+        "Temayı çocukla birlikte seçmek",
+        "Tema şart değil: renk ya da tek fikir",
+        "Temayı süslemeye, pastaya, oyuna yaymak",
+        "Yüz boyama desenleriyle temayı bağlamak",
+        "Bütçeyi aşmadan tema"
+      ],
+      "faq": [
+        "Tema olmadan parti olur mu?",
+        "Kostüm istenmeli mi?",
+        "Çocuk temayı son anda değiştirirse ne yapılır?"
+      ],
+      "yazilmayacaklar": "Telif hakkı olan karakter isimleriyle ürün ya da hizmet vaat etme. İşletme hakkında rehberdeki kesin bilgiler dışında bir şey yazma. Fiyat, rakamla süre, kişi sayısı, mekân/kişi/okul adı, uydurma anı ve güvenlik garantisi yazma."
+    },
+    {
+      "slug": "mini-disco-nedir-cocuk-partisinde",
+      "durum": "bekliyor",
+      "planlanan": "2026-11-08",
+      "title": "Mini disco nedir, çocuk partisinde nasıl yapılır?",
+      "question": "Çocuk partilerindeki mini disco ne demek, hangi yaşlara uygun?",
       "category": "hizmet",
       "ay": 0,
       "link_targets": [
         "/#hizmetler",
-        "/#sss",
+        "/#etkinlikler",
         "/#iletisim"
       ],
       "outline": [
-        "Sürenin tek bir cevabı neden yok: yaş, çocuk sayısı, mekân ve seçilen hizmetler",
-        "1-3 yaş: kısa, sakin, uyku saatine göre kurulan program",
-        "4-6 yaş: oyunlar ile yüz boyama ve sosis balon sırasının aldığı zaman",
-        "7-10 yaş: grup oyunları ve mini disco ağırlıklı daha hareketli akış",
-        "Çocuk sayısı arttıkça yüz boyama ve sosis balon sırasının uzaması",
-        "Pasta, ikram ve serbest oyun aralarını programa yerleştirmek",
-        "Doğru süreyi birlikte belirlemek için paylaşılacak bilgiler: tarih, yer, çocuk sayısı, yaş aralığı"
+        "Mini disco: çocuk şarkıları ve hareketli danslar",
+        "Taklit dansları ve dans maratonu",
+        "Küçük yaşlar için sade hareketler",
+        "Mini disconun akıştaki yeri",
+        "Dar alanda mini disco"
       ],
       "faq": [
-        "15 çocuk için kaç saatlik program uygun olur?",
-        "Sadece yüz boyama ya da sosis balon için daha kısa süre alınabilir mi?",
-        "Parti sırasında süre uzatılabilir mi?"
+        "Mini disco için ses sistemi gerekir mi?",
+        "Dans etmek istemeyen çocuk ne yapar?",
+        "Ebeveynler de katılabilir mi?"
       ],
-      "yazilmayacaklar": "Sabit paket süresi, saatlik fiyat ya da 'X çocuk = X saat' gibi kesin formül verme; 'duruma göre değişir, birlikte netleştiririz' çizgisinde kal. Rakiplerin paket tablolarını ya da piyasa fiyatlarını aktarma. Süre uzatma kuralı doğrulanmadıysa kesin politika yazma, sormaya yönlendir.",
-      "duzeltme": "Use the 1-2 / 3-6 / 7-10 bands, keep each to 2-3 sentences and link it to the matching age post. Keep the post about what drives duration: çocuk sayısı, yüz boyama/sosis balon sırası, mekân, pasta/ikram araları. Replace the FAQ with 'Çocuk sayısı programın süresini nasıl etkiler?'"
+      "yazilmayacaklar": "Ekipman markası ya da ses sistemi özelliği yazma. İşletme hakkında rehberdeki kesin bilgiler dışında bir şey yazma. Fiyat, rakamla süre, kişi sayısı, mekân/kişi/okul adı, uydurma anı ve güvenlik garantisi yazma."
     },
     {
-      "slug": "evde-cocuk-dogum-gunu-partisi-nasil-yapilir",
+      "slug": "sandalye-kapmaca-nasil-oynanir",
+      "durum": "bekliyor",
+      "planlanan": "2026-11-09",
+      "title": "Sandalye kapmaca nasıl oynanır, kimse ağlamadan nasıl biter?",
+      "question": "Sandalye kapmaca kuralları nedir, küçük çocuklarla nasıl oynanır?",
+      "category": "hizmet",
+      "ay": 0,
+      "link_targets": [
+        "/#hizmetler",
+        "/#etkinlikler",
+        "/#iletisim"
+      ],
+      "outline": [
+        "Klasik kurallar",
+        "Küçük yaşlar için kimsenin elenmediği sürüm",
+        "Güvenli alan: kaygan zemin, keskin köşe",
+        "Elenen çocuklara görev",
+        "Halat savaşı ve yumurta maratonu ile karşılaştırma"
+      ],
+      "faq": [
+        "Kaç yaşından itibaren oynanır?",
+        "Sandalye yerine minder kullanılır mı?",
+        "Kazanana ödül verilmeli mi?"
+      ],
+      "yazilmayacaklar": "İşletme hakkında rehberdeki kesin bilgiler dışında bir şey yazma. Fiyat, rakamla süre, kişi sayısı, mekân/kişi/okul adı, uydurma anı ve güvenlik garantisi yazma."
+    },
+    {
+      "slug": "yumurta-maratonu-nasil-oynanir",
       "durum": "bekliyor",
       "planlanan": "2026-11-10",
-      "title": "Evde Çocuk Doğum Günü Partisi Nasıl Yapılır? Hazırlık ve Örnek Akış",
-      "question": "Evde çocuk doğum günü partisi nasıl yapılır, ev nasıl hazırlanır?",
-      "category": "dogum-gunu",
-      "ay": 0,
-      "link_targets": [
-        "/#hizmetler",
-        "/#etkinlikler",
-        "/#iletisim"
-      ],
-      "outline": [
-        "Davetli sayısını evin alanına göre belirlemek",
-        "Odayı hazırlamak: oyun ve mini disco için boş alan, kırılabilecek eşyaları kaldırmak",
-        "Halı ve koltuğu yüz boyamaya karşı korumak: örtü ve ayrı boyama köşesi",
-        "2 saatlik örnek akış: karşılama, ısınma oyunu, yüz boyama/sosis balon, mini disco, pasta, kapanış",
-        "Komşular ve ses: saat seçimi ve kısa bir bilgilendirme notu",
-        "Palyaço/animatör geliyorsa: priz, alan, varış saati, park yeri",
-        "Parti sonrası toplama listesi (balon parçaları dahil)"
-      ],
-      "faq": [
-        "Evde doğum günü için ne kadar alan gerekir?",
-        "Palyaço evde ne kadar yer kaplar, priz gerekir mi?",
-        "Apartmanda parti sesi sorun olur mu?"
-      ],
-      "yazilmayacaklar": "Ses sistemi gibi ekipmanın her zaman getirildiğini kesinleştirme; 'rezervasyonda netleştirilir' de. Fiyat, deneyim yılı, yapılan parti sayısı ya da müşteri yorumu yazma. Süsleme, pasta, ikram hizmeti varmış gibi yazma. Ev içi çocuk fotoğrafı kullanma.",
-      "duzeltme": "Title: 'Evde Çocuk Doğum Günü Partisi Nasıl Yapılır? Hazırlık ve Örnek Akış'. Question: 'Evde çocuk doğum günü partisi nasıl yapılır, ev nasıl hazırlanır?' Focus the post on logistics (alan, eşyalar, örtü/boyama köşesi, komşular, priz, park yeri). Link to the oyunlar post for games and to the 3-6 post for an age-specific flow."
-    },
-    {
-      "slug": "7-10-yas-dogum-gunu-aktiviteleri",
-      "durum": "bekliyor",
-      "planlanan": "2026-11-17",
-      "title": "7-10 Yaş Doğum Günü Aktiviteleri: Büyük Çocuklar Palyaçoyu Çocukça Bulursa",
-      "question": "8 yaş ya da 10 yaş doğum gününde ne yapılır, büyük çocuklar için hangi aktiviteler uygun?",
-      "category": "dogum-gunu",
-      "ay": 0,
-      "link_targets": [
-        "/#hizmetler",
-        "/#etkinlikler",
-        "/#iletisim"
-      ],
-      "outline": [
-        "Bu yaşın beklentisi: rekabet, takım, müzik ve kendi seçimleri",
-        "Palyaço yerine animatör ağırlıklı program",
-        "Takım oyunları: halat çekme, yumurta taşıma yarışı, sandalye kapmaca turnuvası",
-        "Dans yarışması ve mini disco",
-        "Yüz boyama ve sosis balonda büyük çocuklara uygun tasarımlar",
-        "Doğum günü çocuğunu planlamaya dahil etmek"
-      ],
-      "faq": [
-        "10 yaşındaki çocuk palyaçodan hoşlanır mı?",
-        "Büyük çocuklar için kaç saatlik program uygun?",
-        "Bütün sınıf davetliyse program nasıl kurulur?"
-      ],
-      "yazilmayacaklar": "Sitede olmayan hizmetleri (lazer tag, sihirbaz, bilim şovu, karaoke ekipmanı vb.) sunuluyormuş gibi yazma. Fiyat yazma. Çocuk fotoğrafı kullanma."
-    },
-    {
-      "slug": "palyaco-ile-animator-farki",
-      "durum": "bekliyor",
-      "planlanan": "2026-11-24",
-      "title": "Palyaço ile Animatör Arasındaki Fark Ne? Hangi Etkinliğe Hangisi?",
-      "question": "Palyaço ile animatör arasında fark var mı, hangisini seçmeliyim?",
+      "title": "Yumurta maratonu nasıl oynanır?",
+      "question": "Kaşıkta yumurta taşıma oyunu çocuk partisinde nasıl hazırlanır ve oynanır?",
       "category": "hizmet",
       "ay": 0,
       "link_targets": [
@@ -323,20 +878,236 @@
         "/#iletisim"
       ],
       "outline": [
-        "Doğru yazım: 'palyaço' ve yerelde duyulan 'palyanço' kullanımı",
-        "Palyaço: kostüm, makyaj ve şaka ağırlıklı eğlence",
-        "Animatör: oyun, dans ve grup yönetimi ağırlıklı program",
-        "Oyun ablası/abisi: sade kıyafetle oyun ve etkinlik yürüten kişi",
-        "Hangi etkinliğe hangisi: yaş, mekân ve çocuğun mizacı",
-        "Bu rollerin bir partide birlikte nasıl çalışabileceği"
+        "Oyunun kuralları",
+        "Gerçek yumurta yerine ne kullanılır",
+        "Takım ve bayrak yarışı sürümü",
+        "Bahçe, salon ve ev için uyarlama",
+        "Kaybetmeye hassas çocuklar"
       ],
       "faq": [
-        "Palyaço mu yazılır, palyanço mu?",
-        "Küçük yaş için palyaço mu animatör mü daha uygun?",
-        "Büyük çocuklar palyaçoyu çocukça bulursa ne yapılabilir?"
+        "Gerçek yumurta kullanılır mı?",
+        "Evde oynanabilir mi?",
+        "En küçük yaş için nasıl kolaylaştırılır?"
       ],
-      "yazilmayacaklar": "İşletmenin sihirbaz, maskot, kukla, prenses/süper kahraman karakteri ya da vantrilok hizmeti varmış gibi yazma. Sitede hizmet 'palyaço & animatör' olarak geçiyor; ayrı bir 'oyun ablası' hizmeti doğrulanmadan vaat etme. Personel ismi ya da cinsiyet garantisi verme.",
-      "duzeltme": "Title: 'Palyaço ile Animatör Arasındaki Fark Ne? Hangi Etkinliğe Hangisi?' Slug: palyaco-ile-animator-farki. Question: 'Palyaço ile animatör arasında fark var mı, hangisini seçmeliyim?' Mention oyun ablası in one sentence only, saying it is not a service the business offers. Keep 'palyanço' to a single FAQ line or drop it. Replace the büyük çocuk FAQ with a link to 7-10-yas-dogum-gunu-aktiviteleri."
+      "yazilmayacaklar": "İşletme hakkında rehberdeki kesin bilgiler dışında bir şey yazma. Fiyat, rakamla süre, kişi sayısı, mekân/kişi/okul adı, uydurma anı ve güvenlik garantisi yazma."
+    },
+    {
+      "slug": "cocuk-partisinde-fotograf-ve-paylasim-izni",
+      "durum": "bekliyor",
+      "planlanan": "2026-11-11",
+      "title": "Çocuk partisinde başka çocukların fotoğrafı paylaşılır mı?",
+      "question": "Doğum gününde çekilen fotoğraflarda diğer çocuklar için velilerden izin almak gerekir mi?",
+      "category": "rehber",
+      "ay": 0,
+      "link_targets": [
+        "/#hizmetler",
+        "/#etkinlikler",
+        "/#iletisim"
+      ],
+      "outline": [
+        "Neden izin önemli",
+        "Davetiyede ya da grupta önceden sormak",
+        "Paylaşmak istemeyen ailelere saygı",
+        "Yüzü görünmeyen kareler",
+        "Fotoğrafları yalnızca velilerle paylaşmak"
+      ],
+      "faq": [
+        "Sınıf grubunda paylaşmak sorun olur mu?",
+        "Animatör fotoğraf çeker mi?",
+        "İzin vermeyen veli olursa ne yapılır?"
+      ],
+      "yazilmayacaklar": "Hukuki madde ya da kanun numarası yazma; hukuki tavsiye verme. İşletmenin fotoğraf çektiğini ya da çekmediğini iddia etme. İşletme hakkında rehberdeki kesin bilgiler dışında bir şey yazma. Fiyat, rakamla süre, kişi sayısı, mekân/kişi/okul adı, uydurma anı ve güvenlik garantisi yazma."
+    },
+    {
+      "slug": "cocuk-partisinde-yiyecek-alerjisi",
+      "durum": "bekliyor",
+      "planlanan": "2026-11-12",
+      "title": "Çocuk partisinde yiyecek alerjisi için neler yapılır?",
+      "question": "Doğum gününe gelen çocuklarda alerji olabilir mi, ev sahibi nasıl hazırlanır?",
+      "category": "rehber",
+      "ay": 0,
+      "link_targets": [
+        "/#hizmetler",
+        "/#etkinlikler",
+        "/#iletisim"
+      ],
+      "outline": [
+        "Davetiyede alerji sormak",
+        "İçerik etiketli ikram",
+        "Alerjisi olan çocuk için ayrı tabak",
+        "Veliyle konuşmak",
+        "Acil bir durumda velinin bilgisi"
+      ],
+      "faq": [
+        "Pastada fıstık olup olmadığı nasıl anlaşılır?",
+        "Alerjik çocuğun velisi partide kalmalı mı?",
+        "Şekersiz seçenek gerekir mi?"
+      ],
+      "yazilmayacaklar": "Tıbbi tavsiye, ilaç ya da tedavi bilgisi yazma; 'bir doktora danışın' de. İşletme hakkında rehberdeki kesin bilgiler dışında bir şey yazma. Fiyat, rakamla süre, kişi sayısı, mekân/kişi/okul adı, uydurma anı ve güvenlik garantisi yazma."
+    },
+    {
+      "slug": "kres-ogretmenleri-icin-sinif-kutlamasi",
+      "durum": "bekliyor",
+      "planlanan": "2026-11-13",
+      "title": "Kreşte sınıf kutlaması öğretmen için nasıl kolay planlanır?",
+      "question": "Kreş öğretmeni özel gün kutlamasını sınıfta nasıl düzenler, veliler nasıl dahil edilir?",
+      "category": "okul-kres",
+      "ay": 0,
+      "link_targets": [
+        "/#okullar",
+        "/#hizmetler",
+        "/#iletisim"
+      ],
+      "outline": [
+        "Tarihi ve saati okul yönetimiyle belirlemek",
+        "Velilere bilgi notu",
+        "Sınıf düzeni ve oyun alanı",
+        "Animatör gelirse öğretmenin rolü",
+        "Kutlama sonrası sakinleşme"
+      ],
+      "faq": [
+        "Veliler kutlamaya katılmalı mı?",
+        "Kutlama ders saatinde mi yapılmalı?",
+        "Birkaç sınıf birlikte kutlayabilir mi?"
+      ],
+      "yazilmayacaklar": "İşletme hakkında rehberdeki kesin bilgiler dışında bir şey yazma. Fiyat, rakamla süre, kişi sayısı, mekân/kişi/okul adı, uydurma anı ve güvenlik garantisi yazma."
+    },
+    {
+      "slug": "okul-senligi-nasil-planlanir",
+      "durum": "bekliyor",
+      "planlanan": "2026-11-14",
+      "title": "Okul şenliği nasıl planlanır?",
+      "question": "İlkokul ya da anaokulunda tüm okulun katıldığı şenlik nasıl düzenlenir?",
+      "category": "okul-kres",
+      "ay": 0,
+      "link_targets": [
+        "/#okullar",
+        "/#hizmetler",
+        "/#iletisim"
+      ],
+      "outline": [
+        "Amaç ve tarih",
+        "Alan: bahçe, spor salonu, kapalı alan seçeneği",
+        "Sınıfları sırayla dahil etmek",
+        "Dans, mini disco ve oyun istasyonları",
+        "Final: baloncuk şovu ve kar spreyi",
+        "Velilerin yeri"
+      ],
+      "faq": [
+        "Yağmur yağarsa ne yapılır?",
+        "Bütün sınıflar aynı anda katılmalı mı?",
+        "Şenlik için ne kadar önce yazmak gerekir?"
+      ],
+      "yazilmayacaklar": "İşletme hakkında rehberdeki kesin bilgiler dışında bir şey yazma. Fiyat, rakamla süre, kişi sayısı, mekân/kişi/okul adı, uydurma anı ve güvenlik garantisi yazma."
+    },
+    {
+      "slug": "farkli-yaslarda-cocuklar-ayni-partide",
+      "durum": "bekliyor",
+      "planlanan": "2026-11-15",
+      "title": "Farklı yaşlardaki çocuklar aynı partide nasıl eğlenir?",
+      "question": "Küçük ve büyük çocukların karışık olduğu partide oyunlar nasıl seçilir?",
+      "category": "rehber",
+      "ay": 0,
+      "link_targets": [
+        "/#hizmetler",
+        "/#etkinlikler",
+        "/#iletisim"
+      ],
+      "outline": [
+        "Herkesin oynayabileceği oyunlar",
+        "Büyüklere yardımcı rolü",
+        "Küçükler için ayrı sakin köşe",
+        "Yüz boyama ve sosis balonda sıra",
+        "Dans: her yaş için uygun"
+      ],
+      "faq": [
+        "Bebekler partide ne yapar?",
+        "Büyük çocuklar sıkılırsa ne yapılır?",
+        "Ayrı oyun grupları kurulmalı mı?"
+      ],
+      "yazilmayacaklar": "İşletme hakkında rehberdeki kesin bilgiler dışında bir şey yazma. Fiyat, rakamla süre, kişi sayısı, mekân/kişi/okul adı, uydurma anı ve güvenlik garantisi yazma."
+    },
+    {
+      "slug": "cocuk-partisi-nasil-toparlanir-bitis",
+      "durum": "bekliyor",
+      "planlanan": "2026-11-16",
+      "title": "Çocuk partisi tatlı bir finalle nasıl biter?",
+      "question": "Çocuk partisini ağlama ve kaos olmadan nasıl bitirmek gerekir?",
+      "category": "dogum-gunu",
+      "ay": 0,
+      "link_targets": [
+        "/#hizmetler",
+        "/#etkinlikler",
+        "/#iletisim"
+      ],
+      "outline": [
+        "Bitişi önceden duyurmak",
+        "Final etkinliği: kar spreyi ya da baloncuk",
+        "Hediye çantası ve vedalaşma",
+        "Velilerin almaya gelmesi",
+        "Doğum günü çocuğunun yorgunluğu"
+      ],
+      "faq": [
+        "Parti bittiğinde çocuk ağlarsa ne yapılır?",
+        "Hediye çantası şart mı?",
+        "Geç kalan veliler için ne yapılır?"
+      ],
+      "yazilmayacaklar": "İşletme hakkında rehberdeki kesin bilgiler dışında bir şey yazma. Fiyat, rakamla süre, kişi sayısı, mekân/kişi/okul adı, uydurma anı ve güvenlik garantisi yazma."
+    },
+    {
+      "slug": "ilk-dogum-gunu-partisi-nasil-yapilir",
+      "durum": "bekliyor",
+      "planlanan": "2026-11-17",
+      "title": "Bebeğin ilk doğum günü nasıl kutlanır?",
+      "question": "Bir yaş doğum günü partisinde neler yapılır, animatör gerekir mi?",
+      "category": "dogum-gunu",
+      "ay": 0,
+      "link_targets": [
+        "/#hizmetler",
+        "/#etkinlikler",
+        "/#iletisim"
+      ],
+      "outline": [
+        "Bebeğin uyku düzenine göre saat",
+        "Misafirler çoğunlukla yetişkin ve büyük çocuklar",
+        "Kısa ve sakin program",
+        "Büyük kardeşler ve kuzenler için etkinlik",
+        "Fotoğraf anı"
+      ],
+      "faq": [
+        "Bir yaş partisine animatör gerekir mi?",
+        "Bebek kalabalıktan rahatsız olursa ne yapılır?",
+        "Pasta bebeğe yedirilmeli mi?"
+      ],
+      "yazilmayacaklar": "Bebek beslenmesi hakkında tıbbi tavsiye verme. İşletme hakkında rehberdeki kesin bilgiler dışında bir şey yazma. Fiyat, rakamla süre, kişi sayısı, mekân/kişi/okul adı, uydurma anı ve güvenlik garantisi yazma."
+    },
+    {
+      "slug": "dogum-gunu-partisi-son-dakika-kontrol-listesi",
+      "durum": "bekliyor",
+      "planlanan": "2026-11-18",
+      "title": "Doğum günü partisinden önceki gün neler kontrol edilir?",
+      "question": "Çocuk partisinin bir gün öncesinde yapılacakların kontrol listesi nedir?",
+      "category": "dogum-gunu",
+      "ay": 0,
+      "link_targets": [
+        "/#hizmetler",
+        "/#etkinlikler",
+        "/#iletisim"
+      ],
+      "outline": [
+        "Katılım teyidi",
+        "Alan hazırlığı",
+        "İkram ve pasta",
+        "Müzik ve şarj",
+        "Animatörle akışı teyit etmek",
+        "Acil durum: yedek plan"
+      ],
+      "faq": [
+        "Hava kötü olursa son anda ne yapılır?",
+        "Hasta olan davetliye ne denir?",
+        "Unutulan şeyler en çok neler?"
+      ],
+      "yazilmayacaklar": "İşletme hakkında rehberdeki kesin bilgiler dışında bir şey yazma. Fiyat, rakamla süre, kişi sayısı, mekân/kişi/okul adı, uydurma anı ve güvenlik garantisi yazma."
     },
     {
       "slug": "karne-gunu-anaokulu-etkinlikleri",
@@ -399,204 +1170,6 @@
       "son_tarih": "2027-01-15"
     },
     {
-      "slug": "1-2-yas-dogum-gunu-etkinlikleri",
-      "durum": "bekliyor",
-      "planlanan": "2026-12-15",
-      "title": "1 ve 2 Yaş Doğum Günü Etkinlikleri: Kısa, Sakin ve Keyifli Bir Parti Planı",
-      "question": "1 yaş doğum gününde neler yapılır, 2 yaş doğum günü için hangi etkinlikler uygun?",
-      "category": "dogum-gunu",
-      "ay": 0,
-      "link_targets": [
-        "/#hizmetler",
-        "/#etkinlikler",
-        "/#iletisim"
-      ],
-      "outline": [
-        "Bu yaşta parti büyük ölçüde aile için: beklentiyi doğru kurmak",
-        "Uyku ve beslenme saatine göre parti saatini seçmek",
-        "Eğlence bölümünü kısa tutmak",
-        "Uygun etkinlikler: müzik, baloncuk, basit hareketli şarkılar",
-        "Kaçınılacaklar: yüksek ses, ani sürprizler, küçük parçalar ve balon parçaları",
-        "Ağabey, abla ve kuzenler için ayrı eğlence köşesi",
-        "Animatöre önceden iletilmesi gerekenler"
-      ],
-      "faq": [
-        "1 yaş doğum gününe palyaço çağırmak mantıklı mı?",
-        "Yüz boyama 1-2 yaş için uygun mu?",
-        "Sosis balonu küçük bebeklerin yanında kullanırken nelere dikkat edilmeli?"
-      ],
-      "yazilmayacaklar": "'Bu yaşta dikkat süresi X dakikadır' gibi gelişimsel ya da tıbbi kesin iddialar yazma, genel gözlem dili kullan. Yüz boyama ve balon için 'güvenli' garantisi verme; küçük yaşta dikkat ve ebeveyn kararı vurgusu yap. Bebek fotoğrafı kullanma."
-    },
-    {
-      "slug": "yuz-boyamada-cilt-hassasiyeti-sorulacaklar",
-      "durum": "bekliyor",
-      "planlanan": "2026-12-22",
-      "title": "Yüz Boyama Zararlı mı? Cilt Hassasiyeti İçin Velinin Sorması Gerekenler",
-      "question": "Çocuklarda yüz boyası zararlı mı, yüz boyama yaptırmadan önce nelere dikkat etmeliyim?",
-      "category": "hizmet",
-      "ay": 0,
-      "link_targets": [
-        "/#hizmetler",
-        "/#sss",
-        "/#iletisim"
-      ],
-      "outline": [
-        "Yüz boyası ile el işi boyası farklıdır: cilde uygun ürün sorusu",
-        "Velinin sorabileceği sorular: hangi ürün, etiket, son kullanma tarihi",
-        "Ürün etiketini okumak: içerik listesi ve kullanım uyarıları",
-        "Bilinen hassasiyeti olan çocuk: önceden söylemek, küçük bir alanda deneme seçeneği",
-        "Göz çevresi, yara ve tahrişli ciltten kaçınmak",
-        "Boyamadan sonra kızarıklık olursa: boyayı nazikçe çıkarmak, gerekirse hekime danışmak",
-        "Yüz boyama istemeyen çocuğa alternatif: elde küçük desen, sosis balon"
-      ],
-      "faq": [
-        "Yüz boyası göze kaçarsa ne yapılmalı?",
-        "Hassas cildi olan çocuğa yüz boyama yapılır mı?",
-        "Yüz boyası yüzde ne kadar kalabilir?"
-      ],
-      "yazilmayacaklar": "İşletmenin kullandığı boyanın markası, EN 71-3/CE uygunluğu, 'Bakanlık onaylı', 'hipoalerjenik' ya da 'zararsız' olduğunu doğrulanmadıkça yazma. Tıbbi teşhis ya da tedavi önerme, reaksiyonda hekime yönlendir. Haberlerdeki Sağlık Bakanlığı uyarısına değinilecekse kaynak göster, yorum katma. Çocuk yüzü fotoğrafı yerine çizim kullan."
-    },
-    {
-      "slug": "palyacodan-korkan-cocuk",
-      "durum": "bekliyor",
-      "planlanan": "2026-12-29",
-      "title": "Palyaçodan Korkan Çocuk: Partide Nasıl Rahatlatılır, Hangi Alternatifler Var?",
-      "question": "Çocuğum palyaçodan korkuyor, doğum gününe yine de palyaço çağırmalı mıyım?",
-      "category": "rehber",
-      "ay": 0,
-      "link_targets": [
-        "/#hizmetler",
-        "/#sss",
-        "/#iletisim"
-      ],
-      "outline": [
-        "Palyaçodan çekinmek birçok çocukta görülen olağan bir tepki",
-        "Partiden önce hazırlık: palyaçoyu anlatmak, kostüm ve makyajı konuşmak",
-        "İlk tanışma anı: yavaş yaklaşmak, çocuğu zorlamamak",
-        "Rahatsızlık işaretleri ve ne zaman ara verilmeli",
-        "Alternatifler: sade kostümlü animatör, yalnızca yüz boyama, baloncuk şovu, müzikli oyunlar",
-        "Rezervasyonda bu durumu önceden belirtmenin önemi"
-      ],
-      "faq": [
-        "Palyaço yerine yalnızca yüz boyama ya da baloncuk şovu alınabilir mi?",
-        "Korkan çocuk partiden uzaklaşmak isterse ne yapılmalı?",
-        "Ağır makyajsız bir animatör seçeneği konuşulabilir mi?"
-      ],
-      "yazilmayacaklar": "Psikolojik ya da tıbbi teşhis yapma, 'fobi' tanımı verme; yoğun ve süren kaygı için uzmana yönlendirmekle sınırla. Makyajsız animatör seçeneğini işletme doğrulamadan kesin hizmet olarak vaat etme, 'rezervasyonda konuşalım' de. Gerçek vaka anlatma, korkan çocuk fotoğrafı kullanma.",
-      "duzeltme": "Phrase it as 'Ağır makyajlı palyaço yerine farklı seçenekleri rezervasyonda konuşun'. List as actual services only what the site backs: yalnızca yüz boyama, sosis balon, baloncuk şovu, müzikli oyunlar (the site says services can be booked separately)."
-    },
-    {
-      "slug": "yuz-boyasi-nasil-cikar",
-      "durum": "bekliyor",
-      "planlanan": "2027-01-05",
-      "title": "Yüz Boyası Nasıl Çıkar? Ciltten, Kıyafetten, Halıdan ve Koltuktan Temizleme",
-      "question": "Çocuğun yüz boyası nasıl çıkar, kıyafete ve halıya bulaşan yüz boyası nasıl temizlenir?",
-      "category": "hizmet",
-      "ay": 0,
-      "link_targets": [
-        "/#hizmetler",
-        "/#sss",
-        "/#iletisim"
-      ],
-      "outline": [
-        "Ciltten çıkarmak: ılık su ve yumuşak temizleyiciyle, ovalamadan",
-        "Göz çevresi ve hassas bölgeler için nazik yöntem",
-        "Kıyafetten çıkarmak: kurumadan müdahale, etiketteki yıkama talimatı",
-        "Halı ve koltuk: önce görünmeyen bir köşede denemek",
-        "Parti öncesi önlem: boyama köşesi, örtü ve önlük",
-        "Yatmadan önce yüzü temizlemeyi alışkanlık haline getirmek"
-      ],
-      "faq": [
-        "Yüz boyası kolay çıkmazsa ne kullanılmalı?",
-        "Yüz boyası kıyafette kalıcı leke bırakır mı?",
-        "Yüz boyasıyla uyumak sorun olur mu?"
-      ],
-      "yazilmayacaklar": "Kullanılan boyanın 'tamamen suyla çıkar' ya da 'leke bırakmaz' olduğunu doğrulamadan yazma. Aseton, çözücü gibi sert kimyasal önerme. Cilt reaksiyonunda tıbbi öneri verme, hekime yönlendir. Çocuk fotoğrafı kullanma."
-    },
-    {
-      "slug": "okulda-dogum-gunu-kutlamasi-yapilir-mi",
-      "durum": "bekliyor",
-      "planlanan": "2027-01-12",
-      "title": "Okulda veya Kreşte Doğum Günü Kutlaması Yapılabilir mi? İzin, İkram ve Kısa Program",
-      "question": "Okulda doğum günü kutlaması yasak mı, kreşte doğum günü nasıl kutlanır?",
-      "category": "okul-kres",
-      "ay": 0,
-      "link_targets": [
-        "/#okullar",
-        "/#sss",
-        "/#iletisim"
-      ],
-      "outline": [
-        "Kurallar okuldan okula değişir: önce öğretmen ve idareye sormak",
-        "Ev yapımı yiyecek kısıtları ve paketli ikram tercihi",
-        "Alerji ve beslenme hassasiyetlerini öğretmenle kontrol etmek",
-        "Yiyecek dışı ikramlık fikirleri: çıkartma, boyama kitabı, küçük el işi seti",
-        "Ders düzenini bozmayan kısa sınıf programı",
-        "Sınıfa animatör getirmek: okul izni, alan ve süre"
-      ],
-      "faq": [
-        "Okulda doğum günü kutlamak için kimden izin almalıyım?",
-        "Kreşe pasta götürülebilir mi?",
-        "Sınıfa palyaço getirmek mümkün mü?"
-      ],
-      "yazilmayacaklar": "Okulda doğum günü kutlamasına ilişkin mevzuat hakkında kesin hüküm yazma; 'okul idaresine sorun' çizgisinde kal. Belirli okul ya da kreş adı verme. Alerji konusunda tıbbi tavsiye verme. İkram veya hediyelik tedariki sunuluyormuş gibi yazma."
-    },
-    {
-      "slug": "sosis-balon-guvenligi-kucuk-cocuklar",
-      "durum": "bekliyor",
-      "planlanan": "2027-01-19",
-      "title": "Sosis Balon Güvenli mi? Küçük Çocuklarda Balon Parçaları ve Lateks Hassasiyeti",
-      "question": "Sosis balon küçük çocuklar için tehlikeli mi, partide balon güvenliği için nelere dikkat etmeli?",
-      "category": "hizmet",
-      "ay": 0,
-      "link_targets": [
-        "/#hizmetler",
-        "/#sss",
-        "/#iletisim"
-      ],
-      "outline": [
-        "Sosis balon nedir, partide nasıl yapılır",
-        "Patlayan ya da şişirilmemiş balon parçalarının küçük çocuklar için riski",
-        "Parti sırasında ve sonrasında balon parçalarını toplamak",
-        "Balonu ağza almamak, ısırmamak",
-        "Lateks hassasiyeti bilinen çocuk varsa önceden söylemek",
-        "Balonu eve götürürken ve araçta güvenli taşımak"
-      ],
-      "faq": [
-        "Küçük çocuklara sosis balon verirken nelere dikkat edilmeli?",
-        "Lateks hassasiyeti olan çocuk partide ne yapmalı?",
-        "Patlayan balon parçalarını nasıl toplamalıyım?"
-      ],
-      "yazilmayacaklar": "Kullanılan balonun lateks içermediğini, markasını ya da sertifikasını doğrulanmadıkça yazma. Alerji konusunda tıbbi tavsiye verme, hekime yönlendir. Kesin yaş sınırı yerine 'küçük yaşta yetişkin gözetimi' dilini kullan. Çocuk fotoğrafı kullanma."
-    },
-    {
-      "slug": "kolay-yuz-boyama-desenleri-kedi-kelebek",
-      "durum": "bekliyor",
-      "planlanan": "2027-01-26",
-      "title": "Kolay Yüz Boyama Desenleri: Kedi, Kelebek ve Tavşan Adım Adım",
-      "question": "Evde kolay yüz boyama nasıl yapılır, kedi ve kelebek yüz boyama örnekleri neler?",
-      "category": "rehber",
-      "ay": 0,
-      "link_targets": [
-        "/#hizmetler",
-        "/#iletisim"
-      ],
-      "outline": [
-        "Başlamadan önce: cilde uygun yüz boyası, temiz fırça ve sünger, ayna",
-        "Kedi: burun, bıyık ve yanak deseni",
-        "Kelebek: kanatları göz kapağına taşımadan yerleştirmek",
-        "Tavşan: diş ve bıyık için basit çizgiler",
-        "Yüz boyama istemeyen ya da çok küçük çocuk için elde veya kolda mini desen",
-        "Kalabalık partide boyama sırası ve ne zaman profesyonel destek alınır"
-      ],
-      "faq": [
-        "Evde yüz boyama için hangi boya kullanılmalı?",
-        "Bir yüz boyama ne kadar sürer?",
-        "Göz çevresine boya sürmek doğru mu?"
-      ],
-      "yazilmayacaklar": "Görselleri çocuk yüzü fotoğrafı yerine çizim ve şablon olarak hazırla. Belirli marka önerme ya da 'zararsız' iddiası yazma. Akrilik ya da el işi boyası gibi cilde uygun olmayan ürünleri önerme."
-    },
-    {
       "slug": "okulda-palyaco-etkinligi-sinif-mi-tum-okul-mu",
       "durum": "bekliyor",
       "planlanan": "2027-02-02",
@@ -654,35 +1227,6 @@
       "yazilmayacaklar": "Bayram tarihlerini kesin gün olarak yazma; her yıl değiştiğini belirt ve resmi takvime yönlendir (yayın sırasında o yılın tarihiyle güncelle). Dini yorum ekleme. Bayramda müsaitlik garantisi verme. Kurban Bayramı'nda hayvanla ilgili görsel kullanma. Çocuk fotoğrafı yok.",
       "duzeltme": "Set month 2 (before Ramazan Bayramı) and schedule a refresh before Kurban Bayramı. Drop the school section. Change the FAQ to 'Bayramda palyaço ya da animatör çağrılabilir mi?'",
       "son_tarih": "2027-03-05"
-    },
-    {
-      "slug": "acilista-cocuk-animasyonu-nasil-planlanir",
-      "durum": "bekliyor",
-      "planlanan": "2027-02-16",
-      "title": "Mağaza ve İş Yeri Açılışında Çocuk Animasyonu Nasıl Planlanır?",
-      "question": "Açılışta palyaço çağırmak işe yarar mı, mağaza açılışında çocuk animasyonu nasıl planlanır?",
-      "category": "hizmet",
-      "ay": 0,
-      "link_targets": [
-        "/#etkinlikler",
-        "/#hizmetler",
-        "/#iletisim"
-      ],
-      "outline": [
-        "Açılışta çocuk animasyonunun amacı: çocuklu aileleri bir araya getirmek",
-        "Alan planı: mağaza içi, mağaza önü ve izin konusu",
-        "Uygun etkinlikler: yüz boyama ve sosis balon sırası, kısa dans bölümleri, baloncuk şovu",
-        "Saat seçimi: okul çıkışı, hafta sonu öğleden sonrası",
-        "Kalabalık ve sıra düzeni",
-        "Duyuru: etkinlik saatini önceden sosyal medyada paylaşmak"
-      ],
-      "faq": [
-        "Açılış etkinliği kaç saat sürmeli?",
-        "Mağaza önünde etkinlik için izin gerekir mi?",
-        "Açılışta kar spreyi kullanılabilir mi?"
-      ],
-      "yazilmayacaklar": "Satış ya da ziyaretçi artışı garantisi veya yüzde rakamı yazma. Daha önce açılışı yapılan marka ya da mağaza ismi verme. İzin konusunda kesin hüküm yerine 'belediyeye sorun' de. Fiyat yazma.",
-      "duzeltme": "Title: 'Mağaza ve İş Yeri Açılışında Çocuk Animasyonu Nasıl Planlanır?'"
     },
     {
       "slug": "23-nisan-okul-oncesi-etkinlik-plani",

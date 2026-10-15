@@ -45,7 +45,7 @@ Kutlamadan önceki hafta sınıfta yapılan küçük bir hazırlık günü daha 
 - Patlayan balon parçalarını ve şişirilmemiş balonları hemen toplayacak birini görevlendirin; çocukların balonu ağzına almaması ve ısırmaması için gözetim önemlidir.
 - Program bittiğinde çocukların nereye geçeceğini (sınıf, yemek, servis) netleştirin.
 
-Sınıf dar kalıyorsa yerinde oynanabilecek oyunlar seçmek gerekir; [evde dar alanda oynanabilecek oyunlar](/blog/evde-dogum-gunu-oyunlari-dar-alan/) yazısındaki fikirlerin birçoğu sınıfa da uyar.
+Sınıf dar kalıyorsa koşturmaca gerektirmeyen, yerinde oynanabilecek oyunlar seçmek gerekir.
 
 ## Sınıfların sırası nasıl belirlenir?
 
@@ -98,7 +98,7 @@ Tarihi, okulun iç takvimi (veli toplantısı, gösteri ya da tatil günleri) be
 
 Okullara yönelik dönemsel kampanyalar için bize yazabilirsiniz. Sabit bir fiyat listemiz yok; fiyat süreye, çocuk sayısına, seçilen hizmetlere ve konuma göre verilir. Bu etkenlerin fiyatı nasıl etkilediğini [palyaço ve animatör fiyatını neler belirler](/blog/palyaco-fiyatini-neler-belirler/) yazısında bulabilirsiniz.
 
-Okulunuzun bulunduğu ilçeyi [hizmet bölgeleri](/#bolgeler) listesinden kontrol edebilirsiniz. Listede göremediğiniz bir ilçe için de bize sorabilirsiniz.
+Okulunuzun bulunduğu ilçeyi mesajınızda belirtin; hizmet bölgelerimiz dışında kalan bir ilçe için de bize sorabilirsiniz.
 
 ## Kreş yılbaşı programı için bize yazın
 

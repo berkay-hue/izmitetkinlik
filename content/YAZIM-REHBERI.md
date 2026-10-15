@@ -1,6 +1,6 @@
 # Yazım rehberi
 
-Blog yazıları bu kurallara göre yazılır. Haftalık otomatik görev de, elle yazan herkes de bu dosyayı okur.
+Blog yazıları bu kurallara göre yazılır. Günlük otomatik görev de, elle yazan herkes de bu dosyayı okur.
 `tools/check.mjs` kuralların çoğunu otomatik denetler, ama denetleyicinin yakalayamadığı en önemli kural şudur:
 **sitede yazmayan bir bilgiyi işletme hakkında iddia etmeyin.**
 
@@ -21,21 +21,24 @@ Blog yazıları bu kurallara göre yazılır. Haftalık otomatik görev de, elle
 ## Yapı
 
 - **Başlık** (`title`): gerçek bir arama sorusu gibi, en çok 75 karakter. Örnek: "Okulda 23 Nisan etkinliği nasıl planlanır?"
-- **Kısa cevap** (`answer`): 1–3 cümle, yaklaşık 150–350 karakter. Başlıktaki soruya kendi başına, eksiksiz cevap verir.
+- **Kısa cevap** (`answer`): 2–3 cümle, yaklaşık 150–350 karakter. Başlığın hemen altında giriş olarak görünür; ilk cümle başlıktaki soruya doğrudan, kendi başına cevap verir.
   Yapay zeka asistanları çoğunlukla bu kutuyu alıntılar; "aşağıda anlatıyoruz" gibi sayfaya bağımlı ifade kullanmayın.
 - **Açıklama** (`description`): 70–170 karakter, arama sonucunda görünen özet.
 - **Gövde:**
-  - 4–7 `##` ara başlık, her biri okuyucunun soracağı gerçek bir soru ya da net bir konu.
+  - Gövde doğrudan bir `##` başlıkla başlar (giriş paragrafı yok; giriş kısa cevap kutusudur).
+  - 4–7 `##` ara başlık; en az 2'si soru biçiminde (`?` ile biter), diğerleri net bir konu.
+  - Gövdeye "Sık sorulan sorular" başlığı yazılmaz; SSS bölümü `faq`'tan otomatik üretilir.
   - Her bölümün ilk cümlesi o bölümün cevabıdır; ayrıntı sonra gelir.
   - En az bir kontrol listesi (`-`) ya da tablo (`|`).
   - Toplam yaklaşık 800–1400 kelime. Doldurmak için tekrar etmeyin.
   - İsteğe bağlı bir `> ` ipucu kutusu.
-- **SSS** (`faq`): 3–5 soru. Ara başlıkları tekrar etmeyen, ek sorular. Her cevap en az 1–2 tam cümle.
+- **SSS** (`faq`): 3–4 soru, her biri `?` ile biter. Ara başlıkları tekrar etmeyen, ek sorular. Cevaplar kısa: 1–2 tam cümle.
+  Sayfada son bölümün (rezervasyon yönlendirmesi) hemen önünde "## Sık sorulan sorular" altında `###` sorular olarak çıkar ve FAQPage verisine girer.
 - **Son bölüm:** kısa bir "rezervasyon / bize yazın" yönlendirmesi ve [form](/#iletisim) bağlantısı.
 
 ## İç bağlantılar
 
-Her yazıda en az 2 iç bağlantı olsun. Kullanılabilecek adresler:
+Her yazıda 2–4 farklı iç bağlantı olsun (gövde, kısa cevap ve SSS birlikte; aynı adres bir kez sayılır). Kullanılabilecek adresler:
 
 | Adres | Ne var |
 |---|---|

@@ -6,11 +6,22 @@
   "category": "dogum-gunu",
   "answer": "Evde dar alanda en rahat oyunlar müzikli heykel, mini disco, yumurta maratonu (kaşıkla yumurta taşıma) ve koşmadan oynanan sandalye kapmacadır; hepsi yerinde ya da kısa bir parkurda oynanır. Halat savaşı (halat çekme) evde değil, bahçede oynanmalıdır. Oyunu boş zemine, yaşa ve çocuk sayısına göre seçin; önce kırılacak eşyaları kaldırın.",
   "faq": [
-    { "q": "3–4 yaş çocuklar için hangi oyunlar uygun?", "a": "Bu yaşta genellikle müzikli heykel, hareket taklidi yapılan şarkılar, kaşığı elde taşıdıkları kısa bir yumurta maratonu ve sandalye eksiltmeden oynanan sandalye kapmaca iyi gider. 3–4 yaştaki çocuklar oyuna çoğu zaman bir yetişkinin yanında katılmak ister; siz de oyuna girerseniz çekingen olanlar daha kolay katılır. Halat savaşı (halat çekme) bu yaş için çoğu zaman uygun değildir." },
-    { "q": "Oyunlar ne kadar sürmeli?", "a": "Tek bir doğru süre yoktur; çocukların yaşına, sayısına ve ilgisine göre değişir. Genel bir ölçü olarak bir oyunu çocuklar hâlâ istekliyken bitirin; esneme, kenara çekilme ya da kural dışı koşma başladığında sıradaki oyuna geçin. Büyük çocuklarda aynı oyunu kuralını biraz zorlaştırarak birkaç tur sürdürebilirsiniz. Animatörlü programlarda süreyi sizinle birlikte belirliyoruz." },
-    { "q": "Evdeki oyunlar için hangi malzemeler gerekir?", "a": "Sağlam sandalyeler, kaşıklar, plastik yumurta ya da pinpon topu, kâğıt bant, balon ve bir hoparlör çoğu oyun için yeterlidir. Plastik yumurta ve pinpon topu dışında bunların çoğu evde zaten bulunur; partiden önce sandalyelerin sağlamlığını kontrol edin ve hoparlörü bir kez deneyin. Balonları yetişkin gözetiminde kullanın; davetlilerden lateks alerjisi olan varsa lateks balon yerine folyo balon tercih edin." },
-    { "q": "Oyunlar pastadan önce mi sonra mı oynanmalı?", "a": "Genellikle hareketli oyunlar pastadan önce oynanır; pasta ve ikramdan sonra daha sakin oyunlara, istenirse sonunda mini disco ile kapanışa geçilir. İkram sırasında oyuna ara verin; çocuklar ağızlarında yiyecekle koşmasın ya da dans etmesin. Mumlar yanarken çocukları pastanın biraz gerisinde toplayın, balon ve süsleri mumdan uzak tutun." },
-    { "q": "Yaşları karışık çocuklar aynı oyunu nasıl oynar?", "a": "Takımları karışık kurup her büyük çocuğu bir küçüğe eş yapmak genellikle işe yarar; büyük çocuk kuralı hatırlatır, küçük oyundan kopmaz. Kuralı yaşa göre hafifletmek de mümkündür; örneğin müzikli heykelde büyüklerden daha zor bir poz istenir, küçükler serbestçe donar." }
+    {
+      "q": "3–4 yaş çocuklar için hangi oyunlar uygun?",
+      "a": "Bu yaşta genellikle müzikli heykel, hareket taklidi yapılan şarkılar, kaşığı elde taşıdıkları kısa bir yumurta maratonu ve sandalye eksiltmeden oynanan sandalye kapmaca iyi gider. 3–4 yaştaki çocuklar oyuna çoğu zaman bir yetişkinin yanında katılmak ister; siz de oyuna girerseniz çekingen olanlar daha kolay katılır. Halat savaşı (halat çekme) bu yaş için çoğu zaman uygun değildir."
+    },
+    {
+      "q": "Oyunlar ne kadar sürmeli?",
+      "a": "Tek bir doğru süre yoktur; çocukların yaşına, sayısına ve ilgisine göre değişir. Genel bir ölçü olarak bir oyunu çocuklar hâlâ istekliyken bitirin; esneme, kenara çekilme ya da kural dışı koşma başladığında sıradaki oyuna geçin. Büyük çocuklarda aynı oyunu kuralını biraz zorlaştırarak birkaç tur sürdürebilirsiniz. Animatörlü programlarda süreyi sizinle birlikte belirliyoruz."
+    },
+    {
+      "q": "Evdeki oyunlar için hangi malzemeler gerekir?",
+      "a": "Sağlam sandalyeler, kaşıklar, plastik yumurta ya da pinpon topu, kâğıt bant, balon ve bir hoparlör çoğu oyun için yeterlidir. Plastik yumurta ve pinpon topu dışında bunların çoğu evde zaten bulunur; partiden önce sandalyelerin sağlamlığını kontrol edin ve hoparlörü bir kez deneyin. Balonları yetişkin gözetiminde kullanın; davetlilerden lateks alerjisi olan varsa lateks balon yerine folyo balon tercih edin."
+    },
+    {
+      "q": "Oyunlar pastadan önce mi sonra mı oynanmalı?",
+      "a": "Genellikle hareketli oyunlar pastadan önce oynanır; pasta ve ikramdan sonra daha sakin oyunlara, istenirse sonunda mini disco ile kapanışa geçilir. İkram sırasında oyuna ara verin; çocuklar ağızlarında yiyecekle koşmasın ya da dans etmesin. Mumlar yanarken çocukları pastanın biraz gerisinde toplayın, balon ve süsleri mumdan uzak tutun."
+    }
   ]
 }
 ---
@@ -84,7 +95,7 @@ Takım oyunlarını öne çıkarmak ve elenen çocuğa görev vermek, doğum gü
 
 ## Oyunları animatöre bırakmak ne zaman mantıklı?
 
-Yaşlar karışıksa ya da siz misafirlerle ve ikramla ilgilenmek istiyorsanız grup oyunlarını ve dansı bir animatöre bırakmak genellikle işinizi kolaylaştırır. Evdeki bir partide aynı anda misafir karşılamak, ikram hazırlamak, pastayı getirmek ve oyunları yönetmek tek kişi için zordur. Animatör odayı büyütmez; ev çocuk sayısına dar geliyorsa ev, kafe ve salon seçeneklerini karşılaştırdığımız [kışın çocuk doğum günü nerede yapılır](/blog/kisin-cocuk-dogum-gunu-nerede-yapilir/) yazısına bakabilirsiniz.
+Yaşlar karışıksa ya da siz misafirlerle ve ikramla ilgilenmek istiyorsanız grup oyunlarını ve dansı bir animatöre bırakmak genellikle işinizi kolaylaştırır. Evdeki bir partide aynı anda misafir karşılamak, ikram hazırlamak, pastayı getirmek ve oyunları yönetmek tek kişi için zordur. Animatör odayı büyütmez; ev çocuk sayısına dar geliyorsa kafe ya da salon gibi seçenekleri de düşünmek gerekir.
 
 İzmit Palyaço Etkinlikleri'nin [grup oyunları](/#hizmetler) arasında halat savaşı, sandalye kapmaca ve yumurta maratonu var. Dans ve mini discoda "A ram zam zam" ve "Çu çu va" gibi hareketli şarkılar ile dans maratonu yer alıyor. Doğum günlerinde evde, bahçede, kafede ya da salonda çalışıyor, programı etkinliğinize göre hazırlıyoruz; hangi oyunların evinize ya da bahçenize uygun olduğunu birlikte seçebiliriz. Hizmetler tek tek ya da bir arada alınabilir; yalnızca grup oyunlarını ya da bunlarla birlikte yüz boyama ve sosis balon isteyebilirsiniz. Süreyi birlikte belirliyoruz.
 
@@ -92,4 +103,4 @@ Sabit bir fiyat listemiz yok; fiyat süreye, çocuk sayısına, seçilen hizmetl
 
 ## Evde doğum günü programı için bize yazın
 
-Evde doğum günü için oyun programı planlıyorsanız bize yazın. Sitedeki [form](/#iletisim) etkinlik türünü, tarihi, saati, ilçe ya da yeri, çocuk sayısını, yaş aralığını ve istediğiniz hizmetleri sorar; bilgileri hazır bir mesaja çevirir. Mesajı Instagram'dan @izmit_palyaco_etkinlikleri hesabına gönderebilirsiniz. Odanızın büyüklüğünü ve bahçe olup olmadığını mesajınıza eklerseniz programı etkinliğinize göre birlikte planlamak kolaylaşır. Hafta sonları yoğun geçtiği için mümkün olduğunca erken yazmanızı öneririz. Hizmet verdiğimiz ilçeleri [bölgeler](/#bolgeler) bölümünde görebilirsiniz.
+Evde doğum günü için oyun programı planlıyorsanız bize yazın. Sitedeki [form](/#iletisim) etkinlik türünü, tarihi, saati, ilçe ya da yeri, çocuk sayısını, yaş aralığını ve istediğiniz hizmetleri sorar; bilgileri hazır bir mesaja çevirir. Mesajı Instagram'dan @izmit_palyaco_etkinlikleri hesabına gönderebilirsiniz. Odanızın büyüklüğünü ve bahçe olup olmadığını mesajınıza eklerseniz programı etkinliğinize göre birlikte planlamak kolaylaşır. Hafta sonları yoğun geçtiği için mümkün olduğunca erken yazmanızı öneririz.
