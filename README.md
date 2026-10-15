@@ -97,7 +97,11 @@ GitHub zamanlanmış çalıştırmaları bazen düşürdüğü için 18:43'te bi
 4. İş akışı "Izmit Blog Bot" adıyla commit atıp gönderir, GitHub Pages yayınının başladığını doğrular
    (başlamadıysa API ile başlatır) ve IndexNow ile bildirir.
 
-Sırada 14'ten az konu kalırsa iş akışı günlüğünde uyarı çıkar; yeni konuları elle eklemek gerekir.
+Sırada 14'ten az genel konu (`son_tarih` ve `ay` alanı olmayan `bekliyor` konu) kalırsa yazıdan sonra Claude'a
+rehbere uyan yeni genel konular ürettirir ve sırayı 28'e tamamlar. Konular denetlenir (adres, başlık, kategori, bağlantılar, SSS),
+geçmeyen liste hatalarla bir kez daha istenir. Eklenen konular `"kaynak": "otomatik"` alır ve en son planlanan tarihten itibaren
+günde bir tane olacak şekilde sıraya girer; aynı commit'le gönderilir. Konu üretimi başarısız olursa yazı yine yayınlanır,
+günlükte uyarı çıkar. Yer adına dayalı (`bolge`) ve mevsimlik konular otomatik üretilmez.
 
 Gerekli secret: `ANTHROPIC_API_KEY` (`gh secret set ANTHROPIC_API_KEY -R berkay-hue/izmitetkinlik`).
 Elle denemek için Actions → daily → Run workflow; `dry` işaretliyse yazıyı üretir, build + check ile dener, commit etmez.
