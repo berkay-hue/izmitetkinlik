@@ -1,0 +1,42 @@
+<!doctype html>
+<!-- Paylaşım görseli (assets/og.png, 1200x630) ve logo (assets/logo.png, 512x512) kaynağı.
+     Üretmek için README'deki "Görseller" komutlarına bakın. ?logo ile yalnızca logo çizilir. -->
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<style>
+  html, body { margin: 0; }
+  body { width: 1200px; height: 630px; overflow: hidden; background: #fffaf3; font-family: ui-rounded, system-ui, -apple-system, "Segoe UI", sans-serif; color: #1f1a3d; position: relative; }
+  .dot { position: absolute; border-radius: 50%; }
+  .card { position: absolute; inset: 56px 64px; display: flex; align-items: center; gap: 56px; }
+  .face { flex: none; width: 300px; height: 300px; }
+  h1 { font-family: ui-rounded, system-ui, -apple-system, "Segoe UI", sans-serif; font-weight: 800; font-size: 76px; line-height: 1; margin: 0 0 18px; }
+  h1 span { color: #e63946; }
+  p { font-size: 32px; line-height: 1.35; font-weight: 700; color: #4a4566; margin: 0 0 30px; }
+  .url { display: inline-block; background: #e63946; color: #fff; font-weight: 800; font-size: 30px; padding: 12px 28px; border-radius: 999px; }
+  body.logo { width: 512px; height: 512px; background: transparent; }
+  body.logo .dot, body.logo .text { display: none; }
+  body.logo .card { inset: 0; display: block; }
+  body.logo .face { width: 512px; height: 512px; }
+</style>
+</head>
+<body>
+  <div class="dot" style="width:220px;height:220px;background:#ffc23d;opacity:.35;left:-70px;top:-80px"></div>
+  <div class="dot" style="width:150px;height:150px;background:#2d7ff9;opacity:.18;right:80px;top:-50px"></div>
+  <div class="dot" style="width:260px;height:260px;background:#ff5d8f;opacity:.16;right:-90px;bottom:-110px"></div>
+  <div class="dot" style="width:90px;height:90px;background:#2bb673;opacity:.25;left:380px;bottom:-30px"></div>
+  <div class="card">
+    <svg class="face" viewBox="0 0 48 48" aria-hidden="true">
+      <circle cx="24" cy="24" r="22" fill="#ffc23d"/>
+      <circle cx="24" cy="26" r="9" fill="#e63946"/>
+      <circle cx="21" cy="23" r="2.6" fill="#fff" opacity=".85"/>
+    </svg>
+    <div class="text">
+      <h1>İzmit <span>Palyaço</span> Etkinlikleri</h1>
+      <p>Kocaeli ve Sakarya'da doğum günü, sünnet, okul ve özel günler için palyaço ve animatör</p>
+      <div class="url">izmitetkinlik.com</div>
+    </div>
+  </div>
+  <script>if (location.search.includes("logo")) document.body.className = "logo";</script>
+</body>
+</html>

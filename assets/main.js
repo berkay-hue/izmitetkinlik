@@ -25,7 +25,12 @@ const INSTAGRAM_DM = "https://ig.me/m/izmit_palyaco_etkinlikleri";
     };
     toggle.addEventListener("click", () => setOpen(toggle.getAttribute("aria-expanded") !== "true"));
     menu.addEventListener("click", (e) => { if (e.target.closest("a")) setOpen(false); });
-    document.addEventListener("keydown", (e) => { if (e.key === "Escape") setOpen(false); });
+    document.addEventListener("keydown", (e) => {
+      if (e.key !== "Escape" || toggle.getAttribute("aria-expanded") !== "true") return;
+      const inside = menu.contains(document.activeElement);
+      setOpen(false);
+      if (inside) toggle.focus();
+    });
   }
 
   // ---- İletişim bağlantıları ----
@@ -135,7 +140,7 @@ const INSTAGRAM_DM = "https://ig.me/m/izmit_palyaco_etkinlikleri";
         : "Mesajınız hazır! Kopyalayıp Instagram'dan bize gönderin.",
       "ok"
     );
-    preview.scrollIntoView({ behavior: "smooth", block: "nearest" });
+    preview.scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "nearest" });
   });
 
   // Bağlantı tıklandığı anda kopyala; sekme tarayıcının kendi bağlantı davranışıyla açılır.

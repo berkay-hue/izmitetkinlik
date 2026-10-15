@@ -1,0 +1,37 @@
+# İzmit Palyaço Etkinlikleri
+
+> Kocaeli ve Sakarya'da doğum günü, sünnet, düğün, okul ve özel günler için palyaço ve animatör hizmeti. Yüz boyama, sosis balon, grup oyunları, mini disco ve köpük baloncuk şovu.
+
+İzmit Palyaço Etkinlikleri, Kocaeli ve Sakarya'da çocuk etkinlikleri için palyaço ve animatör ekibidir. Doğum günü, sünnet düğünü, düğün, nişan, okul ve kreş etkinlikleri, açılışlar ve özel günler için program hazırlar.
+
+- Hizmetler: Palyaço & Animatör, Yüz Boyama, Sosis Balon, Grup Oyunları, Dans & Mini Disco, Köpük Baloncuk Şovu, Kar Spreyi Eğlencesi, Müzikli Eğlence
+- Etkinlik türleri: Doğum Günü, Sünnet Düğünü, Düğün & Nişan, Okul & Kreş, Açılış & Mağaza, Bayram & Özel Günler
+- Hizmet bölgeleri: Kocaeli (İzmit, Gebze, Kartepe, Başiskele, Derince, Körfez, Gölcük, Darıca, Çayırova, Dilovası, Karamürsel, Kandıra); Sakarya (Adapazarı, Serdivan, Erenler, Sapanca, Arifiye). Listede olmayan ilçeler için de sorulabilir.
+- Fiyat: Sabit fiyat listesi yoktur; fiyat etkinlik süresine, çocuk sayısına, seçilen hizmetlere ve konuma göre verilir.
+- Hizmetler tek tek ya da bir arada alınabilir.
+- Instagram: https://www.instagram.com/izmit_palyaco_etkinlikleri/ (mesaj: https://ig.me/m/izmit_palyaco_etkinlikleri)
+- Rezervasyon formu: https://izmitetkinlik.com/#iletisim (form, bilgileri hazır bir mesaja çevirir)
+
+## Ana sayfa
+
+- [Ana sayfa](https://izmitetkinlik.com/): Hizmetler, etkinlik türleri, okul paketleri, bölgeler, sık sorulan sorular ve rezervasyon formu
+- [Hizmetler](https://izmitetkinlik.com/#hizmetler): Palyaço & Animatör, Yüz Boyama, Sosis Balon, Grup Oyunları, Dans & Mini Disco, Köpük Baloncuk Şovu, Kar Spreyi Eğlencesi, Müzikli Eğlence
+- [Etkinlik türleri](https://izmitetkinlik.com/#etkinlikler): Doğum Günü, Sünnet Düğünü, Düğün & Nişan, Okul & Kreş, Açılış & Mağaza, Bayram & Özel Günler
+- [Okullar ve kreşler](https://izmitetkinlik.com/#okullar): Sınıfa özel ve tüm okula özel programlar
+- [Hizmet bölgeleri](https://izmitetkinlik.com/#bolgeler): Kocaeli ve Sakarya ilçeleri
+- [Sık sorulan sorular](https://izmitetkinlik.com/#sss): Fiyatlarınız ne kadar? · Hangi bölgelere geliyorsunuz? · Ne kadar önceden rezervasyon yapmalıyım? · Hizmetleri ayrı ayrı alabilir miyim? · Okullar ve kreşler için paketiniz var mı?
+- [Rezervasyon](https://izmitetkinlik.com/#iletisim): Tarih, yer, çocuk sayısı ve yaş aralığıyla rezervasyon mesajı
+
+## Blog
+
+- [Palyaço ve animatör fiyatını neler belirler?](https://izmitetkinlik.com/blog/palyaco-fiyatini-neler-belirler/): Palyaço fiyatı neye göre değişir, teklif isterken hangi bilgileri yazmalısınız? Kocaeli ve Sakarya'daki veliler ve okullar için kısa bir kontrol listesi.
+- [Kreşte ve anaokulunda yılbaşı kutlaması nasıl planlanır?](https://izmitetkinlik.com/blog/kreste-yilbasi-kutlamasi-nasil-planlanir/): Kreş ve anaokulunda yılbaşı kutlamasını planlarken tema, sınıf sırası, öğretmen hazırlığı, veli notu ve örnek program akışı için pratik bir rehber.
+- [Kışın çocuk doğum günü nerede yapılır? Ev, kafe, salon ve site tesisi](https://izmitetkinlik.com/blog/kisin-cocuk-dogum-gunu-nerede-yapilir/): Kış partisi için mekân seçerken sorulacaklar: kafede dışarıdan animatör izni, sitede yönetim onayı, salonda kurulum saati, ısıtma ve vestiyer.
+- [Evde çocuk doğum günü için dar alanda hangi oyunlar oynanır?](https://izmitetkinlik.com/blog/evde-dogum-gunu-oyunlari-dar-alan/): Küçük bir salonda doğum günü oyunları: hangi oyun ne kadar yer ister, yaşa göre seçim, halat savaşının yeri ve kaybeden çocuk üzülmesin diye ipuçları.
+- [Çocuk doğum günü partisi nasıl planlanır, kaç hafta önce başlanır?](https://izmitetkinlik.com/blog/dogum-gunu-partisi-nasil-planlanir/): Çocuk doğum günü partisi için dört haftalık hazırlık takvimi: tarih, mekân, palyaço, davetiye, pasta, alan hazırlığı ve parti günü akışı.
+
+## Optional
+
+- [Tüm içerik tek dosyada](https://izmitetkinlik.com/llms-full.txt): Ana sayfa metni ve tüm blog yazıları
+- [Blog listesi](https://izmitetkinlik.com/blog/)
+- [RSS](https://izmitetkinlik.com/feed.xml)

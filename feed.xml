@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>İzmit Palyaço Etkinlikleri Blog</title>
+    <link>https://izmitetkinlik.com/blog/</link>
+    <atom:link href="https://izmitetkinlik.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <description>Kocaeli ve Sakarya'da çocuk etkinlikleri, doğum günü, okul şenliği ve özel günler için palyaço ve animatör rehberi.</description>
+    <language>tr-TR</language>
+    <lastBuildDate>Thu, 15 Oct 2026 06:00:00 GMT</lastBuildDate>
+    <item>
+      <title>Palyaço ve animatör fiyatını neler belirler?</title>
+      <link>https://izmitetkinlik.com/blog/palyaco-fiyatini-neler-belirler/</link>
+      <guid isPermaLink="true">https://izmitetkinlik.com/blog/palyaco-fiyatini-neler-belirler/</guid>
+      <pubDate>Thu, 15 Oct 2026 06:00:00 GMT</pubDate>
+      <category>Rehber</category>
+      <description>Palyaço fiyatı neye göre değişir, teklif isterken hangi bilgileri yazmalısınız? Kocaeli ve Sakarya'daki veliler ve okullar için kısa bir kontrol listesi.</description>
+    </item>
+    <item>
+      <title>Kreşte ve anaokulunda yılbaşı kutlaması nasıl planlanır?</title>
+      <link>https://izmitetkinlik.com/blog/kreste-yilbasi-kutlamasi-nasil-planlanir/</link>
+      <guid isPermaLink="true">https://izmitetkinlik.com/blog/kreste-yilbasi-kutlamasi-nasil-planlanir/</guid>
+      <pubDate>Thu, 15 Oct 2026 06:00:00 GMT</pubDate>
+      <category>Okul &amp; Kreş</category>
+      <description>Kreş ve anaokulunda yılbaşı kutlamasını planlarken tema, sınıf sırası, öğretmen hazırlığı, veli notu ve örnek program akışı için pratik bir rehber.</description>
+    </item>
+    <item>
+      <title>Kışın çocuk doğum günü nerede yapılır? Ev, kafe, salon ve site tesisi</title>
+      <link>https://izmitetkinlik.com/blog/kisin-cocuk-dogum-gunu-nerede-yapilir/</link>
+      <guid isPermaLink="true">https://izmitetkinlik.com/blog/kisin-cocuk-dogum-gunu-nerede-yapilir/</guid>
+      <pubDate>Thu, 15 Oct 2026 06:00:00 GMT</pubDate>
+      <category>Doğum Günü</category>
+      <description>Kış partisi için mekân seçerken sorulacaklar: kafede dışarıdan animatör izni, sitede yönetim onayı, salonda kurulum saati, ısıtma ve vestiyer.</description>
+    </item>
+    <item>
+      <title>Evde çocuk doğum günü için dar alanda hangi oyunlar oynanır?</title>
+      <link>https://izmitetkinlik.com/blog/evde-dogum-gunu-oyunlari-dar-alan/</link>
+      <guid isPermaLink="true">https://izmitetkinlik.com/blog/evde-dogum-gunu-oyunlari-dar-alan/</guid>
+      <pubDate>Thu, 15 Oct 2026 06:00:00 GMT</pubDate>
+      <category>Doğum Günü</category>
+      <description>Küçük bir salonda doğum günü oyunları: hangi oyun ne kadar yer ister, yaşa göre seçim, halat savaşının yeri ve kaybeden çocuk üzülmesin diye ipuçları.</description>
+    </item>
+    <item>
+      <title>Çocuk doğum günü partisi nasıl planlanır, kaç hafta önce başlanır?</title>
+      <link>https://izmitetkinlik.com/blog/dogum-gunu-partisi-nasil-planlanir/</link>
+      <guid isPermaLink="true">https://izmitetkinlik.com/blog/dogum-gunu-partisi-nasil-planlanir/</guid>
+      <pubDate>Thu, 15 Oct 2026 06:00:00 GMT</pubDate>
+      <category>Doğum Günü</category>
+      <description>Çocuk doğum günü partisi için dört haftalık hazırlık takvimi: tarih, mekân, palyaço, davetiye, pasta, alan hazırlığı ve parti günü akışı.</description>
+    </item>
+  </channel>
+</rss>
