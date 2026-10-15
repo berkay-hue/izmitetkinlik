@@ -21,10 +21,6 @@
     {
       "q": "Uzak ilçeler için fiyat değişir mi?",
       "a": "Fiyat konuma göre değişir; konum, süre, çocuk sayısı ve seçilen hizmetlerle birlikte fiyatı belirleyen etkenlerden biridir. Kesin bilgi için ilçenizi ve etkinlik yerini yazarak sorun; Kocaeli ve Sakarya'daki hizmet bölgeleri listesinde olmayan bir ilçe için de bize yazabilirsiniz."
-    },
-    {
-      "q": "Okul ve kreş etkinliklerinde fiyat nasıl belirlenir?",
-      "a": "Okul ve kreşlerde program tek bir sınıfa ya da tüm okula özel hazırlanır; fiyat da katılacak çocuk sayısına, süreye, seçilen hizmetlere ve konuma bakılarak verilir. Okula dönüş ve kış dönemlerinde okullara dönemsel kampanyalar oluyor; güncel kampanya için bize yazın."
     }
   ]
 }
@@ -55,7 +51,7 @@ Partinin genel planı için [doğum günü partisi planlama rehberimize](/blog/d
 
 Planlamada fark en çok tek tek yapılan hizmetlerde görülür; çocuk sayısı arttıkça yüz boyama ve sosis balona ayrılan zaman da genellikle uzar. Grup oyunları ve mini disco kalabalıkla daha coşkulu geçebilir, ama oyunların ve alanın da buna göre seçilmesi gerekir.
 
-Okullar için iki ayrı program hazırlıyoruz: tek sınıf ya da grup için palyaço veya animatör, yüz boyama, sosis balon ve eğlenceli oyunlar; tüm okulun katıldığı şenlik için ise kalabalık gruplara uygun ekip, yüz boyama ve sosis balon, dans, mini disco ve oyunlar, baloncuk şovu ve kar spreyi finali. İki programın ayrıntısını [okullar](/#okullar) bölümünde görebilirsiniz. Kreş ya da anaokulunda yılbaşı kutlaması planlıyorsanız [Kreşte ve anaokulunda yılbaşı kutlaması nasıl planlanır?](/blog/kreste-yilbasi-kutlamasi-nasil-planlanir/) yazısı da işinize yarayabilir.
+Okullar için iki ayrı program hazırlıyoruz: tek sınıf ya da grup için palyaço veya animatör, yüz boyama, sosis balon ve eğlenceli oyunlar; tüm okulun katıldığı şenlik için ise kalabalık gruplara uygun ekip, yüz boyama ve sosis balon, dans, mini disco ve oyunlar, baloncuk şovu ve kar spreyi finali. İki programın ayrıntısını [okullar](/#okullar) bölümünde görebilirsiniz.
 
 Çocuk sayısını yazarken şunlara dikkat edin:
 
@@ -86,9 +82,9 @@ Patlayan balon parçalarını hemen toplayın. Patlamış ya da şişirilmemiş 
 
 Teklif isterken ilçenizi ve etkinliğin yapılacağı yeri (ev, bahçe, kafe, salon, okul ya da açık alan) yazın; konum fiyatı belirleyen dört etkenden biridir ve programın nasıl hazırlanacağını da etkiler.
 
-Kocaeli'de İzmit, Gebze, Kartepe, Başiskele, Derince, Körfez, Gölcük, Darıca, Çayırova, Dilovası, Karamürsel ve Kandıra'ya; Sakarya'da Adapazarı, Serdivan, Erenler, Sapanca ve Arifiye'ye hizmet veriyoruz. Listede göremediğiniz bir ilçe için de bize yazabilirsiniz. Bölgeleri [hizmet bölgeleri](/#bolgeler) bölümünde de görebilirsiniz.
+Kocaeli'de İzmit, Gebze, Kartepe, Başiskele, Derince, Körfez, Gölcük, Darıca, Çayırova, Dilovası, Karamürsel ve Kandıra'ya; Sakarya'da Adapazarı, Serdivan, Erenler, Sapanca ve Arifiye'ye hizmet veriyoruz. Listede göremediğiniz bir ilçe için de bize yazabilirsiniz.
 
-Programı etkinliğe göre hazırlıyoruz; dar bir oturma odası ile geniş bir bahçe aynı oyunlara uygun değildir; evde dar bir alan için [dar alanda oynanabilecek oyunlar](/blog/evde-dogum-gunu-oyunlari-dar-alan/) yazımız fikir verebilir. Bahçe ya da açık alan seçtiyseniz havaya karşı kapalı bir yedek yer düşünün ve bunu da yazın. Kışın evde mi, kafede mi, salonda mı karar veremediyseniz [kışın doğum günü mekânı seçme rehberimize](/blog/kisin-cocuk-dogum-gunu-nerede-yapilir/) bakabilirsiniz.
+Programı etkinliğe göre hazırlıyoruz; dar bir oturma odası ile geniş bir bahçe aynı oyunlara uygun değildir. Bahçe ya da açık alan seçtiyseniz havaya karşı kapalı bir yedek yer düşünün ve bunu da yazın.
 
 Kafe ya da salon gibi bir mekân kiraladıysanız, mekânın kurallarını (örneğin dışarıdan animatör kabulü, müzik, kar spreyi ya da kullanım saati konusunda) önceden öğrenmeniz planlamayı kolaylaştırır. Park ya da sitenin ortak alanı gibi bir açık alan düşünüyorsanız belediyenin ya da site yönetiminin izin isteyip istemediğini de önceden sorun.
 
@@ -110,4 +106,4 @@ Hafta sonları, bayramlar ve okul dönemleri yoğun geçer; istediğiniz günü 
 
 ## Fiyat almak için bize yazın
 
-Size özel fiyat almak için [form](/#iletisim) alanlarını doldurun ya da Instagram'dan @izmit_palyaco_etkinlikleri hesabına yazın. Hangi hizmetleri isteyeceğinizden emin değilseniz bunu belirtmeniz yeterli. Diğer merak ettikleriniz için [sık sorulan sorular](/#sss) bölümüne de bakabilirsiniz.
+Size özel fiyat almak için [form](/#iletisim) alanlarını doldurun ya da Instagram'dan @izmit_palyaco_etkinlikleri hesabına yazın. Hangi hizmetleri isteyeceğinizden emin değilseniz bunu belirtmeniz yeterli.

@@ -81,7 +81,7 @@ Son hafta alan planını, oyun ve müzik listesini çıkarın ve alerjileri son 
 - Çocuğunuzun cildi hassassa ya da alerjisi varsa önceden söyleyin; yüz boyamayı atlamak ya da küçük bir alana yapmak mümkün. Balon alerjisi ya da köpük ve kar spreyi konusunda çekinceniz varsa da söyleyin; hizmetler tek tek alınabildiği için bunları programa eklememek mümkün.
 - Patlamış balon parçaları küçük çocuklar için risklidir. Sosis balonları gözetimde verin, balonun ve parçaların ağza alınmamasına dikkat edin, patlayan parçaları hemen toplayın.
 
-Eğlenceyi kendiniz yönetecekseniz ya da programa kendi oyunlarınızı ekleyecekseniz oyunları yaşa göre seçin: 3–5 yaş grubunda kısa ve basit oyunlar, 6–9 yaş grubunda yarışmalı oyunlar genellikle daha çok ilgi görür. Sandalye kapmaca eleme usulüyle oynandığı için elenen küçük çocuk üzülebilir; elenenlere alkış ya da müziği durdurmak gibi bir görev verin ve sağlam sandalyeler kullanın. Halat savaşı için bahçe ya da geniş bir alan gerekir. Eviniz küçükse [evde dar alanda oynanabilecek doğum günü oyunları](/blog/evde-dogum-gunu-oyunlari-dar-alan/) yazısına bakabilirsiniz.
+Eğlenceyi kendiniz yönetecekseniz ya da programa kendi oyunlarınızı ekleyecekseniz oyunları yaşa göre seçin: 3–5 yaş grubunda kısa ve basit oyunlar, 6–9 yaş grubunda yarışmalı oyunlar genellikle daha çok ilgi görür. Sandalye kapmaca eleme usulüyle oynandığı için elenen küçük çocuk üzülebilir; elenenlere alkış ya da müziği durdurmak gibi bir görev verin ve sağlam sandalyeler kullanın. Halat savaşı için bahçe ya da geniş bir alan gerekir.
 
 Kendi çalacağınız listeye çocuğunuzun sevdiği birkaç şarkıyı ekleyin; "A ram zam zam" ya da "Çu çu va" gibi hareketli şarkılar çocukları kolayca dansa kaldırır.
 
@@ -110,5 +110,3 @@ Parti biter bitmez önce küçük kardeşler için tehlikeli olabilecek patlamı
 ## Palyaço ya da animatör için bize yazın
 
 Partinizin tarihi belli olduysa palyaço ya da animatör için erkenden yazmanız, istediğiniz günü bulmanızı kolaylaştırır. Bize ulaşmak için [form](/#iletisim) bölümünü doldurun. Form etkinlik türü, tarih, saat, ilçe ya da yer, çocuk sayısı, yaş aralığı ve istediğiniz hizmetleri sorar ve bilgilerinizi hazır bir mesaja çevirir. Bu mesajı Instagram'dan @izmit_palyaco_etkinlikleri hesabına gönderin; program ve fiyat bu yazışmada netleşir.
-
-Kocaeli ve Sakarya'da hizmet verdiğimiz ilçeleri [bölgeler](/#bolgeler) bölümünde, doğum gününün yapılabileceği yerleri ve diğer etkinlik türlerini [etkinlikler](/#etkinlikler) bölümünde, merak edilenleri de [sık sorulan sorular](/#sss) bölümünde bulabilirsiniz.

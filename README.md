@@ -10,7 +10,7 @@ GitHub Pages'te `main` dalının kökünden yayınlanır; `main`'e gönderilen h
 - `assets/style.css`, `assets/main.js` — tasarım; mobil menü, rezervasyon formu, WhatsApp/telefon ayarı.
   Yazı tipi olarak cihazın kendi yazı tipleri kullanılır; dış yazı tipi servisine istek gitmez.
 - `content/blog/*.md` — blog yazılarının kaynağı
-- `content/konular.json` — sıradaki yazı konuları (haftalık görev buradan seçer)
+- `content/konular.json` — sıradaki yazı konuları (günlük görev buradan seçer)
 - `content/YAZIM-REHBERI.md` — yazı kuralları: ton, yapı, yazılmayacak iddialar
 - `tools/build.mjs` — yazılardan sayfaları ve yapay zeka/arama dosyalarını üretir
 - `tools/check.mjs` — yayından önce denetler (kırık bağlantı, şema, sitede olmayan iddia…)
@@ -83,13 +83,14 @@ Tarihi ileride olan bir yazının sayfası, o tarihten sonraki ilk build'de yeni
 onu da adıyla eklemeyi unutmayın.
 Betik, canlıdaki sayfa yeni sürümle aynı olana kadar (en çok ~5 dk) bekler, sonra bildirir.
 
-## Haftalık otomatik yazı
+## Günlük otomatik yazı
 
-Claude masaüstü uygulamasında haftalık zamanlanmış bir görev her salı 10:00'da şunları yapar:
+Claude masaüstü uygulamasında zamanlanmış bir görev her gün 10:00'da şunları yapar:
 
 1. `content/konular.json`'dan konu seçer: `durum` = `bekliyor` ve `planlanan` ≤ bugün olanlardan `planlanan` tarihi en eski olan.
    Mevsimlik bir konunun `son_tarih`i geçmişse yazılmaz; `planlanan` ve `son_tarih` bir yıl ileri alınır, sıradakine geçilir.
-   Uygun konu yoksa o hafta yazı çıkmaz. Haftada en çok bir yazı çıkar.
+   Tarihi gelmiş konu yoksa sıradaki `bekliyor` konuyu öne alır. Günde en çok bir yazı çıkar.
+   Sırada 14'ten az konu kalırsa rehbere uyan yeni genel konular ekler.
 2. Rehbere göre yazar (`duzeltme` notu önce gelir, `yazilmayacaklar` kesin yasak) ve dürüstlük açısından kendini denetler.
 3. `build` ve `check` çalıştırır; 0 hata yoksa yayınlamaz. Herhangi bir adımda durursa yaptığı değişiklikleri geri alır
    ve taslağı geçici bir klasörde bırakıp raporlar.

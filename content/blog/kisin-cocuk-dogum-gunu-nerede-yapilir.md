@@ -94,7 +94,7 @@ Salon sahibine şunları da sorun:
 
 ## Palyaço ve animatör programı mekâna göre nasıl değişir?
 
-Programı etkinliğe ve mekâna göre birlikte planlıyoruz; bu yüzden aynı doğum günü evde ve salonda farklı ilerleyebilir. İzmit Palyaço Etkinlikleri olarak evde, bahçede, kafede ya da salonda yapılan doğum günlerine geliyor ve programı etkinliğe göre hazırlıyoruz. Bize yazarken mekânı ve alanı kısaca anlatmanız planlamayı kolaylaştırır. Etkinlik türlerini [etkinlikler](/#etkinlikler) bölümünde görebilirsiniz.
+Programı etkinliğe ve mekâna göre birlikte planlıyoruz; bu yüzden aynı doğum günü evde ve salonda farklı ilerleyebilir. İzmit Palyaço Etkinlikleri olarak evde, bahçede, kafede ya da salonda yapılan doğum günlerine geliyor ve programı etkinliğe göre hazırlıyoruz. Bize yazarken mekânı ve alanı kısaca anlatmanız planlamayı kolaylaştırır.
 
 Mekâna göre şunları birlikte düşünmek gerekir:
 
@@ -110,4 +110,4 @@ Alan çok darsa yalnızca bir ya da iki hizmet de seçebilirsiniz, örneğin sos
 
 Tarihiniz belliyse, mekân henüz kesinleşmemiş olsa da [form](/#iletisim) üzerinden bize yazabilirsiniz. Form etkinlik türünü, tarihi, saati, ilçe ve yeri, çocuk sayısını, yaş aralığını ve istediğiniz hizmetleri sorar; bilgileri hazır bir mesaja çevirir. Bu mesajı Instagram'dan (@izmit_palyaco_etkinlikleri) bize gönderebilirsiniz.
 
-Mekânın tipini ve kurallarını, örneğin dışarıdan animatör kabulünü, müziğe izin verilen saatleri ya da kar spreyi iznini formun not alanına eklerseniz programı buna göre planlarız. Sabit bir fiyat listemiz yok; fiyat süreye, çocuk sayısına, seçilen hizmetlere ve konuma göre verilir. Ayrıntısını [palyaço fiyatını neler belirler](/blog/palyaco-fiyatini-neler-belirler/) yazısında anlattık. Kocaeli ve Sakarya'da hizmet verdiğimiz ilçeleri [bölgeler](/#bolgeler) bölümünde görebilirsiniz; listede olmayan bir ilçe için de sorabilirsiniz. Hafta sonları, bayramlar ve okul dönemleri yoğun geçtiği için mümkün olduğunca erken yazmanızı öneririz.
+Mekânın tipini ve kurallarını, örneğin dışarıdan animatör kabulünü, müziğe izin verilen saatleri ya da kar spreyi iznini formun not alanına eklerseniz programı buna göre planlarız. Sabit bir fiyat listemiz yok; fiyat süreye, çocuk sayısına, seçilen hizmetlere ve konuma göre verilir. Hizmet verdiğimiz ilçeler dışında kalan bir yer için de sorabilirsiniz. Hafta sonları, bayramlar ve okul dönemleri yoğun geçtiği için mümkün olduğunca erken yazmanızı öneririz.

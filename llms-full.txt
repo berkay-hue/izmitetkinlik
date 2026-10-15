@@ -250,7 +250,7 @@ Partinin genel planı için [doğum günü partisi planlama rehberimize](https:/
 
 Planlamada fark en çok tek tek yapılan hizmetlerde görülür; çocuk sayısı arttıkça yüz boyama ve sosis balona ayrılan zaman da genellikle uzar. Grup oyunları ve mini disco kalabalıkla daha coşkulu geçebilir, ama oyunların ve alanın da buna göre seçilmesi gerekir.
 
-Okullar için iki ayrı program hazırlıyoruz: tek sınıf ya da grup için palyaço veya animatör, yüz boyama, sosis balon ve eğlenceli oyunlar; tüm okulun katıldığı şenlik için ise kalabalık gruplara uygun ekip, yüz boyama ve sosis balon, dans, mini disco ve oyunlar, baloncuk şovu ve kar spreyi finali. İki programın ayrıntısını [okullar](https://izmitetkinlik.com/#okullar) bölümünde görebilirsiniz. Kreş ya da anaokulunda yılbaşı kutlaması planlıyorsanız [Kreşte ve anaokulunda yılbaşı kutlaması nasıl planlanır?](https://izmitetkinlik.com/blog/kreste-yilbasi-kutlamasi-nasil-planlanir/) yazısı da işinize yarayabilir.
+Okullar için iki ayrı program hazırlıyoruz: tek sınıf ya da grup için palyaço veya animatör, yüz boyama, sosis balon ve eğlenceli oyunlar; tüm okulun katıldığı şenlik için ise kalabalık gruplara uygun ekip, yüz boyama ve sosis balon, dans, mini disco ve oyunlar, baloncuk şovu ve kar spreyi finali. İki programın ayrıntısını [okullar](https://izmitetkinlik.com/#okullar) bölümünde görebilirsiniz.
 
 Çocuk sayısını yazarken şunlara dikkat edin:
 
@@ -281,9 +281,9 @@ Patlayan balon parçalarını hemen toplayın. Patlamış ya da şişirilmemiş 
 
 Teklif isterken ilçenizi ve etkinliğin yapılacağı yeri (ev, bahçe, kafe, salon, okul ya da açık alan) yazın; konum fiyatı belirleyen dört etkenden biridir ve programın nasıl hazırlanacağını da etkiler.
 
-Kocaeli'de İzmit, Gebze, Kartepe, Başiskele, Derince, Körfez, Gölcük, Darıca, Çayırova, Dilovası, Karamürsel ve Kandıra'ya; Sakarya'da Adapazarı, Serdivan, Erenler, Sapanca ve Arifiye'ye hizmet veriyoruz. Listede göremediğiniz bir ilçe için de bize yazabilirsiniz. Bölgeleri [hizmet bölgeleri](https://izmitetkinlik.com/#bolgeler) bölümünde de görebilirsiniz.
+Kocaeli'de İzmit, Gebze, Kartepe, Başiskele, Derince, Körfez, Gölcük, Darıca, Çayırova, Dilovası, Karamürsel ve Kandıra'ya; Sakarya'da Adapazarı, Serdivan, Erenler, Sapanca ve Arifiye'ye hizmet veriyoruz. Listede göremediğiniz bir ilçe için de bize yazabilirsiniz.
 
-Programı etkinliğe göre hazırlıyoruz; dar bir oturma odası ile geniş bir bahçe aynı oyunlara uygun değildir; evde dar bir alan için [dar alanda oynanabilecek oyunlar](https://izmitetkinlik.com/blog/evde-dogum-gunu-oyunlari-dar-alan/) yazımız fikir verebilir. Bahçe ya da açık alan seçtiyseniz havaya karşı kapalı bir yedek yer düşünün ve bunu da yazın. Kışın evde mi, kafede mi, salonda mı karar veremediyseniz [kışın doğum günü mekânı seçme rehberimize](https://izmitetkinlik.com/blog/kisin-cocuk-dogum-gunu-nerede-yapilir/) bakabilirsiniz.
+Programı etkinliğe göre hazırlıyoruz; dar bir oturma odası ile geniş bir bahçe aynı oyunlara uygun değildir. Bahçe ya da açık alan seçtiyseniz havaya karşı kapalı bir yedek yer düşünün ve bunu da yazın.
 
 Kafe ya da salon gibi bir mekân kiraladıysanız, mekânın kurallarını (örneğin dışarıdan animatör kabulü, müzik, kar spreyi ya da kullanım saati konusunda) önceden öğrenmeniz planlamayı kolaylaştırır. Park ya da sitenin ortak alanı gibi bir açık alan düşünüyorsanız belediyenin ya da site yönetiminin izin isteyip istemediğini de önceden sorun.
 
@@ -303,10 +303,6 @@ Hafta sonları, bayramlar ve okul dönemleri yoğun geçer; istediğiniz günü 
 
 > Birden fazla yerden teklif alıyorsanız herkese aynı bilgileri verin; her teklifin hangi hizmetleri, ne kadar süreyi ve kaç kişilik ekibi kapsadığını, ulaşımın dahil olup olmadığını sorun. Kapsamı aynı olmayan iki teklifin fiyatını yan yana koymak yanıltıcı olur.
 
-## Fiyat almak için bize yazın
-
-Size özel fiyat almak için [form](https://izmitetkinlik.com/#iletisim) alanlarını doldurun ya da Instagram'dan @izmit_palyaco_etkinlikleri hesabına yazın. Hangi hizmetleri isteyeceğinizden emin değilseniz bunu belirtmeniz yeterli. Diğer merak ettikleriniz için [sık sorulan sorular](https://izmitetkinlik.com/#sss) bölümüne de bakabilirsiniz.
-
 ## Sık sorulan sorular
 
 ### Palyaço fiyatları sitede neden yer almıyor?
@@ -325,9 +321,9 @@ Evet. Tarihi, saati, yeri, çocuk sayısını ve yaş aralığını yazın; size
 
 Fiyat konuma göre değişir; konum, süre, çocuk sayısı ve seçilen hizmetlerle birlikte fiyatı belirleyen etkenlerden biridir. Kesin bilgi için ilçenizi ve etkinlik yerini yazarak sorun; Kocaeli ve Sakarya'daki hizmet bölgeleri listesinde olmayan bir ilçe için de bize yazabilirsiniz.
 
-### Okul ve kreş etkinliklerinde fiyat nasıl belirlenir?
+## Fiyat almak için bize yazın
 
-Okul ve kreşlerde program tek bir sınıfa ya da tüm okula özel hazırlanır; fiyat da katılacak çocuk sayısına, süreye, seçilen hizmetlere ve konuma bakılarak verilir. Okula dönüş ve kış dönemlerinde okullara dönemsel kampanyalar oluyor; güncel kampanya için bize yazın.
+Size özel fiyat almak için [form](https://izmitetkinlik.com/#iletisim) alanlarını doldurun ya da Instagram'dan @izmit_palyaco_etkinlikleri hesabına yazın. Hangi hizmetleri isteyeceğinizden emin değilseniz bunu belirtmeniz yeterli.
 
 ---
 
@@ -358,7 +354,7 @@ Kutlamadan önceki hafta sınıfta yapılan küçük bir hazırlık günü daha 
 - Patlayan balon parçalarını ve şişirilmemiş balonları hemen toplayacak birini görevlendirin; çocukların balonu ağzına almaması ve ısırmaması için gözetim önemlidir.
 - Program bittiğinde çocukların nereye geçeceğini (sınıf, yemek, servis) netleştirin.
 
-Sınıf dar kalıyorsa yerinde oynanabilecek oyunlar seçmek gerekir; [evde dar alanda oynanabilecek oyunlar](https://izmitetkinlik.com/blog/evde-dogum-gunu-oyunlari-dar-alan/) yazısındaki fikirlerin birçoğu sınıfa da uyar.
+Sınıf dar kalıyorsa koşturmaca gerektirmeyen, yerinde oynanabilecek oyunlar seçmek gerekir.
 
 ## Sınıfların sırası nasıl belirlenir?
 
@@ -411,11 +407,7 @@ Tarihi, okulun iç takvimi (veli toplantısı, gösteri ya da tatil günleri) be
 
 Okullara yönelik dönemsel kampanyalar için bize yazabilirsiniz. Sabit bir fiyat listemiz yok; fiyat süreye, çocuk sayısına, seçilen hizmetlere ve konuma göre verilir. Bu etkenlerin fiyatı nasıl etkilediğini [palyaço ve animatör fiyatını neler belirler](https://izmitetkinlik.com/blog/palyaco-fiyatini-neler-belirler/) yazısında bulabilirsiniz.
 
-Okulunuzun bulunduğu ilçeyi [hizmet bölgeleri](https://izmitetkinlik.com/#bolgeler) listesinden kontrol edebilirsiniz. Listede göremediğiniz bir ilçe için de bize sorabilirsiniz.
-
-## Kreş yılbaşı programı için bize yazın
-
-Okulunuzun yılbaşı kutlamasını planlamak için [form](https://izmitetkinlik.com/#iletisim) üzerinden etkinlik türünü, tarihi, saati, ilçeyi, çocuk sayısını, yaş aralığını ve istediğiniz hizmetleri paylaşın. Form bilgilerinizi hazır bir mesaja çevirir; bu mesajı Instagram'dan (@izmit_palyaco_etkinlikleri) bize gönderebilirsiniz. Sınıf sayısını ve okulun saat çizelgesini de mesajınıza eklerseniz programı birlikte netleştirmek kolaylaşır.
+Okulunuzun bulunduğu ilçeyi mesajınızda belirtin; hizmet bölgelerimiz dışında kalan bir ilçe için de bize sorabilirsiniz.
 
 ## Sık sorulan sorular
 
@@ -434,6 +426,10 @@ Bu, okulun kurallarına ve sınıftaki çocuklara göre okulun vereceği bir kar
 ### Kalabalıktan çekinen bir çocuk için ne yapılabilir?
 
 Çekingen bir çocuğu katılmaya zorlamamak daha doğru olur; öğretmeninin yanında izlemesine izin verin. Bazı çocuklar bir süre izledikten sonra kendiliğinden oyuna katılabilir, katılmasa da sorun değildir. Balon tutmak gibi küçük bir görev de cesaret verebilir.
+
+## Kreş yılbaşı programı için bize yazın
+
+Okulunuzun yılbaşı kutlamasını planlamak için [form](https://izmitetkinlik.com/#iletisim) üzerinden etkinlik türünü, tarihi, saati, ilçeyi, çocuk sayısını, yaş aralığını ve istediğiniz hizmetleri paylaşın. Form bilgilerinizi hazır bir mesaja çevirir; bu mesajı Instagram'dan (@izmit_palyaco_etkinlikleri) bize gönderebilirsiniz. Sınıf sayısını ve okulun saat çizelgesini de mesajınıza eklerseniz programı birlikte netleştirmek kolaylaşır.
 
 ---
 
@@ -513,7 +509,7 @@ Salon sahibine şunları da sorun:
 
 ## Palyaço ve animatör programı mekâna göre nasıl değişir?
 
-Programı etkinliğe ve mekâna göre birlikte planlıyoruz; bu yüzden aynı doğum günü evde ve salonda farklı ilerleyebilir. İzmit Palyaço Etkinlikleri olarak evde, bahçede, kafede ya da salonda yapılan doğum günlerine geliyor ve programı etkinliğe göre hazırlıyoruz. Bize yazarken mekânı ve alanı kısaca anlatmanız planlamayı kolaylaştırır. Etkinlik türlerini [etkinlikler](https://izmitetkinlik.com/#etkinlikler) bölümünde görebilirsiniz.
+Programı etkinliğe ve mekâna göre birlikte planlıyoruz; bu yüzden aynı doğum günü evde ve salonda farklı ilerleyebilir. İzmit Palyaço Etkinlikleri olarak evde, bahçede, kafede ya da salonda yapılan doğum günlerine geliyor ve programı etkinliğe göre hazırlıyoruz. Bize yazarken mekânı ve alanı kısaca anlatmanız planlamayı kolaylaştırır.
 
 Mekâna göre şunları birlikte düşünmek gerekir:
 
@@ -524,12 +520,6 @@ Mekâna göre şunları birlikte düşünmek gerekir:
 - **Final:** Kar spreyi eğlencesi genellikle partinin finalidir. Kapalı alanda düşünüyorsanız pasta mumlarının söndürülüp kaldırılmış olmasına, ortamın havalandırılmasına, ısıtıcı ve sobadan uzak durulmasına ve spreyin çocukların yüzüne sıkılmamasına dikkat edin.
 
 Alan çok darsa yalnızca bir ya da iki hizmet de seçebilirsiniz, örneğin sosis balon ya da yüz boyama. [Hizmetlerimiz](https://izmitetkinlik.com/#hizmetler) tek tek ya da bir arada alınabilir; süreyi de birlikte belirliyoruz.
-
-## Kış doğum günü için bize nasıl yazabilirsiniz?
-
-Tarihiniz belliyse, mekân henüz kesinleşmemiş olsa da [form](https://izmitetkinlik.com/#iletisim) üzerinden bize yazabilirsiniz. Form etkinlik türünü, tarihi, saati, ilçe ve yeri, çocuk sayısını, yaş aralığını ve istediğiniz hizmetleri sorar; bilgileri hazır bir mesaja çevirir. Bu mesajı Instagram'dan (@izmit_palyaco_etkinlikleri) bize gönderebilirsiniz.
-
-Mekânın tipini ve kurallarını, örneğin dışarıdan animatör kabulünü, müziğe izin verilen saatleri ya da kar spreyi iznini formun not alanına eklerseniz programı buna göre planlarız. Sabit bir fiyat listemiz yok; fiyat süreye, çocuk sayısına, seçilen hizmetlere ve konuma göre verilir. Ayrıntısını [palyaço fiyatını neler belirler](https://izmitetkinlik.com/blog/palyaco-fiyatini-neler-belirler/) yazısında anlattık. Kocaeli ve Sakarya'da hizmet verdiğimiz ilçeleri [bölgeler](https://izmitetkinlik.com/#bolgeler) bölümünde görebilirsiniz; listede olmayan bir ilçe için de sorabilirsiniz. Hafta sonları, bayramlar ve okul dönemleri yoğun geçtiği için mümkün olduğunca erken yazmanızı öneririz.
 
 ## Sık sorulan sorular
 
@@ -548,6 +538,12 @@ Mekânın ve seçtiğiniz tarihin yoğunluğuna göre değişir; hafta sonları,
 ### Kar ya da buzlanma olursa doğum günü için ne yapmalı?
 
 Kışın hava son anda bozulabilir; davetiyede gerekirse haber vereceğinizi yazın ve misafirlerin ulaşımını göz önünde bulundurun. Mekânın erteleme ve iptal koşullarını rezervasyon sırasında sorun; tarih değişikliği gerekirse bize de olabildiğince erken yazın.
+
+## Kış doğum günü için bize nasıl yazabilirsiniz?
+
+Tarihiniz belliyse, mekân henüz kesinleşmemiş olsa da [form](https://izmitetkinlik.com/#iletisim) üzerinden bize yazabilirsiniz. Form etkinlik türünü, tarihi, saati, ilçe ve yeri, çocuk sayısını, yaş aralığını ve istediğiniz hizmetleri sorar; bilgileri hazır bir mesaja çevirir. Bu mesajı Instagram'dan (@izmit_palyaco_etkinlikleri) bize gönderebilirsiniz.
+
+Mekânın tipini ve kurallarını, örneğin dışarıdan animatör kabulünü, müziğe izin verilen saatleri ya da kar spreyi iznini formun not alanına eklerseniz programı buna göre planlarız. Sabit bir fiyat listemiz yok; fiyat süreye, çocuk sayısına, seçilen hizmetlere ve konuma göre verilir. Hizmet verdiğimiz ilçeler dışında kalan bir yer için de sorabilirsiniz. Hafta sonları, bayramlar ve okul dönemleri yoğun geçtiği için mümkün olduğunca erken yazmanızı öneririz.
 
 ---
 
@@ -628,15 +624,11 @@ Takım oyunlarını öne çıkarmak ve elenen çocuğa görev vermek, doğum gü
 
 ## Oyunları animatöre bırakmak ne zaman mantıklı?
 
-Yaşlar karışıksa ya da siz misafirlerle ve ikramla ilgilenmek istiyorsanız grup oyunlarını ve dansı bir animatöre bırakmak genellikle işinizi kolaylaştırır. Evdeki bir partide aynı anda misafir karşılamak, ikram hazırlamak, pastayı getirmek ve oyunları yönetmek tek kişi için zordur. Animatör odayı büyütmez; ev çocuk sayısına dar geliyorsa ev, kafe ve salon seçeneklerini karşılaştırdığımız [kışın çocuk doğum günü nerede yapılır](https://izmitetkinlik.com/blog/kisin-cocuk-dogum-gunu-nerede-yapilir/) yazısına bakabilirsiniz.
+Yaşlar karışıksa ya da siz misafirlerle ve ikramla ilgilenmek istiyorsanız grup oyunlarını ve dansı bir animatöre bırakmak genellikle işinizi kolaylaştırır. Evdeki bir partide aynı anda misafir karşılamak, ikram hazırlamak, pastayı getirmek ve oyunları yönetmek tek kişi için zordur. Animatör odayı büyütmez; ev çocuk sayısına dar geliyorsa kafe ya da salon gibi seçenekleri de düşünmek gerekir.
 
 İzmit Palyaço Etkinlikleri'nin [grup oyunları](https://izmitetkinlik.com/#hizmetler) arasında halat savaşı, sandalye kapmaca ve yumurta maratonu var. Dans ve mini discoda "A ram zam zam" ve "Çu çu va" gibi hareketli şarkılar ile dans maratonu yer alıyor. Doğum günlerinde evde, bahçede, kafede ya da salonda çalışıyor, programı etkinliğinize göre hazırlıyoruz; hangi oyunların evinize ya da bahçenize uygun olduğunu birlikte seçebiliriz. Hizmetler tek tek ya da bir arada alınabilir; yalnızca grup oyunlarını ya da bunlarla birlikte yüz boyama ve sosis balon isteyebilirsiniz. Süreyi birlikte belirliyoruz.
 
 Sabit bir fiyat listemiz yok; fiyat süreye, çocuk sayısına, seçilen hizmetlere ve konuma göre verilir. Hangi etkenlerin fiyatı değiştirdiğini [palyaço ve animatör fiyatını neler belirler](https://izmitetkinlik.com/blog/palyaco-fiyatini-neler-belirler/) yazısında anlattık.
-
-## Evde doğum günü programı için bize yazın
-
-Evde doğum günü için oyun programı planlıyorsanız bize yazın. Sitedeki [form](https://izmitetkinlik.com/#iletisim) etkinlik türünü, tarihi, saati, ilçe ya da yeri, çocuk sayısını, yaş aralığını ve istediğiniz hizmetleri sorar; bilgileri hazır bir mesaja çevirir. Mesajı Instagram'dan @izmit_palyaco_etkinlikleri hesabına gönderebilirsiniz. Odanızın büyüklüğünü ve bahçe olup olmadığını mesajınıza eklerseniz programı etkinliğinize göre birlikte planlamak kolaylaşır. Hafta sonları yoğun geçtiği için mümkün olduğunca erken yazmanızı öneririz. Hizmet verdiğimiz ilçeleri [bölgeler](https://izmitetkinlik.com/#bolgeler) bölümünde görebilirsiniz.
 
 ## Sık sorulan sorular
 
@@ -656,9 +648,9 @@ Sağlam sandalyeler, kaşıklar, plastik yumurta ya da pinpon topu, kâğıt ban
 
 Genellikle hareketli oyunlar pastadan önce oynanır; pasta ve ikramdan sonra daha sakin oyunlara, istenirse sonunda mini disco ile kapanışa geçilir. İkram sırasında oyuna ara verin; çocuklar ağızlarında yiyecekle koşmasın ya da dans etmesin. Mumlar yanarken çocukları pastanın biraz gerisinde toplayın, balon ve süsleri mumdan uzak tutun.
 
-### Yaşları karışık çocuklar aynı oyunu nasıl oynar?
+## Evde doğum günü programı için bize yazın
 
-Takımları karışık kurup her büyük çocuğu bir küçüğe eş yapmak genellikle işe yarar; büyük çocuk kuralı hatırlatır, küçük oyundan kopmaz. Kuralı yaşa göre hafifletmek de mümkündür; örneğin müzikli heykelde büyüklerden daha zor bir poz istenir, küçükler serbestçe donar.
+Evde doğum günü için oyun programı planlıyorsanız bize yazın. Sitedeki [form](https://izmitetkinlik.com/#iletisim) etkinlik türünü, tarihi, saati, ilçe ya da yeri, çocuk sayısını, yaş aralığını ve istediğiniz hizmetleri sorar; bilgileri hazır bir mesaja çevirir. Mesajı Instagram'dan @izmit_palyaco_etkinlikleri hesabına gönderebilirsiniz. Odanızın büyüklüğünü ve bahçe olup olmadığını mesajınıza eklerseniz programı etkinliğinize göre birlikte planlamak kolaylaşır. Hafta sonları yoğun geçtiği için mümkün olduğunca erken yazmanızı öneririz.
 
 ---
 
@@ -725,7 +717,7 @@ Son hafta alan planını, oyun ve müzik listesini çıkarın ve alerjileri son 
 - Çocuğunuzun cildi hassassa ya da alerjisi varsa önceden söyleyin; yüz boyamayı atlamak ya da küçük bir alana yapmak mümkün. Balon alerjisi ya da köpük ve kar spreyi konusunda çekinceniz varsa da söyleyin; hizmetler tek tek alınabildiği için bunları programa eklememek mümkün.
 - Patlamış balon parçaları küçük çocuklar için risklidir. Sosis balonları gözetimde verin, balonun ve parçaların ağza alınmamasına dikkat edin, patlayan parçaları hemen toplayın.
 
-Eğlenceyi kendiniz yönetecekseniz ya da programa kendi oyunlarınızı ekleyecekseniz oyunları yaşa göre seçin: 3–5 yaş grubunda kısa ve basit oyunlar, 6–9 yaş grubunda yarışmalı oyunlar genellikle daha çok ilgi görür. Sandalye kapmaca eleme usulüyle oynandığı için elenen küçük çocuk üzülebilir; elenenlere alkış ya da müziği durdurmak gibi bir görev verin ve sağlam sandalyeler kullanın. Halat savaşı için bahçe ya da geniş bir alan gerekir. Eviniz küçükse [evde dar alanda oynanabilecek doğum günü oyunları](https://izmitetkinlik.com/blog/evde-dogum-gunu-oyunlari-dar-alan/) yazısına bakabilirsiniz.
+Eğlenceyi kendiniz yönetecekseniz ya da programa kendi oyunlarınızı ekleyecekseniz oyunları yaşa göre seçin: 3–5 yaş grubunda kısa ve basit oyunlar, 6–9 yaş grubunda yarışmalı oyunlar genellikle daha çok ilgi görür. Sandalye kapmaca eleme usulüyle oynandığı için elenen küçük çocuk üzülebilir; elenenlere alkış ya da müziği durdurmak gibi bir görev verin ve sağlam sandalyeler kullanın. Halat savaşı için bahçe ya da geniş bir alan gerekir.
 
 Kendi çalacağınız listeye çocuğunuzun sevdiği birkaç şarkıyı ekleyin; "A ram zam zam" ya da "Çu çu va" gibi hareketli şarkılar çocukları kolayca dansa kaldırır.
 
@@ -751,12 +743,6 @@ Parti biter bitmez önce küçük kardeşler için tehlikeli olabilecek patlamı
 - Teşekkür mesajını parti günü ya da ertesi gün gönderin. Mesajı çocuğunuzla birlikte hazırlayabilirsiniz; küçük yaşlarda kısa bir sesli mesaj kolaydır.
 - Fotoğraf paylaşacaksanız, başka çocukların göründüğü kareler için ailelerinin onayını alın.
 
-## Palyaço ya da animatör için bize yazın
-
-Partinizin tarihi belli olduysa palyaço ya da animatör için erkenden yazmanız, istediğiniz günü bulmanızı kolaylaştırır. Bize ulaşmak için [form](https://izmitetkinlik.com/#iletisim) bölümünü doldurun. Form etkinlik türü, tarih, saat, ilçe ya da yer, çocuk sayısı, yaş aralığı ve istediğiniz hizmetleri sorar ve bilgilerinizi hazır bir mesaja çevirir. Bu mesajı Instagram'dan @izmit_palyaco_etkinlikleri hesabına gönderin; program ve fiyat bu yazışmada netleşir.
-
-Kocaeli ve Sakarya'da hizmet verdiğimiz ilçeleri [bölgeler](https://izmitetkinlik.com/#bolgeler) bölümünde, doğum gününün yapılabileceği yerleri ve diğer etkinlik türlerini [etkinlikler](https://izmitetkinlik.com/#etkinlikler) bölümünde, merak edilenleri de [sık sorulan sorular](https://izmitetkinlik.com/#sss) bölümünde bulabilirsiniz.
-
 ## Sık sorulan sorular
 
 ### Palyaço ne kadar önceden ayırtılmalı?
@@ -774,3 +760,7 @@ Hafta sonları ve bayramlarda mekânlara, pastanelere, palyaço ve animatörlere
 ### Doğum günü partisi için hangi saat daha uygundur?
 
 Küçük çocuklarda öğle uykusu ve yemek saatlerine denk gelmeyen bir saat genellikle daha rahat geçer. Okul çağındaki çocuklar için hafta sonu öğleden sonraları genellikle uygundur; bitiş saatini davetiyede belirtmeyi unutmayın.
+
+## Palyaço ya da animatör için bize yazın
+
+Partinizin tarihi belli olduysa palyaço ya da animatör için erkenden yazmanız, istediğiniz günü bulmanızı kolaylaştırır. Bize ulaşmak için [form](https://izmitetkinlik.com/#iletisim) bölümünü doldurun. Form etkinlik türü, tarih, saat, ilçe ya da yer, çocuk sayısı, yaş aralığı ve istediğiniz hizmetleri sorar ve bilgilerinizi hazır bir mesaja çevirir. Bu mesajı Instagram'dan @izmit_palyaco_etkinlikleri hesabına gönderin; program ve fiyat bu yazışmada netleşir.

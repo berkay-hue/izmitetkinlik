@@ -367,6 +367,18 @@ function postCard(p, level = "h3") {
         </article>`;
 }
 
+// Yazı içi SSS: her soru görünür bir ### başlık (yapay zeka ve arama motorları için açık soru-cevap).
+function postFaqHtml(faq) {
+  return faq.map((f) => `          <h3>${esc(f.q)}</h3>
+          <p>${inline(f.a)}</p>`).join("\n");
+}
+
+// Gövdeyi son "## " bölümünden (kapanış / rezervasyon çağrısı) önce ikiye ayırır; SSS araya girer.
+function splitBeforeLast(text, marker) {
+  const i = text.lastIndexOf(marker);
+  return i > 0 ? [text.slice(0, i).trimEnd(), text.slice(i)] : [text, ""];
+}
+
 function faqHtml(faq) {
   return faq.map((f) => `          <details>
             <summary>${esc(f.q)}</summary>
@@ -410,11 +422,13 @@ function renderPost(p, all) {
     `  <meta property="article:modified_time" content="${p.modified}">`,
     `  <meta property="article:section" content="${esc(CATEGORIES[p.category])}">`,
   ].join("\n");
+  const tocItems = [...p.toc.slice(0, -1), { id: "sss-baslik", text: "Sık sorulan sorular" }, ...p.toc.slice(-1)];
+  const [bodyMain, bodyEnd] = splitBeforeLast(p.html, "<h2");
   const toc = p.toc.length >= 3
     ? `
         <nav class="toc" aria-label="Bu yazıda">
           <strong>Bu yazıda</strong>
-          <ol>${p.toc.map((t) => `<li><a href="#${t.id}">${inline(t.text)}</a></li>`).join("")}</ol>
+          <ol>${tocItems.map((t) => `<li><a href="#${t.id}">${inline(t.text)}</a></li>`).join("")}</ol>
         </nav>`
     : "";
   const updated = p.modified !== p.date ? ` · Güncellendi: <time datetime="${p.modified}">${trDate(p.modified)}</time>` : "";
@@ -439,16 +453,18 @@ ${header("/blog/", "true")}
         </div>
 ${toc}
         <div class="prose">
-${p.html}
+${bodyMain}
         </div>
 
-        <section class="post-faq" aria-labelledby="sss-baslik">
+        <section class="post-faq prose" aria-labelledby="sss-baslik">
           <h2 id="sss-baslik">Sık sorulan sorular</h2>
-          <div class="faq">
-${faqHtml(p.faq)}
-          </div>
+${postFaqHtml(p.faq)}
         </section>
-
+${bodyEnd ? `
+        <div class="prose">
+${bodyEnd}
+        </div>
+` : ""}
         <aside class="cta-box">
           <h2>Etkinliğiniz için tarih ayıralım</h2>
           <p>Tarih, yer, çocuk sayısı ve yaş aralığını yazın; size uygun programı ve fiyatı iletelim. Hizmet verdiğimiz ilçeler için <a href="/#bolgeler">bölgeler</a> bölümüne bakın.</p>
@@ -639,11 +655,14 @@ Yayın: ${p.date}${p.modified !== p.date ? ` · Güncelleme: ${p.modified}` : ""
 
 **Kısa cevap:** ${abs(p.answer)}
 
-${abs(p.body)}
+${(() => {
+  const [main, end] = splitBeforeLast(abs(p.body), "\n## ");
+  return `${main}
 
 ## Sık sorulan sorular
 
-${p.faq.map((f) => `### ${f.q}\n\n${abs(f.a)}`).join("\n\n")}`);
+${p.faq.map((f) => `### ${f.q}\n\n${abs(f.a)}`).join("\n\n")}${end ? `\n${end}` : ""}`;
+})()}`);
   }
   return parts.join("\n\n") + "\n";
 }
