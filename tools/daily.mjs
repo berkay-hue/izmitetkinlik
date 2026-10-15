@@ -4,6 +4,8 @@
 // content/blog/<slug>.md'yi yazar, konuyu "yayinlandi" yapar, build + check çalıştırır.
 // check hata verirse hataları Claude'a verip bir kez daha dener; yine olmazsa her şeyi geri alır ve 1 ile çıkar.
 // Günde en çok bir yazı: bugün tarihli yazı varsa hiçbir şey yapmaz.
+// Sırada 14'ten az genel konu kalırsa Claude'a rehbere uyan yeni genel konular ürettirir, denetleyip konular.json'a ekler
+// (konu üretimi başarısız olursa yazı yine yayınlanır, yalnızca uyarı çıkar).
 //
 // Kullanım:
 //   node tools/daily.mjs          # yaz (ANTHROPIC_API_KEY gerekir)
@@ -80,7 +82,102 @@ function pickTopic(data, day) {
   const byPlan = [...waiting].sort((a, b) => a.planlanan.localeCompare(b.planlanan));
   // Tarihi gelmiş en eski konu; yoksa sıradaki konu öne alınır.
   const topic = byPlan.find((k) => k.planlanan <= day) || byPlan[0];
-  return { topic, rolled: [...new Set(rolled)], left: waiting.length - 1 };
+  return { topic, rolled: [...new Set(rolled)] };
+}
+
+// ---------- konu üretimi ----------
+// Genel konu: son_tarih ve ay alanı olmayan, her yıl geçerli konu. bolge dışarıda: gerçek yer adı riski.
+const MIN_GENEL = 14;
+const HEDEF_GENEL = 28;
+const ANCHORS = ["/#hizmetler", "/#etkinlikler", "/#okullar", "/#bolgeler", "/#sss", "/#iletisim"];
+const YENI_KATEGORI = Object.keys(CATEGORIES).filter((c) => c !== "bolge");
+const isGenel = (k) => k.durum === "bekliyor" && !k.son_tarih && !k.ay;
+const addDays = (d, n) => new Date(Date.parse(`${d}T00:00:00Z`) + n * 864e5).toISOString().slice(0, 10);
+
+function topicsPrompt(data, day, n, fix) {
+  const list = data.konular.map((k) => `- ${k.slug} [${k.durum}] ${k.title}`).join("\n");
+  let s = `Sen izmitetkinlik.com (İzmit Palyaço Etkinlikleri) blogu için konu planlıyorsun. Bugün ${day}.
+
+Aşağıdaki yazım rehberine uyan ${n} YENİ blog konusu öner. Konular, ebeveynlerin, okul ve kreş öğretmenlerinin gerçekten arattığı sorulara cevap versin.
+Kurallar:
+- Her yıl geçerli genel konular olsun: belirli bir tarihe, bayrama, mevsime ya da yıla bağlı olmasın.
+- Mevcut konuların hiçbirini tekrar etme, yalnızca kelimelerini değiştirip aynı soruyu sorma.
+- İşletme hakkında yalnızca rehberdeki "Kullanılabilecek kesin bilgiler"e dayan. Sitede olmayan hizmet, fiyat, süre, ekip ya da sertifika gerektiren konu önerme.
+- Gerçek mekân, kurum, kişi, marka ya da işletme adı kullanma. Belirli bir ilçe ya da yer üzerine konu önerme. Tıbbi ya da hukuki tavsiye gerektiren konu önerme.
+- category şunlardan biri: ${YENI_KATEGORI.join(", ")}. Çoğunluk dogum-gunu, rehber ve okul-kres olsun.
+- link_targets: şunlardan 2–4 tanesi: ${ANCHORS.join(", ")}. Sonuncusu "/#iletisim" olsun.
+- title: en çok 75 karakter, soru biçiminde, "?" ile biter. slug: title'ın küçük harf, Türkçe karaktersiz, tireli kısa hali (en çok 60 karakter).
+- outline: 4–7 madde. faq: 3–4 kısa soru, her biri "?" ile biter. yazilmayacaklar: bu konuya özgü yazılmaması gereken iddialar.
+
+<rehber>
+${read("content/YAZIM-REHBERI.md")}
+</rehber>
+
+Mevcut konular (tekrar etme):
+${list}
+
+Yanıt olarak YALNIZCA bir JSON dizisi döndür (öncesinde ya da sonrasında metin, kod bloğu işareti yok):
+[{"slug": "...", "title": "...?", "question": "...", "category": "...", "link_targets": ["/#..."], "outline": ["..."], "faq": ["...?"], "yazilmayacaklar": "..."}]`;
+  if (fix) s += `\n\nÖnceki önerin şu hatalarla reddedildi:\n${fix.errors}\n\nÖnceki yanıtın:\n${fix.reply}\n\nHatalı konuları düzelt ya da yenisiyle değiştir ve ${n} konuluk tam diziyi yeniden döndür.`;
+  return s;
+}
+
+function checkTopics(arr, data, n) {
+  if (!Array.isArray(arr)) return ["Yanıt bir JSON dizisi değil."];
+  const errs = [];
+  const seen = new Set(data.konular.map((k) => k.slug));
+  const titles = new Set(data.konular.map((k) => k.title.toLocaleLowerCase("tr")));
+  if (arr.length < n) errs.push(`${n} konu istendi, ${arr.length} geldi.`);
+  arr.forEach((k, i) => {
+    const e = (m) => errs.push(`${i + 1}. konu (${k?.slug || "?"}): ${m}`);
+    if (!k || typeof k !== "object") return e("nesne değil");
+    if (typeof k.slug !== "string" || !/^[a-z0-9]+(-[a-z0-9]+)*$/.test(k.slug) || k.slug.length > 60) e("slug küçük harf, rakam ve tire olmalı, en çok 60 karakter");
+    else if (seen.has(k.slug) || fs.existsSync(path.join(ROOT, `content/blog/${k.slug}.md`))) e("slug zaten var");
+    seen.add(k.slug);
+    if (typeof k.title !== "string" || k.title.length > 75 || !k.title.trim().endsWith("?")) e("title en çok 75 karakter olmalı ve ? ile bitmeli");
+    else if (titles.has(k.title.toLocaleLowerCase("tr"))) e("aynı başlık zaten var");
+    if (typeof k.question !== "string" || !k.question.trim()) e("question yok");
+    if (!YENI_KATEGORI.includes(k.category)) e(`category şunlardan biri olmalı: ${YENI_KATEGORI.join(", ")}`);
+    if (!Array.isArray(k.link_targets) || k.link_targets.length < 2 || k.link_targets.length > 4 || k.link_targets.some((t) => !ANCHORS.includes(t)) || new Set(k.link_targets).size !== k.link_targets.length) e(`link_targets ${ANCHORS.join(", ")} arasından 2–4 farklı adres olmalı`);
+    if (!Array.isArray(k.outline) || k.outline.length < 4 || k.outline.length > 7 || k.outline.some((o) => typeof o !== "string" || !o.trim())) e("outline 4–7 madde olmalı");
+    if (!Array.isArray(k.faq) || k.faq.length < 3 || k.faq.length > 4 || k.faq.some((q) => typeof q !== "string" || !q.trim().endsWith("?"))) e("faq 3–4 soru olmalı, her biri ? ile bitmeli");
+    if (typeof k.yazilmayacaklar !== "string" || !k.yazilmayacaklar.trim()) e("yazilmayacaklar yok");
+    if ("son_tarih" in k || "ay" in k) e("genel konu son_tarih ya da ay içermez");
+  });
+  return errs;
+}
+
+// Konu listesini doldurur; eklenen konuların slug'larını döndürür, olmazsa hata fırlatır.
+async function refillTopics(data, day) {
+  const genel = data.konular.filter(isGenel);
+  const n = HEDEF_GENEL - genel.length;
+  let fix = null;
+  for (let attempt = 1; attempt <= 2; attempt++) {
+    let text = "";
+    let errs;
+    let arr;
+    try {
+      text = await claude(topicsPrompt(data, day, n, fix));
+      arr = JSON.parse(text.slice(text.indexOf("["), text.lastIndexOf("]") + 1));
+      errs = checkTopics(arr, data, n);
+    } catch (e) {
+      errs = [e.message];
+    }
+    if (!errs.length) {
+      let last = genel.map((k) => k.planlanan).sort().pop() || day;
+      if (last < day) last = day;
+      const added = arr.slice(0, n).map((k) => {
+        last = addDays(last, 1);
+        return { slug: k.slug, durum: "bekliyor", planlanan: last, title: k.title.trim(), question: k.question.trim(), category: k.category, link_targets: k.link_targets, outline: k.outline.map((o) => o.trim()), faq: k.faq.map((q) => q.trim()), yazilmayacaklar: k.yazilmayacaklar.trim(), kaynak: "otomatik" };
+      });
+      data.konular.push(...added);
+      fs.writeFileSync(path.join(ROOT, KONULAR), JSON.stringify(data, null, 2) + "\n");
+      return added;
+    }
+    console.log(`Konu üretimi deneme ${attempt}:\n${errs.join("\n")}`);
+    fix = { errors: errs.join("\n"), reply: text.slice(0, 20000) };
+  }
+  throw new Error("İki denemede de geçerli konu listesi çıkmadı.");
 }
 
 // ---------- istem ----------
@@ -159,7 +256,7 @@ if (todays && !DRY) {
 if (git("status", "--porcelain").trim()) fail("Çalışma ağacı temiz değil; geri alma güvenli olmadığı için durduruldu.");
 
 const data = JSON.parse(read(KONULAR));
-const { topic, rolled, left } = pickTopic(data, day);
+const { topic, rolled } = pickTopic(data, day);
 if (!topic) fail(`${KONULAR}'da "bekliyor" konu kalmadı; yeni konu ekleyin.`);
 if (!CATEGORIES[topic.category]) fail(`${topic.slug}: geçersiz category "${topic.category}".`);
 if (fs.existsSync(path.join(ROOT, `content/blog/${topic.slug}.md`))) fail(`content/blog/${topic.slug}.md zaten var; konunun durumunu düzeltin.`);
@@ -200,7 +297,22 @@ if (!meta) {
 }
 
 console.log(`\nBaşlık: ${meta.title}\nAnswer: ${meta.answer}\nSSS:\n${meta.faq.map((f) => `- ${f.q}`).join("\n")}`);
-if (left < 14) console.log(`\nUyarı: sırada ${left} "bekliyor" konu kaldı; ${KONULAR}'a yeni konu ekleyin.`);
+const genelLeft = data.konular.filter(isGenel).length;
+if (genelLeft < MIN_GENEL) {
+  console.log(`\nSırada ${genelLeft} genel konu kaldı; ${HEDEF_GENEL - genelLeft} yeni konu üretiliyor.`);
+  const before = data.konular.length;
+  try {
+    const added = await refillTopics(data, day);
+    const c = run("check.mjs");
+    if (!c.ok) throw new Error(`konular eklendikten sonra check başarısız:\n${c.out.slice(-2000)}`);
+    console.log(`Eklenen konular:\n${added.map((k) => `- ${k.planlanan} ${k.title}`).join("\n")}`);
+  } catch (e) {
+    // Yazı geçerli; yalnızca konu dosyası eski haline döner.
+    data.konular.length = before;
+    fs.writeFileSync(path.join(ROOT, KONULAR), JSON.stringify(data, null, 2) + "\n");
+    console.log(`::warning::Yeni konu eklenemedi: ${e.message}`);
+  }
+}
 if (DRY) {
   restore();
   console.log("\n--dry: build ve check geçti, değişiklikler geri alındı.");
