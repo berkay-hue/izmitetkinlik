@@ -790,7 +790,7 @@ ${FOOTER}`;
 
 function renderAbout() {
   const url = `${SITE}/hakkimizda/`;
-  const description = "İzmit Palyaço Etkinlikleri kimdir? Kocaeli ve Sakarya'da 5–6 kişilik palyaço ve animatör ekibiyle doğum günü, okul ve özel gün etkinlikleri yapıyoruz.";
+  const description = "İzmit Palyaço Etkinlikleri kimdir? 6 yıldır Kocaeli ve Sakarya'da 5–6 kişilik palyaço ve animatör ekibiyle doğum günü, okul ve özel gün etkinlikleri yapıyoruz.";
   const graph = { "@context": "https://schema.org", "@graph": [
     { "@type": "AboutPage", name: "Hakkımızda", url, inLanguage: "tr-TR", about: ORG_REF, publisher: ORG_REF },
     crumbs([["Ana sayfa", `${SITE}/`], ["Hakkımızda"]]),
@@ -803,7 +803,7 @@ ${header("/hakkimizda/")}
         <header class="section-head">
           <p class="eyebrow">Hakkımızda</p>
           <h1>Biz kimiz?</h1>
-          <p>İzmit merkezli bir palyaço ve animatör ekibiyiz. Kocaeli ve Sakarya'da doğum günü, sünnet, düğün, okul ve özel gün etkinliklerinde çocukları eğlendiriyoruz.</p>
+          <p>İzmit merkezli bir palyaço ve animatör ekibiyiz. 6 yıldır Kocaeli ve Sakarya'da doğum günü, sünnet, düğün, okul ve özel gün etkinliklerinde çocukları eğlendiriyoruz.</p>
         </header>
 
         <h2>Tek palyaço değil, 5–6 kişilik ekip</h2>

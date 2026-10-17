@@ -229,7 +229,7 @@ for (const page of pages) {
   }
 
   // Berkay'ın onayıyla (18 Ekim 2026): galeride yüzleri emojiyle kapatılmış /assets/galeri/ fotoğrafları,
-  // hakkımızda sayfasında "5–6 kişilik" kadro bilgisi. Başka sayfada ya da başka görselde kural aynen geçerli.
+  // hakkımızda sayfasında "5–6 kişilik" kadro ve "6 yıldır" deneyim bilgisi. Başka sayfada ya da başka görselde kural aynen geçerli.
   let scanned = html;
   if (page === "galeri/index.html") {
     for (const [, src] of html.matchAll(/<img\b[^>]*\ssrc="([^"]+)"/g)) {
@@ -238,7 +238,7 @@ for (const page of pages) {
     }
     scanned = scanned.replace(/<img\b[^>]*\ssrc="\/assets\/galeri\/[^"]+"[^>]*>/g, "");
   }
-  if (page === "hakkimizda/index.html") scanned = scanned.replace(/5–6 kişilik (?:ekip|kadro)/g, "");
+  if (page === "hakkimizda/index.html") scanned = scanned.replace(/5–6 kişilik (?:ekip|kadro)|6 yıldır/g, "");
   scanClaims(page, scanned);
 }
 
