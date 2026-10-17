@@ -159,6 +159,7 @@ for (const p of all) {
 const pages = ["index.html"];
 if (exists("404.html")) pages.push("404.html");
 if (exists("blog/index.html")) pages.push("blog/index.html");
+for (const f of ["galeri/index.html", "hakkimizda/index.html"]) if (exists(f)) pages.push(f);
 if (exists("blog")) {
   for (const d of fs.readdirSync(path.join(ROOT, "blog"), { withFileTypes: true })) {
     if (!d.isDirectory()) continue;
@@ -227,7 +228,18 @@ for (const page of pages) {
     if (img.startsWith(SITE) && !resolveFile(img.slice(SITE.length))) err(page, `og:image dosyası yok: ${img}`);
   }
 
-  scanClaims(page, html);
+  // Berkay'ın onayıyla (18 Ekim 2026): galeride yüzleri emojiyle kapatılmış /assets/galeri/ fotoğrafları,
+  // hakkımızda sayfasında "5–6 kişilik" kadro ve "6 yıldır" deneyim bilgisi. Başka sayfada ya da başka görselde kural aynen geçerli.
+  let scanned = html;
+  if (page === "galeri/index.html") {
+    for (const [, src] of html.matchAll(/<img\b[^>]*\ssrc="([^"]+)"/g)) {
+      if (!src.startsWith("/assets/galeri/")) continue;
+      if (!resolveFile(src)) err(page, `eksik görsel: ${src}`);
+    }
+    scanned = scanned.replace(/<img\b[^>]*\ssrc="\/assets\/galeri\/[^"]+"[^>]*>/g, "");
+  }
+  if (page === "hakkimizda/index.html") scanned = scanned.replace(/5–6 kişilik (?:ekip|kadro)|6 yıldır/g, "");
+  scanClaims(page, scanned);
 }
 
 // ---------- llms.txt, sitemap, feed, robots ----------

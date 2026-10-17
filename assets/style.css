@@ -446,3 +446,14 @@ p { margin: 0 0 1em; }
   .cta-box { padding: 22px; }
   .cta-row .btn { flex: 1 1 100%; }
 }
+
+/* galeri */
+.gallery-group { margin: 0 0 48px; }
+.gallery-group h2 { margin-bottom: .3em; }
+.gallery { columns: 3 260px; column-gap: 14px; }
+.gallery figure { margin: 0 0 14px; break-inside: avoid; }
+.gallery img { display: block; width: 100%; height: auto; border-radius: var(--radius); background: var(--tint); }
+.event h3 a { color: inherit; text-decoration: none; }
+.event h3 a::after { content: " →"; color: var(--red, #e63946); }
+.event:has(h3 a) { position: relative; }
+.event h3 a::before { content: ""; position: absolute; inset: 0; }
