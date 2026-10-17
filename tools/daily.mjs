@@ -62,7 +62,8 @@ async function claude(prompt, maxTokens = 16000) {
 function clip(str, max) {
   let t = str.slice(0, max + 1);
   t = t.slice(0, t.lastIndexOf(" ") > 0 ? t.lastIndexOf(" ") : max);
-  return t.replace(/[\s,;:–—-]+$/u, "").replace(/\s+(ve|ile|veya|ya da|için)$/iu, "").trim();
+  for (let prev = ""; prev !== t; ) { prev = t; t = t.replace(/\s+(ve|ile|veya|ya da|için)$/iu, "").replace(/[\s,;:–—-]+$/u, ""); }
+  return t.trim();
 }
 
 // check.mjs ile aynı sınırlar: title ≤60, description 70–155. Son denemede değilse
@@ -77,8 +78,8 @@ function checkLengths(o, last) {
   if (!last) throw new Error(`Uzunluk sınırı aşıldı: ${errs.join("; ")}`);
   if (o.title.length > 60) {
     // Önce soru ya da iki nokta sonrası eki at ("...? Ek" / "Ana: Ek"), yoksa kelime sınırında kırp.
-    const q = o.title.slice(0, 61).lastIndexOf("?");
-    const c = o.title.slice(0, 61).lastIndexOf(":");
+    const q = o.title.slice(0, 60).lastIndexOf("?");
+    const c = o.title.slice(0, 60).lastIndexOf(":");
     o.title = q >= 19 ? o.title.slice(0, q + 1) : c >= 20 ? o.title.slice(0, c).trim() : clip(o.title, 60);
     console.log(`title kırpıldı: ${o.title}`);
   }
