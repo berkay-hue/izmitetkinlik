@@ -1,6 +1,6 @@
 ---
 {
-  "title": "Kışın çocuk doğum günü nerede yapılır? Ev, kafe, salon ve site tesisi",
+  "title": "Kışın çocuk doğum günü nerede yapılır? Ev, kafe veya salon",
   "description": "Kış partisi için mekân seçerken sorulacaklar: kafede dışarıdan animatör izni, sitede yönetim onayı, salonda kurulum saati, ısıtma ve vestiyer.",
   "date": "2026-10-15",
   "category": "dogum-gunu",
