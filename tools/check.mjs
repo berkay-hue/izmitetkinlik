@@ -93,12 +93,12 @@ for (const p of all) {
   if (!/^[a-z0-9]+(-[a-z0-9]+)*$/.test(p.slug)) err(w, `dosya adı (slug) yalnızca küçük harf, rakam ve tire içermeli: "${p.slug}"`);
   if (p.slug.length > 80) warn(w, "dosya adı çok uzun (80 karakterden fazla)");
   if (typeof p.title !== "string" || p.title.length < 20) err(w, "title en az 20 karakter olmalı");
-  else if (p.title.length > 75) warn(w, `title ${p.title.length} karakter; 75'i geçmesin`);
+  else if (p.title.length > 60) err(w, `title ${p.title.length} karakter; en çok 60 olmalı (site adı eki hariç)`);
   const tkey = String(p.title).toLocaleLowerCase("tr-TR");
   if (titles.has(tkey)) err(w, `aynı başlık ${titles.get(tkey)} dosyasında da var`);
   titles.set(tkey, w);
   const dl = String(p.description).length;
-  if (dl < 70 || dl > 170) err(w, `description ${dl} karakter; 70–170 arası olmalı`);
+  if (dl < 70 || dl > 155) err(w, `description ${dl} karakter; 70–155 arası olmalı`);
   const al = String(p.answer).length;
   if (al < 60) err(w, `answer (kısa cevap) ${al} karakter; en az 60 olmalı`);
   else if (al < 150 || al > 350) warn(w, `answer ${al} karakter; 150–350 arası olmalı`);
