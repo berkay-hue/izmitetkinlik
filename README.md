@@ -30,7 +30,7 @@ GitHub Pages'te `main` dalının kökünden yayınlanır; `main`'e gönderilen h
 ---
 {
   "title": "İzmit'te çocuk doğum günü nasıl planlanır?",
-  "description": "Arama sonucunda görünen 70–170 karakterlik özet.",
+  "description": "Arama sonucunda görünen 70–155 karakterlik özet.",
   "date": "2026-10-20",
   "category": "dogum-gunu",
   "answer": "Sayfanın başında 'Kısa cevap' kutusunda çıkan 1–3 cümle. Yapay zeka asistanları çoğunlukla bunu alıntılar.",

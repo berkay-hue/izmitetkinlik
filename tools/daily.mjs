@@ -106,7 +106,7 @@ Kurallar:
 - Gerçek mekân, kurum, kişi, marka ya da işletme adı kullanma. Belirli bir ilçe ya da yer üzerine konu önerme. Tıbbi ya da hukuki tavsiye gerektiren konu önerme.
 - category şunlardan biri: ${YENI_KATEGORI.join(", ")}. Çoğunluk dogum-gunu, rehber ve okul-kres olsun.
 - link_targets: şunlardan 2–4 tanesi: ${ANCHORS.join(", ")}. Sonuncusu "/#iletisim" olsun.
-- title: en çok 75 karakter, soru biçiminde, "?" ile biter. slug: title'ın küçük harf, Türkçe karaktersiz, tireli kısa hali (en çok 60 karakter).
+- title: en çok 60 karakter, soru biçiminde, "?" ile biter. slug: title'ın küçük harf, Türkçe karaktersiz, tireli kısa hali (en çok 60 karakter).
 - outline: 4–7 madde. faq: 3–4 kısa soru, her biri "?" ile biter. yazilmayacaklar: bu konuya özgü yazılmaması gereken iddialar.
 
 <rehber>
@@ -134,7 +134,7 @@ function checkTopics(arr, data, n) {
     if (typeof k.slug !== "string" || !/^[a-z0-9]+(-[a-z0-9]+)*$/.test(k.slug) || k.slug.length > 60) e("slug küçük harf, rakam ve tire olmalı, en çok 60 karakter");
     else if (seen.has(k.slug) || fs.existsSync(path.join(ROOT, `content/blog/${k.slug}.md`))) e("slug zaten var");
     seen.add(k.slug);
-    if (typeof k.title !== "string" || k.title.length > 75 || !k.title.trim().endsWith("?")) e("title en çok 75 karakter olmalı ve ? ile bitmeli");
+    if (typeof k.title !== "string" || k.title.length > 60 || !k.title.trim().endsWith("?")) e("title en çok 60 karakter olmalı ve ? ile bitmeli");
     else if (titles.has(k.title.toLocaleLowerCase("tr"))) e("aynı başlık zaten var");
     if (typeof k.question !== "string" || !k.question.trim()) e("question yok");
     if (!YENI_KATEGORI.includes(k.category)) e(`category şunlardan biri olmalı: ${YENI_KATEGORI.join(", ")}`);

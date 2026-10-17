@@ -20,10 +20,10 @@ Blog yazıları bu kurallara göre yazılır. Günlük otomatik görev de, elle 
 
 ## Yapı
 
-- **Başlık** (`title`): gerçek bir arama sorusu gibi, en çok 75 karakter. Örnek: "Okulda 23 Nisan etkinliği nasıl planlanır?"
+- **Başlık** (`title`): gerçek bir arama sorusu gibi, en çok 60 karakter (" | İzmit Palyaço Etkinlikleri" eki sayılmaz, onu site ekler). Örnek: "Okulda 23 Nisan etkinliği nasıl planlanır?"
 - **Kısa cevap** (`answer`): 2–3 cümle, yaklaşık 150–350 karakter. Başlığın hemen altında giriş olarak görünür; ilk cümle başlıktaki soruya doğrudan, kendi başına cevap verir.
   Yapay zeka asistanları çoğunlukla bu kutuyu alıntılar; "aşağıda anlatıyoruz" gibi sayfaya bağımlı ifade kullanmayın.
-- **Açıklama** (`description`): 70–170 karakter, arama sonucunda görünen özet.
+- **Açıklama** (`description`): 70–155 karakter, arama sonucunda görünen özet.
 - **Gövde:**
   - Gövde doğrudan bir `##` başlıkla başlar (giriş paragrafı yok; giriş kısa cevap kutusudur).
   - 4–7 `##` ara başlık; en az 2'si soru biçiminde (`?` ile biter), diğerleri net bir konu.
