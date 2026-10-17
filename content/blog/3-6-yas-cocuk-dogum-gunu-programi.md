@@ -1,7 +1,7 @@
 ---
 {
   "title": "3-6 yaş çocuk doğum günü programı nasıl sıralanır?",
-  "description": "3-6 yaş doğum gününde oyun, yüz boyama, sosis balon ve mini disco nasıl sıralanır? Davetli, sıra bekleme ve herkesin kazandığı oyunlar için pratik öneriler.",
+  "description": "3-6 yaş doğum gününde oyun, yüz boyama, sosis balon ve mini disco nasıl sıralanır? Sıra bekleme ve herkesin kazandığı oyunlar için öneriler.",
   "date": "2026-10-16",
   "category": "dogum-gunu",
   "answer": "3-6 yaş doğum gününde program genellikle karşılama, basit bir ısınma oyunu, yüz boyama ya da sosis balon, mini disco ve en sonda pasta şeklinde sıralanır. Bu yaşta oyunların kısa, kurallarının basit ve herkesin kazandığı türden olması partiyi kolaylaştırır.",

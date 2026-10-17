@@ -1,6 +1,6 @@
 ---
 {
-  "title": "Çocuk doğum günü partisi nasıl planlanır, kaç hafta önce başlanır?",
+  "title": "Çocuk doğum günü partisi kaç hafta önce planlanır?",
   "description": "Çocuk doğum günü partisi için dört haftalık hazırlık takvimi: tarih, mekân, palyaço, davetiye, pasta, alan hazırlığı ve parti günü akışı.",
   "date": "2026-10-15",
   "category": "dogum-gunu",
