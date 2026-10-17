@@ -194,7 +194,7 @@
     },
     {
       "slug": "palyaco-kac-saat-kalmali",
-      "durum": "bekliyor",
+      "durum": "yayinlandi",
       "planlanan": "2026-10-17",
       "title": "Doğum Gününde Palyaço Ne Kadar Kalmalı?",
       "question": "Çocuk doğum gününde palyaço ya da animatör ne kadar kalmalı, süreyi neler belirler?",
@@ -220,7 +220,8 @@
         "Parti sırasında süre uzatılabilir mi?"
       ],
       "yazilmayacaklar": "Sabit paket süresi, saatlik fiyat ya da 'X çocuk = X saat' gibi kesin formül verme; 'duruma göre değişir, birlikte netleştiririz' çizgisinde kal. Rakiplerin paket tablolarını ya da piyasa fiyatlarını aktarma. Süre uzatma kuralı doğrulanmadıysa kesin politika yazma, sormaya yönlendir. Gövdede, başlıkta ve SSS'de rakamlı süre yazma ('1 saat', '2 saatlik', '30 dakika' gibi); denetleyici bunları reddeder. Süreyi 'kısa', 'daha uzun', 'çocuk sayısına göre uzar' gibi sayısız ifadelerle anlat.",
-      "duzeltme": "Use the 1-2 / 3-6 / 7-10 bands, keep each to 2-3 sentences and link it to the matching age post. Keep the post about what drives duration: çocuk sayısı, yüz boyama/sosis balon sırası, mekân, pasta/ikram araları. Replace the FAQ with 'Çocuk sayısı programın süresini nasıl etkiler?'"
+      "duzeltme": "Use the 1-2 / 3-6 / 7-10 bands, keep each to 2-3 sentences and link it to the matching age post. Keep the post about what drives duration: çocuk sayısı, yüz boyama/sosis balon sırası, mekân, pasta/ikram araları. Replace the FAQ with 'Çocuk sayısı programın süresini nasıl etkiler?'",
+      "yayin": "2026-10-17"
     },
     {
       "slug": "evde-cocuk-dogum-gunu-partisi-nasil-yapilir",
