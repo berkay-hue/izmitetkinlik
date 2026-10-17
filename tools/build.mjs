@@ -250,6 +250,8 @@ const NAV = [
   ["/#okullar", "Okullar"],
   ["/#bolgeler", "Bölgeler"],
   ["/#sss", "SSS"],
+  ["/galeri/", "Galeri"],
+  ["/hakkimizda/", "Hakkımızda"],
   ["/blog/", "Blog"],
 ];
 
@@ -331,6 +333,8 @@ const FOOTER = `
         <a href="/#hizmetler">Hizmetler</a>
         <a href="/#etkinlikler">Etkinlikler</a>
         <a href="/#okullar">Okullar</a>
+        <a href="/galeri/">Galeri</a>
+        <a href="/hakkimizda/">Hakkımızda</a>
         <a href="/blog/">Blog</a>
         <a href="/#iletisim">Rezervasyon</a>
         <a href="${IG}" target="_blank" rel="noopener">Instagram</a>
@@ -707,6 +711,7 @@ function renderSitemap(posts) {
   const latest = posts.length ? posts.map((p) => p.modified).sort().at(-1) : null;
   const homeDate = [gitDate("index.html"), latest].filter(Boolean).sort().at(-1);
   const urls = [[`${SITE}/`, homeDate]];
+  urls.push([`${SITE}/galeri/`, gitDate("galeri/index.html")], [`${SITE}/hakkimizda/`, gitDate("hakkimizda/index.html")]);
   if (posts.length) urls.push([`${SITE}/blog/`, latest]);
   for (const p of posts) urls.push([p.url, p.modified]);
   return `<?xml version="1.0" encoding="UTF-8"?>
@@ -740,6 +745,92 @@ ${header("")}
 ${FOOTER}`;
 }
 
+// ---------- galeri / hakkımızda ----------
+// Fotoğraflardaki tüm yüzler (palyaçolar dahil) emojiyle kapatılır; isim, okul adı gibi yazılar kırpılır ya da kapatılır.
+const GALLERY = [
+  { id: "dogum-gunu", title: "Doğum Günü", emoji: "🎂", note: "Evde, bahçede, parkta ve salonda yaptığımız doğum günlerinden kareler.",
+    photos: [["01", 900, 1200], ["03", 900, 675], ["05", 900, 507], ["06", 900, 1200], ["07", 900, 1200], ["08", 900, 1600], ["09", 900, 1200], ["10", 900, 1429], ["11", 900, 675], ["12", 900, 1200], ["13", 900, 1200], ["14", 900, 1200], ["15", 900, 1200], ["16", 900, 1200], ["17", 900, 1200], ["18", 900, 1200], ["19", 900, 1200], ["20", 900, 1200], ["21", 900, 1200], ["22", 900, 750]] },
+  { id: "okul", title: "Okul &amp; Kreş", emoji: "🏫", note: "Okul şenliklerinde kostümlü karakterler ve palyaçolarla.", photos: [["02", 900, 768]] },
+  { id: "diger", title: "Sünnet, Düğün, Açılış ve Özel Günler", emoji: "🎉", note: "Bu etkinliklerin fotoğraflarını yakında ekliyoruz. Örnek görmek isterseniz Instagram'dan yazın.", photos: [] },
+];
+
+function renderGallery() {
+  const url = `${SITE}/galeri/`;
+  const description = "Kocaeli ve Sakarya'da yaptığımız doğum günü ve okul etkinliklerinden fotoğraflar. Çocukların ve ekibimizin yüzleri gizlilik için emojiyle kapatıldı.";
+  const graph = { "@context": "https://schema.org", "@graph": [
+    { "@type": "CollectionPage", name: "Etkinlik galerisi", url, inLanguage: "tr-TR", publisher: ORG_REF },
+    crumbs([["Ana sayfa", `${SITE}/`], ["Galeri"]]),
+  ] };
+  const sections = GALLERY.map((g) => `        <section class="gallery-group" id="${g.id}">
+          <h2><span aria-hidden="true">${g.emoji}</span> ${g.title}</h2>
+          <p>${esc(g.note)}</p>
+${g.photos.length ? `          <div class="gallery">
+${g.photos.map(([n, w, h]) => `            <figure><img src="/assets/galeri/${n}.webp" width="${w}" height="${h}" loading="lazy" decoding="async" alt="${g.id === "okul" ? "Okul şenliğinde kostümlü karakterler ve çocuklar" : "Doğum günü etkinliğinden bir kare"}, yüzler emojiyle kapatılmış"></figure>`).join("\n")}
+          </div>` : `          <p><a class="btn btn-ghost" href="${IG}" target="_blank" rel="noopener">Instagram'da örneklere bakın</a></p>`}
+        </section>`).join("\n");
+  return `${head({ title: `Etkinlik Galerisi | ${NAME}`, description, url, graph })}
+${header("/galeri/")}
+  <main id="icerik">
+    <section class="section">
+      <div class="wrap">
+        <header class="section-head">
+          <p class="eyebrow">Galeri</p>
+          <h1>Yaptığımız etkinliklerden kareler</h1>
+          <p>Çocukların ve ekibimizin yüzlerini gizlilik için emojiyle kapattık. Fotoğraflarda farklı palyaçolar görmeniz normal: <a href="/hakkimizda/">tek kişi değil, ekip olarak çalışıyoruz</a>.</p>
+        </header>
+${sections}
+        <div class="hero-cta">
+          <a class="btn btn-red btn-lg" href="/#iletisim">Rezervasyon yap</a>
+        </div>
+      </div>
+    </section>
+  </main>
+${FOOTER}`;
+}
+
+function renderAbout() {
+  const url = `${SITE}/hakkimizda/`;
+  const description = "İzmit Palyaço Etkinlikleri kimdir? Kocaeli ve Sakarya'da 5–6 kişilik palyaço ve animatör ekibiyle doğum günü, okul ve özel gün etkinlikleri yapıyoruz.";
+  const graph = { "@context": "https://schema.org", "@graph": [
+    { "@type": "AboutPage", name: "Hakkımızda", url, inLanguage: "tr-TR", about: ORG_REF, publisher: ORG_REF },
+    crumbs([["Ana sayfa", `${SITE}/`], ["Hakkımızda"]]),
+  ] };
+  return `${head({ title: `Hakkımızda | ${NAME}`, description, url, graph })}
+${header("/hakkimizda/")}
+  <main id="icerik">
+    <section class="section">
+      <div class="wrap prose">
+        <header class="section-head">
+          <p class="eyebrow">Hakkımızda</p>
+          <h1>Biz kimiz?</h1>
+          <p>İzmit merkezli bir palyaço ve animatör ekibiyiz. Kocaeli ve Sakarya'da doğum günü, sünnet, düğün, okul ve özel gün etkinliklerinde çocukları eğlendiriyoruz.</p>
+        </header>
+
+        <h2>Tek palyaço değil, 5–6 kişilik ekip</h2>
+        <p>Çoğu yerde palyaço tek kişidir. Biz 5–6 kişilik bir kadroyla çalışıyoruz. Bu sayede aynı gün birden fazla etkinliğe gidebiliyor, kalabalık etkinliklerde birkaç animatörle birlikte gelebiliyoruz.</p>
+        <p>Bu yüzden <a href="/galeri/">galerideki</a> fotoğraflarda farklı palyaçolar ve kostümlü karakterler görürsünüz. Hepsi bizim ekibimiz.</p>
+
+        <h2>Neler yapıyoruz?</h2>
+        <ul>
+          <li>Yüz boyama ve sosis balon</li>
+          <li>Grup oyunları ve yarışmalar</li>
+          <li>Mini disco ve köpük baloncuk şovu</li>
+          <li>Kostümlü karakterlerle okul şenlikleri</li>
+        </ul>
+
+        <h2>Gerçek etkinliklerden</h2>
+        <p>Parkta yapılan doğum günlerinden okul bahçesindeki şenliklere kadar yaptığımız işlerden kareleri <a href="/galeri/">galeride</a> paylaşıyoruz. Çocukların ve ekibimizin yüzlerini gizlilik için emojiyle kapatıyoruz.</p>
+
+        <div class="hero-cta">
+          <a class="btn btn-red btn-lg" href="/#iletisim">Rezervasyon yap</a>
+          <a class="btn btn-ghost btn-lg" href="/galeri/">Galeriye bak</a>
+        </div>
+      </div>
+    </section>
+  </main>
+${FOOTER}`;
+}
+
 // ---------- çalıştır ----------
 // dry: dosyaya yazmaz, yalnızca değişecek dosyaların listesini döndürür (check.mjs bunu kullanır).
 export function build({ dry = false } = {}) {
@@ -765,6 +856,8 @@ export function build({ dry = false } = {}) {
   write("llms.txt", renderLlms(facts, posts));
   write("llms-full.txt", renderLlmsFull(home, facts, posts));
   write("404.html", render404());
+  write("galeri/index.html", renderGallery());
+  write("hakkimizda/index.html", renderAbout());
 
   const live = new Set(posts.map((p) => p.slug));
   const blogDir = path.join(ROOT, "blog");
