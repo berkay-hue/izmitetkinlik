@@ -58,6 +58,39 @@ async function claude(prompt, maxTokens = 16000) {
   return text;
 }
 
+// Kelime sınırında kırpar; sondaki noktalama ve bağlaçları atar.
+function clip(str, max) {
+  let t = str.slice(0, max + 1);
+  t = t.slice(0, t.lastIndexOf(" ") > 0 ? t.lastIndexOf(" ") : max);
+  for (let prev = ""; prev !== t; ) { prev = t; t = t.replace(/\s+(ve|ile|veya|ya da|için)$/iu, "").replace(/[\s,;:–—-]+$/u, ""); }
+  return t.trim();
+}
+
+// check.mjs ile aynı sınırlar: title ≤60, description 70–155. Son denemede değilse
+// hata atar (yeniden denenir); son denemede uzun alanı güvenli biçimde kırpar.
+function checkLengths(o, last) {
+  o.title = o.title.trim();
+  o.description = o.description.trim();
+  const errs = [];
+  if (o.title.length > 60) errs.push(`title ${o.title.length} karakter; en çok 60 olmalı`);
+  if (o.description.length > 155 || o.description.length < 70) errs.push(`description ${o.description.length} karakter; 70–155 arası olmalı`);
+  if (!errs.length) return;
+  if (!last) throw new Error(`Uzunluk sınırı aşıldı: ${errs.join("; ")}`);
+  if (o.title.length > 60) {
+    // Önce soru ya da iki nokta sonrası eki at ("...? Ek" / "Ana: Ek"), yoksa kelime sınırında kırp.
+    const q = o.title.slice(0, 60).lastIndexOf("?");
+    const c = o.title.slice(0, 60).lastIndexOf(":");
+    o.title = q >= 19 ? o.title.slice(0, q + 1) : c >= 20 ? o.title.slice(0, c).trim() : clip(o.title, 60);
+    console.log(`title kırpıldı: ${o.title}`);
+  }
+  if (o.description.length > 155) {
+    const d = o.description.slice(0, 155);
+    const end = Math.max(d.lastIndexOf(". "), d.lastIndexOf("? "), d.lastIndexOf("! "));
+    o.description = end >= 69 ? d.slice(0, end + 1) : clip(o.description, 154) + ".";
+    console.log(`description kırpıldı (${o.description.length})`);
+  }
+}
+
 function parseReply(text) {
   let o;
   try { o = JSON.parse(text.slice(text.indexOf("{"), text.lastIndexOf("}") + 1)); }
@@ -202,7 +235,7 @@ ${JSON.stringify(t, null, 2)}
 Yayındaki yazılar (yalnızca bunlara /blog/<slug>/ bağlantısı verebilirsin; listede olmayan yazıya bağlantı verme):
 ${published}
 
-Konunun "title" alanı taslaktır; rehberdeki uzunluk ve soru kuralına göre yeniden yazabilirsin. "faq" alanı taslak sorulardır.
+Konunun "title" alanı taslaktır. Yanıttaki "title" en fazla 60 karakter olmalı (site adı eki hariç) ve rehberdeki soru kuralına uymalı; "description" 70–155 karakter arası olmalı. Bu sınırlar zorunludur, aşan yanıt reddedilir. Taslak başlık uzunsa anlamını koruyarak kısalt. "faq" alanı taslak sorulardır.
 Yazmadan önce rehberdeki kontrol listesini kafanda uygula ve dürüstlük açısından kendini denetle: sitede yazmayan bir iddia kalmasın.
 
 Yanıt olarak YALNIZCA şu biçimde tek bir JSON nesnesi döndür (öncesinde ya da sonrasında hiçbir metin, kod bloğu işareti yok):
@@ -272,6 +305,7 @@ for (let attempt = 1; attempt <= 2; attempt++) {
   try {
     text = await claude(prompt(topic, day, live, fix));
     reply = parseReply(text);
+    checkLengths(reply, attempt === 2);
   } catch (e) {
     console.log(`Deneme ${attempt}: ${e.message}`);
     fix = { errors: e.message, reply: (text || "").slice(0, 20000) };
