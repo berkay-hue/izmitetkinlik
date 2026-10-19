@@ -256,7 +256,7 @@
     },
     {
       "slug": "7-10-yas-dogum-gunu-aktiviteleri",
-      "durum": "bekliyor",
+      "durum": "yayinlandi",
       "planlanan": "2026-10-19",
       "title": "7-10 Yaş Doğum Gününde Hangi Aktiviteler Yapılır?",
       "question": "8 yaş ya da 10 yaş doğum gününde ne yapılır, büyük çocuklar için hangi aktiviteler uygun?",
@@ -280,7 +280,8 @@
         "Büyük çocuklar için kaç saatlik program uygun?",
         "Bütün sınıf davetliyse program nasıl kurulur?"
       ],
-      "yazilmayacaklar": "Sitede olmayan hizmetleri (lazer tag, sihirbaz, bilim şovu, karaoke ekipmanı vb.) sunuluyormuş gibi yazma. Fiyat yazma. Çocuk fotoğrafı kullanma."
+      "yazilmayacaklar": "Sitede olmayan hizmetleri (lazer tag, sihirbaz, bilim şovu, karaoke ekipmanı vb.) sunuluyormuş gibi yazma. Fiyat yazma. Çocuk fotoğrafı kullanma.",
+      "yayin": "2026-10-19"
     },
     {
       "slug": "palyaco-ile-animator-farki",
