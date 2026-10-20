@@ -285,7 +285,7 @@
     },
     {
       "slug": "palyaco-ile-animator-farki",
-      "durum": "bekliyor",
+      "durum": "yayinlandi",
       "planlanan": "2026-10-20",
       "title": "Palyaço ile Animatör Arasındaki Fark Ne?",
       "question": "Palyaço ile animatör arasında fark var mı, hangisini seçmeliyim?",
@@ -310,7 +310,8 @@
         "Büyük çocuklar palyaçoyu çocukça bulursa ne yapılabilir?"
       ],
       "yazilmayacaklar": "İşletmenin sihirbaz, maskot, kukla, prenses/süper kahraman karakteri ya da vantrilok hizmeti varmış gibi yazma. Sitede hizmet 'palyaço & animatör' olarak geçiyor; ayrı bir 'oyun ablası' hizmeti doğrulanmadan vaat etme. Personel ismi ya da cinsiyet garantisi verme.",
-      "duzeltme": "Title: 'Palyaço ile Animatör Arasındaki Fark Ne?' Slug: palyaco-ile-animator-farki. Question: 'Palyaço ile animatör arasında fark var mı, hangisini seçmeliyim?' Mention oyun ablası in one sentence only, saying it is not a service the business offers. Keep 'palyanço' to a single FAQ line or drop it. Replace the büyük çocuk FAQ with a link to 7-10-yas-dogum-gunu-aktiviteleri."
+      "duzeltme": "Title: 'Palyaço ile Animatör Arasındaki Fark Ne?' Slug: palyaco-ile-animator-farki. Question: 'Palyaço ile animatör arasında fark var mı, hangisini seçmeliyim?' Mention oyun ablası in one sentence only, saying it is not a service the business offers. Keep 'palyanço' to a single FAQ line or drop it. Replace the büyük çocuk FAQ with a link to 7-10-yas-dogum-gunu-aktiviteleri.",
+      "yayin": "2026-10-20"
     },
     {
       "slug": "1-2-yas-dogum-gunu-etkinlikleri",
