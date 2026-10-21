@@ -315,7 +315,7 @@
     },
     {
       "slug": "1-2-yas-dogum-gunu-etkinlikleri",
-      "durum": "bekliyor",
+      "durum": "yayinlandi",
       "planlanan": "2026-10-21",
       "title": "1 ve 2 Yaş Doğum Günü Etkinlikleri: Sakin Bir Parti Planı",
       "question": "1 yaş doğum gününde neler yapılır, 2 yaş doğum günü için hangi etkinlikler uygun?",
@@ -340,7 +340,8 @@
         "Yüz boyama 1-2 yaş için uygun mu?",
         "Sosis balonu küçük bebeklerin yanında kullanırken nelere dikkat edilmeli?"
       ],
-      "yazilmayacaklar": "'Bu yaşta dikkat süresi X dakikadır' gibi gelişimsel ya da tıbbi kesin iddialar yazma, genel gözlem dili kullan. Yüz boyama ve balon için 'güvenli' garantisi verme; küçük yaşta dikkat ve ebeveyn kararı vurgusu yap. Bebek fotoğrafı kullanma."
+      "yazilmayacaklar": "'Bu yaşta dikkat süresi X dakikadır' gibi gelişimsel ya da tıbbi kesin iddialar yazma, genel gözlem dili kullan. Yüz boyama ve balon için 'güvenli' garantisi verme; küçük yaşta dikkat ve ebeveyn kararı vurgusu yap. Bebek fotoğrafı kullanma.",
+      "yayin": "2026-10-21"
     },
     {
       "slug": "yuz-boyamada-cilt-hassasiyeti-sorulacaklar",
