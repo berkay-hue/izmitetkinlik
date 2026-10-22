@@ -345,7 +345,7 @@
     },
     {
       "slug": "yuz-boyamada-cilt-hassasiyeti-sorulacaklar",
-      "durum": "bekliyor",
+      "durum": "yayinlandi",
       "planlanan": "2026-10-22",
       "title": "Yüz Boyama Zararlı mı? Velinin Sorması Gerekenler",
       "question": "Çocuklarda yüz boyası zararlı mı, yüz boyama yaptırmadan önce nelere dikkat etmeliyim?",
@@ -370,7 +370,8 @@
         "Hassas cildi olan çocuğa yüz boyama yapılır mı?",
         "Yüz boyası yüzde ne kadar kalabilir?"
       ],
-      "yazilmayacaklar": "İşletmenin kullandığı boyanın markası, EN 71-3/CE uygunluğu, 'Bakanlık onaylı', 'hipoalerjenik' ya da 'zararsız' olduğunu doğrulanmadıkça yazma. Tıbbi teşhis ya da tedavi önerme, reaksiyonda hekime yönlendir. Haberlerdeki Sağlık Bakanlığı uyarısına değinilecekse kaynak göster, yorum katma. Çocuk yüzü fotoğrafı yerine çizim kullan."
+      "yazilmayacaklar": "İşletmenin kullandığı boyanın markası, EN 71-3/CE uygunluğu, 'Bakanlık onaylı', 'hipoalerjenik' ya da 'zararsız' olduğunu doğrulanmadıkça yazma. Tıbbi teşhis ya da tedavi önerme, reaksiyonda hekime yönlendir. Haberlerdeki Sağlık Bakanlığı uyarısına değinilecekse kaynak göster, yorum katma. Çocuk yüzü fotoğrafı yerine çizim kullan.",
+      "yayin": "2026-10-22"
     },
     {
       "slug": "palyacodan-korkan-cocuk",
