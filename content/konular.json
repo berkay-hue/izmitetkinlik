@@ -375,7 +375,7 @@
     },
     {
       "slug": "palyacodan-korkan-cocuk",
-      "durum": "bekliyor",
+      "durum": "yayinlandi",
       "planlanan": "2026-10-23",
       "title": "Palyaçodan Korkan Çocuk Partide Nasıl Rahatlatılır?",
       "question": "Çocuğum palyaçodan korkuyor, doğum gününe yine de palyaço çağırmalı mıyım?",
@@ -400,7 +400,8 @@
         "Ağır makyajsız bir animatör seçeneği konuşulabilir mi?"
       ],
       "yazilmayacaklar": "Psikolojik ya da tıbbi teşhis yapma, 'fobi' tanımı verme; yoğun ve süren kaygı için uzmana yönlendirmekle sınırla. Makyajsız animatör seçeneğini işletme doğrulamadan kesin hizmet olarak vaat etme, 'rezervasyonda konuşalım' de. Gerçek vaka anlatma, korkan çocuk fotoğrafı kullanma.",
-      "duzeltme": "Phrase it as 'Ağır makyajlı palyaço yerine farklı seçenekleri rezervasyonda konuşun'. List as actual services only what the site backs: yalnızca yüz boyama, sosis balon, baloncuk şovu, müzikli oyunlar (the site says services can be booked separately)."
+      "duzeltme": "Phrase it as 'Ağır makyajlı palyaço yerine farklı seçenekleri rezervasyonda konuşun'. List as actual services only what the site backs: yalnızca yüz boyama, sosis balon, baloncuk şovu, müzikli oyunlar (the site says services can be booked separately).",
+      "yayin": "2026-10-23"
     },
     {
       "slug": "yuz-boyasi-nasil-cikar",
