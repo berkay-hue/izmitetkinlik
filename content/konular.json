@@ -405,7 +405,7 @@
     },
     {
       "slug": "yuz-boyasi-nasil-cikar",
-      "durum": "bekliyor",
+      "durum": "yayinlandi",
       "planlanan": "2026-10-24",
       "title": "Yüz Boyası Nasıl Çıkar? Cilt, Kıyafet ve Halı İçin Temizlik",
       "question": "Çocuğun yüz boyası nasıl çıkar, kıyafete ve halıya bulaşan yüz boyası nasıl temizlenir?",
@@ -429,7 +429,8 @@
         "Yüz boyası kıyafette kalıcı leke bırakır mı?",
         "Yüz boyasıyla uyumak sorun olur mu?"
       ],
-      "yazilmayacaklar": "Kullanılan boyanın 'tamamen suyla çıkar' ya da 'leke bırakmaz' olduğunu doğrulamadan yazma. Aseton, çözücü gibi sert kimyasal önerme. Cilt reaksiyonunda tıbbi öneri verme, hekime yönlendir. Çocuk fotoğrafı kullanma."
+      "yazilmayacaklar": "Kullanılan boyanın 'tamamen suyla çıkar' ya da 'leke bırakmaz' olduğunu doğrulamadan yazma. Aseton, çözücü gibi sert kimyasal önerme. Cilt reaksiyonunda tıbbi öneri verme, hekime yönlendir. Çocuk fotoğrafı kullanma.",
+      "yayin": "2026-10-24"
     },
     {
       "slug": "okulda-dogum-gunu-kutlamasi-yapilir-mi",
