@@ -434,7 +434,7 @@
     },
     {
       "slug": "okulda-dogum-gunu-kutlamasi-yapilir-mi",
-      "durum": "bekliyor",
+      "durum": "yayinlandi",
       "planlanan": "2026-10-25",
       "title": "Okulda veya Kreşte Doğum Günü Kutlaması Yapılabilir mi?",
       "question": "Okulda doğum günü kutlaması yasak mı, kreşte doğum günü nasıl kutlanır?",
@@ -458,7 +458,8 @@
         "Kreşe pasta götürülebilir mi?",
         "Sınıfa palyaço getirmek mümkün mü?"
       ],
-      "yazilmayacaklar": "Okulda doğum günü kutlamasına ilişkin mevzuat hakkında kesin hüküm yazma; 'okul idaresine sorun' çizgisinde kal. Belirli okul ya da kreş adı verme. Alerji konusunda tıbbi tavsiye verme. İkram veya hediyelik tedariki sunuluyormuş gibi yazma."
+      "yazilmayacaklar": "Okulda doğum günü kutlamasına ilişkin mevzuat hakkında kesin hüküm yazma; 'okul idaresine sorun' çizgisinde kal. Belirli okul ya da kreş adı verme. Alerji konusunda tıbbi tavsiye verme. İkram veya hediyelik tedariki sunuluyormuş gibi yazma.",
+      "yayin": "2026-10-25"
     },
     {
       "slug": "sosis-balon-guvenligi-kucuk-cocuklar",
