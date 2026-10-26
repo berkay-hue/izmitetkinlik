@@ -10,7 +10,7 @@
 - Fiyat: Sabit fiyat listesi yoktur; fiyat etkinlik süresine, çocuk sayısına, seçilen hizmetlere ve konuma göre verilir.
 - Hizmetler tek tek ya da bir arada alınabilir.
 - Instagram: https://www.instagram.com/izmit_palyaco_etkinlikleri/ (mesaj: https://ig.me/m/izmit_palyaco_etkinlikleri)
-- Rezervasyon formu: https://izmitetkinlik.com/#iletisim (form, bilgileri hazır bir mesaja çevirir)
+- Rezervasyon formu: https://izmitetkinlik.com/#iletisim (form, talebi bize gönderir; bilgileri hazır bir mesaja da çevirir)
 
 ## Ana sayfa
 

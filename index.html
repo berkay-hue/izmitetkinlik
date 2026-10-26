@@ -691,7 +691,7 @@
         <div class="contact-copy">
           <p class="eyebrow">Rezervasyon</p>
           <h2>Tarihinizi ayıralım!</h2>
-          <p>Formu doldurun; bilgileriniz hazır bir mesaja dönüşsün. Mesajı bize Instagram'dan gönderin, en kısa sürede dönüş yapalım.</p>
+          <p>Formu doldurup gönderin; talebiniz bize ulaşsın, en kısa sürede dönüş yapalım. Bilgileriniz hazır bir mesaja da dönüşür; isterseniz Instagram'dan da gönderebilirsiniz.</p>
           <ul class="contact-list">
             <li>
               <a data-ig-dm href="https://ig.me/m/izmit_palyaco_etkinlikleri" target="_blank" rel="noopener">
@@ -732,6 +732,12 @@
               </select>
             </label>
           </div>
+          <label>Telefon ya da e-posta (zorunlu)
+            <input name="iletisim" autocomplete="email" required placeholder="Size nasıl dönüş yapalım?">
+          </label>
+          <label class="sr" aria-hidden="true">Bu alanı boş bırakın
+            <input name="web" tabindex="-1" autocomplete="off">
+          </label>
           <div class="row">
             <label>Tarih
               <input name="tarih" type="date">
@@ -775,7 +781,8 @@
             <textarea name="not" rows="3" placeholder="Tema, süre, mekân gibi eklemek istedikleriniz"></textarea>
           </label>
 
-          <button class="btn btn-red btn-lg btn-block" type="submit">Mesajı hazırla</button>
+          <button class="btn btn-red btn-lg btn-block" type="submit">Gönder</button>
+          <p class="form-note">Bilgileriniz yalnızca size dönüş yapmak için kullanılır.</p>
           <p class="form-status" role="status" aria-live="polite"></p>
           <div class="msg-preview" hidden>
             <label>Mesajınız

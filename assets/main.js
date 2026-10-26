@@ -4,6 +4,8 @@
 const WHATSAPP = "";
 const PHONE = "";
 const INSTAGRAM_DM = "https://ig.me/m/izmit_palyaco_etkinlikleri";
+// Formu e-postaya çeviren Cloudflare Worker (kaynağı: tools/form-worker.mjs)
+const FORM_ENDPOINT = "https://izmit-form.berkay-999.workers.dev";
 
 (function () {
   "use strict";
@@ -63,7 +65,7 @@ const INSTAGRAM_DM = "https://ig.me/m/izmit_palyaco_etkinlikleri";
     hideZones.forEach((el) => io.observe(el));
   }
 
-  // ---- Rezervasyon formu → hazır mesaj ----
+  // ---- Rezervasyon formu → e-posta + hazır mesaj ----
   const form = $("#rezervasyon");
   if (!form) return;
 
@@ -72,6 +74,8 @@ const INSTAGRAM_DM = "https://ig.me/m/izmit_palyaco_etkinlikleri";
   const previewText = $("textarea", preview);
   const sendWa = $("[data-send-wa]", form);
   const sendIg = $("[data-send-ig]", form);
+  const submitBtn = $('button[type="submit"]', form);
+  let lastSent = "";
 
   const pad = (n) => String(n).padStart(2, "0");
   const now = new Date();
@@ -93,6 +97,7 @@ const INSTAGRAM_DM = "https://ig.me/m/izmit_palyaco_etkinlikleri";
     const lines = ["Merhaba! izmitetkinlik.com üzerinden yazıyorum.", ""];
     const add = (label, v) => { if (v) lines.push(`${label}: ${v}`); };
     add("Ad", val("ad"));
+    add("İletişim", val("iletisim"));
     add("Etkinlik", val("tur"));
     add("Tarih", fmtDate(val("tarih")));
     add("Saat", val("saat"));
@@ -112,17 +117,52 @@ const INSTAGRAM_DM = "https://ig.me/m/izmit_palyaco_etkinlikleri";
     }
   });
 
-  form.addEventListener("submit", (e) => {
+  const payload = () => ({
+    ad: val("ad"),
+    iletisim: val("iletisim"),
+    tur: val("tur"),
+    tarih: fmtDate(val("tarih")),
+    saat: val("saat"),
+    yer: val("yer"),
+    sayi: val("sayi"),
+    yas: val("yas"),
+    hizmetler: $$('input[name="hizmet"]:checked', form).map((i) => i.value).join(", "),
+    not: val("not"),
+    web: val("web"),
+  });
+
+  const send = async () => {
+    const ctrl = new AbortController();
+    const timer = setTimeout(() => ctrl.abort(), 15000);
+    try {
+      const res = await fetch(FORM_ENDPOINT, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload()),
+        signal: ctrl.signal,
+      });
+      const data = await res.json().catch(() => ({}));
+      return res.ok && data.ok === true;
+    } catch (_) {
+      return false;
+    } finally {
+      clearTimeout(timer);
+    }
+  };
+
+  form.addEventListener("submit", async (e) => {
     e.preventDefault();
-    const missing = [form.elements.ad, form.elements.tur].filter((f) => !f.value.trim());
-    [form.elements.ad, form.elements.tur].forEach((f) => {
+    if (submitBtn.disabled) return;
+    const required = [form.elements.ad, form.elements.iletisim, form.elements.tur];
+    const missing = required.filter((f) => !f.value.trim());
+    required.forEach((f) => {
       const bad = missing.includes(f);
       f.classList.toggle("invalid", bad);
       if (bad) f.setAttribute("aria-invalid", "true");
       else f.removeAttribute("aria-invalid");
     });
     if (missing.length) {
-      setStatus("Lütfen adınızı ve etkinlik türünü doldurun.", "err");
+      setStatus("Lütfen adınızı, telefon ya da e-postanızı ve etkinlik türünü doldurun.", "err");
       missing[0].focus();
       return;
     }
@@ -134,13 +174,31 @@ const INSTAGRAM_DM = "https://ig.me/m/izmit_palyaco_etkinlikleri";
       sendWa.href = `https://wa.me/${waDigits}?text=${encodeURIComponent(msg)}`;
       sendWa.hidden = false;
     }
-    setStatus(
-      waDigits
-        ? "Mesajınız hazır! WhatsApp ya da Instagram'dan bize gönderin."
-        : "Mesajınız hazır! Kopyalayıp Instagram'dan bize gönderin.",
-      "ok"
-    );
-    preview.scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "nearest" });
+    const reveal = () =>
+      preview.scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "nearest" });
+
+    // Aynı talep ikinci kez gönderilmez.
+    if (msg === lastSent) {
+      setStatus("Talebiniz bize ulaştı. En kısa sürede dönüş yapacağız.", "ok");
+      return;
+    }
+
+    submitBtn.disabled = true;
+    setStatus("Gönderiliyor…");
+    const ok = await send();
+    submitBtn.disabled = false;
+    if (ok) {
+      lastSent = msg;
+      setStatus("Talebiniz bize ulaştı! En kısa sürede dönüş yapacağız.", "ok");
+    } else {
+      setStatus(
+        waDigits
+          ? "Talebiniz şu an gönderilemedi. Aşağıdaki hazır mesajı WhatsApp ya da Instagram'dan bize gönderin."
+          : "Talebiniz şu an gönderilemedi. Aşağıdaki hazır mesajı kopyalayıp Instagram'dan bize gönderin.",
+        "err"
+      );
+    }
+    reveal();
   });
 
   // Bağlantı tıklandığı anda kopyala; sekme tarayıcının kendi bağlantı davranışıyla açılır.
