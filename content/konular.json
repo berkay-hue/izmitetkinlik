@@ -463,7 +463,7 @@
     },
     {
       "slug": "sosis-balon-guvenligi-kucuk-cocuklar",
-      "durum": "bekliyor",
+      "durum": "yayinlandi",
       "planlanan": "2026-10-26",
       "title": "Sosis Balon Küçük Çocuklar İçin Güvenli mi?",
       "question": "Sosis balon küçük çocuklar için tehlikeli mi, partide balon güvenliği için nelere dikkat etmeli?",
@@ -487,7 +487,8 @@
         "Lateks hassasiyeti olan çocuk partide ne yapmalı?",
         "Patlayan balon parçalarını nasıl toplamalıyım?"
       ],
-      "yazilmayacaklar": "Kullanılan balonun lateks içermediğini, markasını ya da sertifikasını doğrulanmadıkça yazma. Alerji konusunda tıbbi tavsiye verme, hekime yönlendir. Kesin yaş sınırı yerine 'küçük yaşta yetişkin gözetimi' dilini kullan. Çocuk fotoğrafı kullanma."
+      "yazilmayacaklar": "Kullanılan balonun lateks içermediğini, markasını ya da sertifikasını doğrulanmadıkça yazma. Alerji konusunda tıbbi tavsiye verme, hekime yönlendir. Kesin yaş sınırı yerine 'küçük yaşta yetişkin gözetimi' dilini kullan. Çocuk fotoğrafı kullanma.",
+      "yayin": "2026-10-26"
     },
     {
       "slug": "yilbasinda-evde-cocuk-partisi-fikirleri",
