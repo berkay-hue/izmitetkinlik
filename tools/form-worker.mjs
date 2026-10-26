@@ -9,7 +9,8 @@ import { EmailMessage } from "cloudflare:email";
 const ORIGINS = new Set(["https://izmitetkinlik.com", "https://www.izmitetkinlik.com"]);
 const FIELDS = [
   ["ad", "Ad", 100],
-  ["iletisim", "İletişim", 120],
+  ["telefon", "Telefon", 30],
+  ["eposta", "E-posta", 120],
   ["tur", "Etkinlik", 60],
   ["tarih", "Tarih", 20],
   ["saat", "Saat", 10],
@@ -91,13 +92,18 @@ export default {
 
     const f = {};
     for (const [key, , max] of FIELDS) f[key] = clean(data[key], max, key === "not");
-    if (!f.ad || !f.tur || !f.iletisim) return reply(400, { ok: false, error: "required" }, allowed);
+    // Eski form tek "iletisim" alanı gönderiyordu; önbellekteki sayfalar için hâlâ kabul edilir.
+    const legacy = clean(data.iletisim, 120);
+    if (legacy && !f.telefon && !f.eposta) f[EMAIL_RE.test(legacy) ? "eposta" : "telefon"] = legacy;
+    const telDigits = f.telefon.replace(/\D/g, "").length;
+    if (!f.ad || !f.tur || (!f.telefon && !legacy)) return reply(400, { ok: false, error: "required" }, allowed);
+    if (!legacy && (telDigits < 10 || telDigits > 13)) return reply(400, { ok: false, error: "telefon" }, allowed);
 
     const lines = ["izmitetkinlik.com rezervasyon formundan yeni talep:", ""];
     for (const [key, label] of FIELDS) if (f[key]) lines.push(`${label}: ${f[key]}`);
     lines.push("", `Gönderim: ${new Date().toISOString()}`);
 
-    const replyTo = EMAIL_RE.test(f.iletisim) ? f.iletisim : "";
+    const replyTo = EMAIL_RE.test(f.eposta) ? f.eposta : "";
     const mime = buildMime({
       from: env.MAIL_FROM,
       to: env.MAIL_TO,

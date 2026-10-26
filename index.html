@@ -732,9 +732,14 @@
               </select>
             </label>
           </div>
-          <label>Telefon ya da e-posta (zorunlu)
-            <input name="iletisim" autocomplete="email" required placeholder="Size nasıl dönüş yapalım?">
-          </label>
+          <div class="row">
+            <label>Telefon (zorunlu)
+              <input name="telefon" type="tel" inputmode="tel" autocomplete="tel" required placeholder="05xx xxx xx xx">
+            </label>
+            <label>E-posta
+              <input name="eposta" type="email" autocomplete="email" placeholder="ornek@eposta.com">
+            </label>
+          </div>
           <label class="sr" aria-hidden="true">Bu alanı boş bırakın
             <input name="web" tabindex="-1" autocomplete="off">
           </label>

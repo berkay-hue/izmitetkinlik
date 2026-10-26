@@ -97,7 +97,8 @@ const FORM_ENDPOINT = "https://izmit-form.berkay-999.workers.dev";
     const lines = ["Merhaba! izmitetkinlik.com üzerinden yazıyorum.", ""];
     const add = (label, v) => { if (v) lines.push(`${label}: ${v}`); };
     add("Ad", val("ad"));
-    add("İletişim", val("iletisim"));
+    add("Telefon", val("telefon"));
+    add("E-posta", val("eposta"));
     add("Etkinlik", val("tur"));
     add("Tarih", fmtDate(val("tarih")));
     add("Saat", val("saat"));
@@ -119,7 +120,8 @@ const FORM_ENDPOINT = "https://izmit-form.berkay-999.workers.dev";
 
   const payload = () => ({
     ad: val("ad"),
-    iletisim: val("iletisim"),
+    telefon: val("telefon"),
+    eposta: val("eposta"),
     tur: val("tur"),
     tarih: fmtDate(val("tarih")),
     saat: val("saat"),
@@ -153,8 +155,9 @@ const FORM_ENDPOINT = "https://izmit-form.berkay-999.workers.dev";
   form.addEventListener("submit", async (e) => {
     e.preventDefault();
     if (submitBtn.disabled) return;
-    const required = [form.elements.ad, form.elements.iletisim, form.elements.tur];
-    const missing = required.filter((f) => !f.value.trim());
+    const required = [form.elements.ad, form.elements.telefon, form.elements.tur];
+    const telDigits = val("telefon").replace(/\D/g, "").length;
+    const missing = required.filter((f) => !f.value.trim() || (f.name === "telefon" && (telDigits < 10 || telDigits > 13)));
     required.forEach((f) => {
       const bad = missing.includes(f);
       f.classList.toggle("invalid", bad);
@@ -162,7 +165,7 @@ const FORM_ENDPOINT = "https://izmit-form.berkay-999.workers.dev";
       else f.removeAttribute("aria-invalid");
     });
     if (missing.length) {
-      setStatus("Lütfen adınızı, telefon ya da e-postanızı ve etkinlik türünü doldurun.", "err");
+      setStatus("Lütfen adınızı, geçerli bir telefon numarası ve etkinlik türünü doldurun.", "err");
       missing[0].focus();
       return;
     }
