@@ -273,6 +273,8 @@ p { margin: 0 0 1em; }
 .form-status { min-height: 1.4em; margin: 0; font-weight: 700; }
 .form-status.ok { color: #157347; }
 .form-status.err { color: var(--red); }
+.form-note { margin: -8px 0 0; font-size: .85rem; color: var(--muted); }
+.form button[disabled] { opacity: .6; cursor: progress; }
 .msg-preview { display: grid; gap: 12px; padding: 16px; border-radius: 16px; background: var(--tint); }
 .msg-preview textarea { background: #fff; font-size: .95rem; }
 .send-row { display: flex; flex-wrap: wrap; gap: 10px; }

@@ -91,8 +91,8 @@ Henüz yayınlanmamış (`bekliyor` ya da tarihi ileride) yazıya bağlantı ver
 - Sabit fiyat listesi yok. Fiyat süreye, çocuk sayısına, seçilen hizmetlere ve konuma göre verilir.
 - Fiyat için form doldurulur ya da Instagram'dan yazılır.
 - Hafta sonları, bayramlar ve okul dönemleri yoğundur; mümkün olduğunca erken yazmak önerilir.
-- Rezervasyon: [form](/#iletisim) bilgileri hazır bir mesaja çevirir; Instagram mesajı (@izmit_palyaco_etkinlikleri).
-- Form şunları sorar: etkinlik türü, tarih, saat, ilçe/yer, çocuk sayısı, yaş aralığı, istenen hizmetler.
+- Rezervasyon: [form](/#iletisim) talebi bize gönderir, bilgileri hazır bir mesaja da çevirir; Instagram mesajı (@izmit_palyaco_etkinlikleri).
+- Form şunları sorar: ad, telefon ya da e-posta, etkinlik türü, tarih, saat, ilçe/yer, çocuk sayısı, yaş aralığı, istenen hizmetler.
 - Telefon ya da WhatsApp numarası yazmayın (sitede henüz yok).
 
 ## Yazılmayacaklar

@@ -16,6 +16,7 @@ GitHub Pages'te `main` dalının kökünden yayınlanır; `main`'e gönderilen h
 - `tools/check.mjs` — yayından önce denetler (kırık bağlantı, şema, sitede olmayan iddia…)
 - `tools/indexnow.mjs` — değişen sayfaları arama motorlarına bildirir
 - `tools/og.html` — paylaşım görseli ve logonun kaynağı
+- `tools/form-worker.mjs` — rezervasyon formunu e-postaya çeviren Cloudflare Worker'ın (`izmit-form`) kaynağı
 - Üretilen dosyalar: `blog/`, `feed.xml`, `sitemap.xml`, `llms.txt`, `llms-full.txt`, `404.html` (elle düzenlemeyin)
 - `<32 haneli anahtar>.txt` — IndexNow doğrulama dosyası; silmeyin, adını değiştirmeyin
 - `.gitignore` — depoya girmeyecek sistem dosyaları (`.DS_Store`)
@@ -140,6 +141,15 @@ Konu eklemek için `konular.json`'a aynı biçimde, `planlanan` tarihi olan yeni
 "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" --headless --hide-scrollbars --default-background-color=00000000 --virtual-time-budget=3000 --window-size=512,512 --screenshot=assets/logo.png "file://$PWD/tools/og.html?logo"
 ```
 
+## Rezervasyon formu → e-posta
+
+Form, `assets/main.js` içindeki `FORM_ENDPOINT` adresine (Cloudflare Worker `izmit-form`) JSON gönderir;
+Worker talebi `form@izmitetkinlik.com` adresinden bağlı hedef adrese e-postayla iletir. Kaynağı `tools/form-worker.mjs`.
+Bağlamalar Cloudflare'de durur: `MAIL` (send_email), `MAIL_TO` (hedef adres), `MAIL_FROM` (gönderen). Secret yoktur.
+Gönderim için izmitetkinlik.com alanında Email Routing açık ve hedef adres doğrulanmış olmalıdır.
+Worker yalnızca izmitetkinlik.com'dan gelen istekleri kabul eder; gizli bir alan (`web`) bot gönderimlerini eler.
+Gönderim başarısız olursa form hazır mesajı gösterir ve ziyaretçi Instagram'dan gönderebilir.
+
 ## Telefon / WhatsApp eklemek
 
 `assets/main.js` dosyasının en üstündeki iki satırı doldurun:
@@ -149,7 +159,7 @@ const WHATSAPP = "905321234567";   // ülke koduyla, boşluksuz
 const PHONE = "0532 123 45 67";    // sitede görünecek biçim
 ```
 
-Boş bırakılırsa bu bağlantılar gizli kalır ve form mesajı Instagram DM üzerinden gönderilir.
+Boş bırakılırsa bu bağlantılar gizli kalır; form talebi e-postayla bize gelir, hazır mesaj Instagram DM'den de gönderilebilir.
 WhatsApp girildiğinde formda "WhatsApp'tan gönder" butonu da çıkar. Ardından `node tools/build.mjs` çalıştırın.
 
 ## Fotoğraflar

@@ -595,7 +595,7 @@ function replaceBetween(html, start, end, content, file) {
 
 // ---------- llms.txt ----------
 function contactLines(facts) {
-  const lines = [`- Instagram: ${IG} (mesaj: ${IG_DM})`, `- Rezervasyon formu: ${SITE}/#iletisim (form, bilgileri hazır bir mesaja çevirir)`];
+  const lines = [`- Instagram: ${IG} (mesaj: ${IG_DM})`, `- Rezervasyon formu: ${SITE}/#iletisim (form, talebi bize gönderir; bilgileri hazır bir mesaja da çevirir)`];
   if (facts.whatsapp) lines.push(`- WhatsApp: https://wa.me/${facts.whatsapp}`);
   if (facts.phone) lines.push(`- Telefon: ${facts.phone}`);
   return lines.join("\n");
