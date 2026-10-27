@@ -492,7 +492,7 @@
     },
     {
       "slug": "yilbasinda-evde-cocuk-partisi-fikirleri",
-      "durum": "bekliyor",
+      "durum": "yayinlandi",
       "planlanan": "2026-10-27",
       "title": "Yılbaşında Evde Çocuklar İçin Parti Fikirleri",
       "question": "Yılbaşında evde çocuklarla ne yapılır, yılbaşı temalı çocuk etkinlikleri neler?",
@@ -519,7 +519,8 @@
       ],
       "yazilmayacaklar": "Yılbaşı haftası için müsaitlik garantisi, özel yılbaşı paketi ya da fiyat yazma. Noel Baba ya da karakter kostümü hizmeti varmış gibi yazma (sitede yok). Çocuk fotoğrafı kullanma.",
       "duzeltme": "Set month 11. Give it a distinct home/family angle: daytime or early-evening timing, kuzenler, a shared children's party in the site sosyal tesisi. Use different craft ideas from the kreş post, and link to the kar spreyi post instead of repeating safety notes.",
-      "son_tarih": "2026-12-20"
+      "son_tarih": "2026-12-20",
+      "yayin": "2026-10-27"
     },
     {
       "slug": "kolay-yuz-boyama-desenleri-kedi-kelebek",
