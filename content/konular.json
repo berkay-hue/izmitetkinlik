@@ -524,7 +524,7 @@
     },
     {
       "slug": "kolay-yuz-boyama-desenleri-kedi-kelebek",
-      "durum": "bekliyor",
+      "durum": "yayinlandi",
       "planlanan": "2026-10-28",
       "title": "Kolay Yüz Boyama Desenleri: Kedi, Kelebek ve Tavşan",
       "question": "Evde kolay yüz boyama nasıl yapılır, kedi ve kelebek yüz boyama örnekleri neler?",
@@ -547,7 +547,8 @@
         "Bir yüz boyama ne kadar sürer?",
         "Göz çevresine boya sürmek doğru mu?"
       ],
-      "yazilmayacaklar": "Görselleri çocuk yüzü fotoğrafı yerine çizim ve şablon olarak hazırla. Belirli marka önerme ya da 'zararsız' iddiası yazma. Akrilik ya da el işi boyası gibi cilde uygun olmayan ürünleri önerme."
+      "yazilmayacaklar": "Görselleri çocuk yüzü fotoğrafı yerine çizim ve şablon olarak hazırla. Belirli marka önerme ya da 'zararsız' iddiası yazma. Akrilik ya da el işi boyası gibi cilde uygun olmayan ürünleri önerme.",
+      "yayin": "2026-10-28"
     },
     {
       "slug": "acilista-cocuk-animasyonu-nasil-planlanir",
