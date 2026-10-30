@@ -582,7 +582,7 @@
     },
     {
       "slug": "cocuk-dogum-gunu-davetiyesi-ne-zaman-gonderilir",
-      "durum": "bekliyor",
+      "durum": "yayinlandi",
       "planlanan": "2026-10-30",
       "title": "Çocuk doğum günü davetiyesi ne zaman gönderilir?",
       "question": "Çocuk doğum günü davetiyesinde neler yazılır ve ne kadar önce gönderilir?",
@@ -605,7 +605,8 @@
         "Cevap vermeyen velilere ne yapılır?",
         "Kardeşler de davet edilmeli mi?"
       ],
-      "yazilmayacaklar": "İşletme hakkında rehberdeki kesin bilgiler dışında bir şey yazma. Fiyat, rakamla süre, kişi sayısı, mekân/kişi/okul adı, uydurma anı ve güvenlik garantisi yazma."
+      "yazilmayacaklar": "İşletme hakkında rehberdeki kesin bilgiler dışında bir şey yazma. Fiyat, rakamla süre, kişi sayısı, mekân/kişi/okul adı, uydurma anı ve güvenlik garantisi yazma.",
+      "yayin": "2026-10-30"
     },
     {
       "slug": "dogum-gunu-partisinde-hediyeler-ne-zaman-acilir",
