@@ -610,7 +610,7 @@
     },
     {
       "slug": "dogum-gunu-partisinde-hediyeler-ne-zaman-acilir",
-      "durum": "bekliyor",
+      "durum": "yayinlandi",
       "planlanan": "2026-10-31",
       "title": "Doğum günü partisinde hediyeler ne zaman açılır?",
       "question": "Çocuk partisinde hediyeleri misafirlerin önünde mi, sonra mı açmak daha iyi?",
@@ -633,7 +633,8 @@
         "Aynı hediye iki kez gelirse ne yapılır?",
         "Davetiyeye 'hediye getirmeyin' yazılabilir mi?"
       ],
-      "yazilmayacaklar": "İşletme hakkında rehberdeki kesin bilgiler dışında bir şey yazma. Fiyat, rakamla süre, kişi sayısı, mekân/kişi/okul adı, uydurma anı ve güvenlik garantisi yazma."
+      "yazilmayacaklar": "İşletme hakkında rehberdeki kesin bilgiler dışında bir şey yazma. Fiyat, rakamla süre, kişi sayısı, mekân/kişi/okul adı, uydurma anı ve güvenlik garantisi yazma.",
+      "yayin": "2026-10-31"
     },
     {
       "slug": "kardesler-icin-ortak-dogum-gunu-partisi",
