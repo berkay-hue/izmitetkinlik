@@ -638,7 +638,7 @@
     },
     {
       "slug": "kardesler-icin-ortak-dogum-gunu-partisi",
-      "durum": "bekliyor",
+      "durum": "yayinlandi",
       "planlanan": "2026-11-01",
       "title": "Kardeşlere ortak doğum günü partisi yapılır mı?",
       "question": "Yaşları farklı iki kardeşin doğum günü aynı partide nasıl kutlanır?",
@@ -661,7 +661,8 @@
         "Yaş farkı büyükse ortak parti olur mu?",
         "Davetliler iki hediye mi getirmeli?"
       ],
-      "yazilmayacaklar": "İşletme hakkında rehberdeki kesin bilgiler dışında bir şey yazma. Fiyat, rakamla süre, kişi sayısı, mekân/kişi/okul adı, uydurma anı ve güvenlik garantisi yazma."
+      "yazilmayacaklar": "İşletme hakkında rehberdeki kesin bilgiler dışında bir şey yazma. Fiyat, rakamla süre, kişi sayısı, mekân/kişi/okul adı, uydurma anı ve güvenlik garantisi yazma.",
+      "yayin": "2026-11-01"
     },
     {
       "slug": "utangac-cocuk-partiye-nasil-katilir",
