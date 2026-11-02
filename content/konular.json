@@ -666,7 +666,7 @@
     },
     {
       "slug": "utangac-cocuk-partiye-nasil-katilir",
-      "durum": "bekliyor",
+      "durum": "yayinlandi",
       "planlanan": "2026-11-02",
       "title": "Utangaç çocuk partide nasıl rahatlar?",
       "question": "Partide kalabalıktan çekinen, oyunlara katılmayan çocuğa nasıl yardım edilir?",
@@ -689,7 +689,8 @@
         "Doğum günü çocuğu utangaçsa ne yapılır?",
         "Ebeveyn yanında kalmalı mı?"
       ],
-      "yazilmayacaklar": "Psikolojik tanı ya da kesin gelişimsel iddia yazma. İşletme hakkında rehberdeki kesin bilgiler dışında bir şey yazma. Fiyat, rakamla süre, kişi sayısı, mekân/kişi/okul adı, uydurma anı ve güvenlik garantisi yazma."
+      "yazilmayacaklar": "Psikolojik tanı ya da kesin gelişimsel iddia yazma. İşletme hakkında rehberdeki kesin bilgiler dışında bir şey yazma. Fiyat, rakamla süre, kişi sayısı, mekân/kişi/okul adı, uydurma anı ve güvenlik garantisi yazma.",
+      "yayin": "2026-11-02"
     },
     {
       "slug": "cocuk-partisinde-pasta-ne-zaman-kesilir",
