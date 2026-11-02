@@ -694,7 +694,7 @@
     },
     {
       "slug": "cocuk-partisinde-pasta-ne-zaman-kesilir",
-      "durum": "bekliyor",
+      "durum": "yayinlandi",
       "planlanan": "2026-11-03",
       "title": "Çocuk partisinde pasta ne zaman kesilir?",
       "question": "Çocuk doğum gününde pasta partinin başında mı, ortasında mı, sonunda mı kesilir?",
@@ -717,7 +717,8 @@
         "Mum anında ışıklar kapatılmalı mı?",
         "Pasta kesmeden önce çocuklar yemek yemeli mi?"
       ],
-      "yazilmayacaklar": "İşletme hakkında rehberdeki kesin bilgiler dışında bir şey yazma. Fiyat, rakamla süre, kişi sayısı, mekân/kişi/okul adı, uydurma anı ve güvenlik garantisi yazma."
+      "yazilmayacaklar": "İşletme hakkında rehberdeki kesin bilgiler dışında bir şey yazma. Fiyat, rakamla süre, kişi sayısı, mekân/kişi/okul adı, uydurma anı ve güvenlik garantisi yazma.",
+      "yayin": "2026-11-03"
     },
     {
       "slug": "sinifin-hepsini-dogum-gunune-davet-etmek",
