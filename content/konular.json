@@ -722,7 +722,7 @@
     },
     {
       "slug": "sinifin-hepsini-dogum-gunune-davet-etmek",
-      "durum": "bekliyor",
+      "durum": "yayinlandi",
       "planlanan": "2026-11-04",
       "title": "Doğum gününe bütün sınıf davet edilmeli mi?",
       "question": "Çocuğun doğum gününe sınıfın tamamını mı, sadece yakın arkadaşlarını mı çağırmak gerekir?",
@@ -745,7 +745,8 @@
         "Okulda davetiye dağıtılabilir mi?",
         "Kalabalık sınıf için ev yeter mi?"
       ],
-      "yazilmayacaklar": "İşletme hakkında rehberdeki kesin bilgiler dışında bir şey yazma. Fiyat, rakamla süre, kişi sayısı, mekân/kişi/okul adı, uydurma anı ve güvenlik garantisi yazma."
+      "yazilmayacaklar": "İşletme hakkında rehberdeki kesin bilgiler dışında bir şey yazma. Fiyat, rakamla süre, kişi sayısı, mekân/kişi/okul adı, uydurma anı ve güvenlik garantisi yazma.",
+      "yayin": "2026-11-04"
     },
     {
       "slug": "apartmanda-dogum-gunu-komsulari-rahatsiz-etmeden",
