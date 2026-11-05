@@ -778,7 +778,7 @@
     },
     {
       "slug": "cocuk-partisi-icin-ev-nasil-hazirlanir",
-      "durum": "bekliyor",
+      "durum": "yayinlandi",
       "planlanan": "2026-11-06",
       "title": "Çocuk partisi için ev nasıl hazırlanır?",
       "question": "Evde çocuk doğum günü yapmadan önce odalar ve eşyalar nasıl hazırlanmalı?",
@@ -802,7 +802,8 @@
         "Evcil hayvanlar ne yapılmalı?",
         "Balkon kullanılabilir mi?"
       ],
-      "yazilmayacaklar": "İşletme hakkında rehberdeki kesin bilgiler dışında bir şey yazma. Fiyat, rakamla süre, kişi sayısı, mekân/kişi/okul adı, uydurma anı ve güvenlik garantisi yazma."
+      "yazilmayacaklar": "İşletme hakkında rehberdeki kesin bilgiler dışında bir şey yazma. Fiyat, rakamla süre, kişi sayısı, mekân/kişi/okul adı, uydurma anı ve güvenlik garantisi yazma.",
+      "yayin": "2026-11-06"
     },
     {
       "slug": "cocuk-dogum-gunu-temasi-nasil-secilir",
