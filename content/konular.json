@@ -807,7 +807,7 @@
     },
     {
       "slug": "cocuk-dogum-gunu-temasi-nasil-secilir",
-      "durum": "bekliyor",
+      "durum": "yayinlandi",
       "planlanan": "2026-11-07",
       "title": "Çocuk doğum günü teması nasıl seçilir?",
       "question": "Çocuk doğum günü için tema seçerken nelere bakılır, tema şart mı?",
@@ -830,7 +830,8 @@
         "Kostüm istenmeli mi?",
         "Çocuk temayı son anda değiştirirse ne yapılır?"
       ],
-      "yazilmayacaklar": "Telif hakkı olan karakter isimleriyle ürün ya da hizmet vaat etme. İşletme hakkında rehberdeki kesin bilgiler dışında bir şey yazma. Fiyat, rakamla süre, kişi sayısı, mekân/kişi/okul adı, uydurma anı ve güvenlik garantisi yazma."
+      "yazilmayacaklar": "Telif hakkı olan karakter isimleriyle ürün ya da hizmet vaat etme. İşletme hakkında rehberdeki kesin bilgiler dışında bir şey yazma. Fiyat, rakamla süre, kişi sayısı, mekân/kişi/okul adı, uydurma anı ve güvenlik garantisi yazma.",
+      "yayin": "2026-11-07"
     },
     {
       "slug": "mini-disco-nedir-cocuk-partisinde",
