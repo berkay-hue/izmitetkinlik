@@ -835,7 +835,7 @@
     },
     {
       "slug": "mini-disco-nedir-cocuk-partisinde",
-      "durum": "bekliyor",
+      "durum": "yayinlandi",
       "planlanan": "2026-11-08",
       "title": "Mini disco nedir, çocuk partisinde nasıl yapılır?",
       "question": "Çocuk partilerindeki mini disco ne demek, hangi yaşlara uygun?",
@@ -858,7 +858,8 @@
         "Dans etmek istemeyen çocuk ne yapar?",
         "Ebeveynler de katılabilir mi?"
       ],
-      "yazilmayacaklar": "Ekipman markası ya da ses sistemi özelliği yazma. İşletme hakkında rehberdeki kesin bilgiler dışında bir şey yazma. Fiyat, rakamla süre, kişi sayısı, mekân/kişi/okul adı, uydurma anı ve güvenlik garantisi yazma."
+      "yazilmayacaklar": "Ekipman markası ya da ses sistemi özelliği yazma. İşletme hakkında rehberdeki kesin bilgiler dışında bir şey yazma. Fiyat, rakamla süre, kişi sayısı, mekân/kişi/okul adı, uydurma anı ve güvenlik garantisi yazma.",
+      "yayin": "2026-11-08"
     },
     {
       "slug": "sandalye-kapmaca-nasil-oynanir",
