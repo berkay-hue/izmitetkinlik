@@ -891,7 +891,7 @@
     },
     {
       "slug": "yumurta-maratonu-nasil-oynanir",
-      "durum": "bekliyor",
+      "durum": "yayinlandi",
       "planlanan": "2026-11-10",
       "title": "Yumurta maratonu nasıl oynanır?",
       "question": "Kaşıkta yumurta taşıma oyunu çocuk partisinde nasıl hazırlanır ve oynanır?",
@@ -914,7 +914,8 @@
         "Evde oynanabilir mi?",
         "En küçük yaş için nasıl kolaylaştırılır?"
       ],
-      "yazilmayacaklar": "İşletme hakkında rehberdeki kesin bilgiler dışında bir şey yazma. Fiyat, rakamla süre, kişi sayısı, mekân/kişi/okul adı, uydurma anı ve güvenlik garantisi yazma."
+      "yazilmayacaklar": "İşletme hakkında rehberdeki kesin bilgiler dışında bir şey yazma. Fiyat, rakamla süre, kişi sayısı, mekân/kişi/okul adı, uydurma anı ve güvenlik garantisi yazma.",
+      "yayin": "2026-11-10"
     },
     {
       "slug": "cocuk-partisinde-fotograf-ve-paylasim-izni",

@@ -6,7 +6,15 @@
     <atom:link href="https://izmitetkinlik.com/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Kocaeli ve Sakarya'da çocuk etkinlikleri, doğum günü, okul şenliği ve özel günler için palyaço ve animatör rehberi.</description>
     <language>tr-TR</language>
-    <lastBuildDate>Mon, 09 Nov 2026 06:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 06:00:00 GMT</lastBuildDate>
+    <item>
+      <title>Yumurta maratonu nasıl oynanır?</title>
+      <link>https://izmitetkinlik.com/blog/yumurta-maratonu-nasil-oynanir/</link>
+      <guid isPermaLink="true">https://izmitetkinlik.com/blog/yumurta-maratonu-nasil-oynanir/</guid>
+      <pubDate>Tue, 10 Nov 2026 06:00:00 GMT</pubDate>
+      <category>Hizmetler</category>
+      <description>Kaşıkta yumurta taşıma oyununun kuralları, gerçek yumurta yerine ne kullanılacağı, takım sürümü ve ev, bahçe, salon için uyarlama önerileri.</description>
+    </item>
     <item>
       <title>Sandalye kapmaca nasıl oynanır, ağlamadan nasıl biter?</title>
       <link>https://izmitetkinlik.com/blog/sandalye-kapmaca-nasil-oynanir/</link>
@@ -238,14 +246,6 @@
       <pubDate>Thu, 15 Oct 2026 06:00:00 GMT</pubDate>
       <category>Doğum Günü</category>
       <description>Küçük bir salonda doğum günü oyunları: hangi oyun ne kadar yer ister, yaşa göre seçim, halat savaşının yeri ve kaybeden çocuk üzülmesin diye ipuçları.</description>
-    </item>
-    <item>
-      <title>Çocuk doğum günü partisi kaç hafta önce planlanır?</title>
-      <link>https://izmitetkinlik.com/blog/dogum-gunu-partisi-nasil-planlanir/</link>
-      <guid isPermaLink="true">https://izmitetkinlik.com/blog/dogum-gunu-partisi-nasil-planlanir/</guid>
-      <pubDate>Thu, 15 Oct 2026 06:00:00 GMT</pubDate>
-      <category>Doğum Günü</category>
-      <description>Çocuk doğum günü partisi için dört haftalık hazırlık takvimi: tarih, mekân, palyaço, davetiye, pasta, alan hazırlığı ve parti günü akışı.</description>
     </item>
   </channel>
 </rss>
