@@ -863,7 +863,7 @@
     },
     {
       "slug": "sandalye-kapmaca-nasil-oynanir",
-      "durum": "bekliyor",
+      "durum": "yayinlandi",
       "planlanan": "2026-11-09",
       "title": "Sandalye kapmaca nasıl oynanır, kimse ağlamadan nasıl biter?",
       "question": "Sandalye kapmaca kuralları nedir, küçük çocuklarla nasıl oynanır?",
@@ -886,7 +886,8 @@
         "Sandalye yerine minder kullanılır mı?",
         "Kazanana ödül verilmeli mi?"
       ],
-      "yazilmayacaklar": "İşletme hakkında rehberdeki kesin bilgiler dışında bir şey yazma. Fiyat, rakamla süre, kişi sayısı, mekân/kişi/okul adı, uydurma anı ve güvenlik garantisi yazma."
+      "yazilmayacaklar": "İşletme hakkında rehberdeki kesin bilgiler dışında bir şey yazma. Fiyat, rakamla süre, kişi sayısı, mekân/kişi/okul adı, uydurma anı ve güvenlik garantisi yazma.",
+      "yayin": "2026-11-09"
     },
     {
       "slug": "yumurta-maratonu-nasil-oynanir",
