@@ -919,7 +919,7 @@
     },
     {
       "slug": "cocuk-partisinde-fotograf-ve-paylasim-izni",
-      "durum": "bekliyor",
+      "durum": "yayinlandi",
       "planlanan": "2026-11-11",
       "title": "Çocuk partisinde başka çocukların fotoğrafı paylaşılır mı?",
       "question": "Doğum gününde çekilen fotoğraflarda diğer çocuklar için velilerden izin almak gerekir mi?",
@@ -942,7 +942,8 @@
         "Animatör fotoğraf çeker mi?",
         "İzin vermeyen veli olursa ne yapılır?"
       ],
-      "yazilmayacaklar": "Hukuki madde ya da kanun numarası yazma; hukuki tavsiye verme. İşletmenin fotoğraf çektiğini ya da çekmediğini iddia etme. İşletme hakkında rehberdeki kesin bilgiler dışında bir şey yazma. Fiyat, rakamla süre, kişi sayısı, mekân/kişi/okul adı, uydurma anı ve güvenlik garantisi yazma."
+      "yazilmayacaklar": "Hukuki madde ya da kanun numarası yazma; hukuki tavsiye verme. İşletmenin fotoğraf çektiğini ya da çekmediğini iddia etme. İşletme hakkında rehberdeki kesin bilgiler dışında bir şey yazma. Fiyat, rakamla süre, kişi sayısı, mekân/kişi/okul adı, uydurma anı ve güvenlik garantisi yazma.",
+      "yayin": "2026-11-11"
     },
     {
       "slug": "cocuk-partisinde-yiyecek-alerjisi",

@@ -6,7 +6,15 @@
     <atom:link href="https://izmitetkinlik.com/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Kocaeli ve Sakarya'da çocuk etkinlikleri, doğum günü, okul şenliği ve özel günler için palyaço ve animatör rehberi.</description>
     <language>tr-TR</language>
-    <lastBuildDate>Tue, 10 Nov 2026 06:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 06:00:00 GMT</lastBuildDate>
+    <item>
+      <title>Çocuk partisinde başka çocukların fotoğrafı paylaşılır mı?</title>
+      <link>https://izmitetkinlik.com/blog/cocuk-partisinde-fotograf-ve-paylasim-izni/</link>
+      <guid isPermaLink="true">https://izmitetkinlik.com/blog/cocuk-partisinde-fotograf-ve-paylasim-izni/</guid>
+      <pubDate>Wed, 11 Nov 2026 06:00:00 GMT</pubDate>
+      <category>Rehber</category>
+      <description>Doğum gününde çekilen fotoğraflarda diğer çocuklar için izin nasıl istenir, istemeyen ailelere nasıl saygı gösterilir? Pratik öneriler.</description>
+    </item>
     <item>
       <title>Yumurta maratonu nasıl oynanır?</title>
       <link>https://izmitetkinlik.com/blog/yumurta-maratonu-nasil-oynanir/</link>
@@ -238,14 +246,6 @@
       <pubDate>Thu, 15 Oct 2026 06:00:00 GMT</pubDate>
       <category>Doğum Günü</category>
       <description>Kış partisi için mekân seçerken sorulacaklar: kafede dışarıdan animatör izni, sitede yönetim onayı, salonda kurulum saati, ısıtma ve vestiyer.</description>
-    </item>
-    <item>
-      <title>Evde çocuk doğum günü için dar alanda hangi oyunlar oynanır?</title>
-      <link>https://izmitetkinlik.com/blog/evde-dogum-gunu-oyunlari-dar-alan/</link>
-      <guid isPermaLink="true">https://izmitetkinlik.com/blog/evde-dogum-gunu-oyunlari-dar-alan/</guid>
-      <pubDate>Thu, 15 Oct 2026 06:00:00 GMT</pubDate>
-      <category>Doğum Günü</category>
-      <description>Küçük bir salonda doğum günü oyunları: hangi oyun ne kadar yer ister, yaşa göre seçim, halat savaşının yeri ve kaybeden çocuk üzülmesin diye ipuçları.</description>
     </item>
   </channel>
 </rss>
