@@ -947,7 +947,7 @@
     },
     {
       "slug": "cocuk-partisinde-yiyecek-alerjisi",
-      "durum": "bekliyor",
+      "durum": "yayinlandi",
       "planlanan": "2026-11-12",
       "title": "Çocuk partisinde yiyecek alerjisi için neler yapılır?",
       "question": "Doğum gününe gelen çocuklarda alerji olabilir mi, ev sahibi nasıl hazırlanır?",
@@ -970,7 +970,8 @@
         "Alerjik çocuğun velisi partide kalmalı mı?",
         "Şekersiz seçenek gerekir mi?"
       ],
-      "yazilmayacaklar": "Tıbbi tavsiye, ilaç ya da tedavi bilgisi yazma; 'bir doktora danışın' de. İşletme hakkında rehberdeki kesin bilgiler dışında bir şey yazma. Fiyat, rakamla süre, kişi sayısı, mekân/kişi/okul adı, uydurma anı ve güvenlik garantisi yazma."
+      "yazilmayacaklar": "Tıbbi tavsiye, ilaç ya da tedavi bilgisi yazma; 'bir doktora danışın' de. İşletme hakkında rehberdeki kesin bilgiler dışında bir şey yazma. Fiyat, rakamla süre, kişi sayısı, mekân/kişi/okul adı, uydurma anı ve güvenlik garantisi yazma.",
+      "yayin": "2026-11-12"
     },
     {
       "slug": "kres-ogretmenleri-icin-sinif-kutlamasi",
