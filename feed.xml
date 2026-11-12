@@ -6,7 +6,15 @@
     <atom:link href="https://izmitetkinlik.com/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Kocaeli ve Sakarya'da çocuk etkinlikleri, doğum günü, okul şenliği ve özel günler için palyaço ve animatör rehberi.</description>
     <language>tr-TR</language>
-    <lastBuildDate>Thu, 12 Nov 2026 06:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 06:00:00 GMT</lastBuildDate>
+    <item>
+      <title>Kreş öğretmeni sınıf kutlamasını nasıl planlar?</title>
+      <link>https://izmitetkinlik.com/blog/kres-ogretmenleri-icin-sinif-kutlamasi/</link>
+      <guid isPermaLink="true">https://izmitetkinlik.com/blog/kres-ogretmenleri-icin-sinif-kutlamasi/</guid>
+      <pubDate>Fri, 13 Nov 2026 06:00:00 GMT</pubDate>
+      <category>Okul &amp; Kreş</category>
+      <description>Kreşte özel gün kutlaması planlayan öğretmenler için tarih seçimi, veli notu, sınıf düzeni, animatörle iş bölümü ve sakinleşme önerileri.</description>
+    </item>
     <item>
       <title>Çocuk partisinde yiyecek alerjisi için neler yapılır?</title>
       <link>https://izmitetkinlik.com/blog/cocuk-partisinde-yiyecek-alerjisi/</link>
@@ -238,14 +246,6 @@
       <pubDate>Thu, 15 Oct 2026 06:00:00 GMT</pubDate>
       <category>Rehber</category>
       <description>Palyaço fiyatı neye göre değişir, teklif isterken hangi bilgileri yazmalısınız? Kocaeli ve Sakarya'daki veliler ve okullar için kısa bir kontrol listesi.</description>
-    </item>
-    <item>
-      <title>Kreşte ve anaokulunda yılbaşı kutlaması nasıl planlanır?</title>
-      <link>https://izmitetkinlik.com/blog/kreste-yilbasi-kutlamasi-nasil-planlanir/</link>
-      <guid isPermaLink="true">https://izmitetkinlik.com/blog/kreste-yilbasi-kutlamasi-nasil-planlanir/</guid>
-      <pubDate>Thu, 15 Oct 2026 06:00:00 GMT</pubDate>
-      <category>Okul &amp; Kreş</category>
-      <description>Kreş ve anaokulunda yılbaşı kutlamasını planlarken tema, sınıf sırası, öğretmen hazırlığı, veli notu ve örnek program akışı için pratik bir rehber.</description>
     </item>
   </channel>
 </rss>

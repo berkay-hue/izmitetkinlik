@@ -975,7 +975,7 @@
     },
     {
       "slug": "kres-ogretmenleri-icin-sinif-kutlamasi",
-      "durum": "bekliyor",
+      "durum": "yayinlandi",
       "planlanan": "2026-11-13",
       "title": "Kreşte sınıf kutlaması öğretmen için nasıl kolay planlanır?",
       "question": "Kreş öğretmeni özel gün kutlamasını sınıfta nasıl düzenler, veliler nasıl dahil edilir?",
@@ -998,7 +998,8 @@
         "Kutlama ders saatinde mi yapılmalı?",
         "Birkaç sınıf birlikte kutlayabilir mi?"
       ],
-      "yazilmayacaklar": "İşletme hakkında rehberdeki kesin bilgiler dışında bir şey yazma. Fiyat, rakamla süre, kişi sayısı, mekân/kişi/okul adı, uydurma anı ve güvenlik garantisi yazma."
+      "yazilmayacaklar": "İşletme hakkında rehberdeki kesin bilgiler dışında bir şey yazma. Fiyat, rakamla süre, kişi sayısı, mekân/kişi/okul adı, uydurma anı ve güvenlik garantisi yazma.",
+      "yayin": "2026-11-13"
     },
     {
       "slug": "okul-senligi-nasil-planlanir",
