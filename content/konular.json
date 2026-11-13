@@ -1003,7 +1003,7 @@
     },
     {
       "slug": "okul-senligi-nasil-planlanir",
-      "durum": "bekliyor",
+      "durum": "yayinlandi",
       "planlanan": "2026-11-14",
       "title": "Okul şenliği nasıl planlanır?",
       "question": "İlkokul ya da anaokulunda tüm okulun katıldığı şenlik nasıl düzenlenir?",
@@ -1027,7 +1027,8 @@
         "Bütün sınıflar aynı anda katılmalı mı?",
         "Şenlik için ne kadar önce yazmak gerekir?"
       ],
-      "yazilmayacaklar": "İşletme hakkında rehberdeki kesin bilgiler dışında bir şey yazma. Fiyat, rakamla süre, kişi sayısı, mekân/kişi/okul adı, uydurma anı ve güvenlik garantisi yazma."
+      "yazilmayacaklar": "İşletme hakkında rehberdeki kesin bilgiler dışında bir şey yazma. Fiyat, rakamla süre, kişi sayısı, mekân/kişi/okul adı, uydurma anı ve güvenlik garantisi yazma.",
+      "yayin": "2026-11-14"
     },
     {
       "slug": "farkli-yaslarda-cocuklar-ayni-partide",

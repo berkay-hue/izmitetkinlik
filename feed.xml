@@ -6,7 +6,15 @@
     <atom:link href="https://izmitetkinlik.com/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Kocaeli ve Sakarya'da çocuk etkinlikleri, doğum günü, okul şenliği ve özel günler için palyaço ve animatör rehberi.</description>
     <language>tr-TR</language>
-    <lastBuildDate>Fri, 13 Nov 2026 06:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 06:00:00 GMT</lastBuildDate>
+    <item>
+      <title>Okul şenliği nasıl planlanır?</title>
+      <link>https://izmitetkinlik.com/blog/okul-senligi-nasil-planlanir/</link>
+      <guid isPermaLink="true">https://izmitetkinlik.com/blog/okul-senligi-nasil-planlanir/</guid>
+      <pubDate>Sat, 14 Nov 2026 06:00:00 GMT</pubDate>
+      <category>Okul &amp; Kreş</category>
+      <description>İlkokul ve anaokulunda tüm okulun katıldığı şenlik için tarih, alan, sınıf sırası, oyun istasyonları, final ve veli alanı planlama rehberi.</description>
+    </item>
     <item>
       <title>Kreş öğretmeni sınıf kutlamasını nasıl planlar?</title>
       <link>https://izmitetkinlik.com/blog/kres-ogretmenleri-icin-sinif-kutlamasi/</link>
@@ -238,14 +246,6 @@
       <pubDate>Fri, 16 Oct 2026 06:00:00 GMT</pubDate>
       <category>Doğum Günü</category>
       <description>3-6 yaş doğum gününde oyun, yüz boyama, sosis balon ve mini disco nasıl sıralanır? Sıra bekleme ve herkesin kazandığı oyunlar için öneriler.</description>
-    </item>
-    <item>
-      <title>Palyaço ve animatör fiyatını neler belirler?</title>
-      <link>https://izmitetkinlik.com/blog/palyaco-fiyatini-neler-belirler/</link>
-      <guid isPermaLink="true">https://izmitetkinlik.com/blog/palyaco-fiyatini-neler-belirler/</guid>
-      <pubDate>Thu, 15 Oct 2026 06:00:00 GMT</pubDate>
-      <category>Rehber</category>
-      <description>Palyaço fiyatı neye göre değişir, teklif isterken hangi bilgileri yazmalısınız? Kocaeli ve Sakarya'daki veliler ve okullar için kısa bir kontrol listesi.</description>
     </item>
   </channel>
 </rss>
