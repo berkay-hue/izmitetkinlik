@@ -1032,7 +1032,7 @@
     },
     {
       "slug": "farkli-yaslarda-cocuklar-ayni-partide",
-      "durum": "bekliyor",
+      "durum": "yayinlandi",
       "planlanan": "2026-11-15",
       "title": "Farklı yaşlardaki çocuklar aynı partide nasıl eğlenir?",
       "question": "Küçük ve büyük çocukların karışık olduğu partide oyunlar nasıl seçilir?",
@@ -1055,7 +1055,8 @@
         "Büyük çocuklar sıkılırsa ne yapılır?",
         "Ayrı oyun grupları kurulmalı mı?"
       ],
-      "yazilmayacaklar": "İşletme hakkında rehberdeki kesin bilgiler dışında bir şey yazma. Fiyat, rakamla süre, kişi sayısı, mekân/kişi/okul adı, uydurma anı ve güvenlik garantisi yazma."
+      "yazilmayacaklar": "İşletme hakkında rehberdeki kesin bilgiler dışında bir şey yazma. Fiyat, rakamla süre, kişi sayısı, mekân/kişi/okul adı, uydurma anı ve güvenlik garantisi yazma.",
+      "yayin": "2026-11-15"
     },
     {
       "slug": "cocuk-partisi-nasil-toparlanir-bitis",
