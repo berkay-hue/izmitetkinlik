@@ -1088,7 +1088,7 @@
     },
     {
       "slug": "ilk-dogum-gunu-partisi-nasil-yapilir",
-      "durum": "bekliyor",
+      "durum": "yayinlandi",
       "planlanan": "2026-11-17",
       "title": "Bebeğin ilk doğum günü nasıl kutlanır?",
       "question": "Bir yaş doğum günü partisinde neler yapılır, animatör gerekir mi?",
@@ -1111,7 +1111,8 @@
         "Bebek kalabalıktan rahatsız olursa ne yapılır?",
         "Pasta bebeğe yedirilmeli mi?"
       ],
-      "yazilmayacaklar": "Bebek beslenmesi hakkında tıbbi tavsiye verme. İşletme hakkında rehberdeki kesin bilgiler dışında bir şey yazma. Fiyat, rakamla süre, kişi sayısı, mekân/kişi/okul adı, uydurma anı ve güvenlik garantisi yazma."
+      "yazilmayacaklar": "Bebek beslenmesi hakkında tıbbi tavsiye verme. İşletme hakkında rehberdeki kesin bilgiler dışında bir şey yazma. Fiyat, rakamla süre, kişi sayısı, mekân/kişi/okul adı, uydurma anı ve güvenlik garantisi yazma.",
+      "yayin": "2026-11-17"
     },
     {
       "slug": "dogum-gunu-partisi-son-dakika-kontrol-listesi",
