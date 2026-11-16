@@ -1060,7 +1060,7 @@
     },
     {
       "slug": "cocuk-partisi-nasil-toparlanir-bitis",
-      "durum": "bekliyor",
+      "durum": "yayinlandi",
       "planlanan": "2026-11-16",
       "title": "Çocuk partisi tatlı bir finalle nasıl biter?",
       "question": "Çocuk partisini ağlama ve kaos olmadan nasıl bitirmek gerekir?",
@@ -1083,7 +1083,8 @@
         "Hediye çantası şart mı?",
         "Geç kalan veliler için ne yapılır?"
       ],
-      "yazilmayacaklar": "İşletme hakkında rehberdeki kesin bilgiler dışında bir şey yazma. Fiyat, rakamla süre, kişi sayısı, mekân/kişi/okul adı, uydurma anı ve güvenlik garantisi yazma."
+      "yazilmayacaklar": "İşletme hakkında rehberdeki kesin bilgiler dışında bir şey yazma. Fiyat, rakamla süre, kişi sayısı, mekân/kişi/okul adı, uydurma anı ve güvenlik garantisi yazma.",
+      "yayin": "2026-11-16"
     },
     {
       "slug": "ilk-dogum-gunu-partisi-nasil-yapilir",
