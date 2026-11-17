@@ -1116,7 +1116,7 @@
     },
     {
       "slug": "dogum-gunu-partisi-son-dakika-kontrol-listesi",
-      "durum": "bekliyor",
+      "durum": "yayinlandi",
       "planlanan": "2026-11-18",
       "title": "Doğum günü partisinden önceki gün neler kontrol edilir?",
       "question": "Çocuk partisinin bir gün öncesinde yapılacakların kontrol listesi nedir?",
@@ -1140,7 +1140,8 @@
         "Hasta olan davetliye ne denir?",
         "Unutulan şeyler en çok neler?"
       ],
-      "yazilmayacaklar": "İşletme hakkında rehberdeki kesin bilgiler dışında bir şey yazma. Fiyat, rakamla süre, kişi sayısı, mekân/kişi/okul adı, uydurma anı ve güvenlik garantisi yazma."
+      "yazilmayacaklar": "İşletme hakkında rehberdeki kesin bilgiler dışında bir şey yazma. Fiyat, rakamla süre, kişi sayısı, mekân/kişi/okul adı, uydurma anı ve güvenlik garantisi yazma.",
+      "yayin": "2026-11-18"
     },
     {
       "slug": "karne-gunu-anaokulu-etkinlikleri",

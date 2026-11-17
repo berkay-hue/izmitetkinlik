@@ -6,7 +6,15 @@
     <atom:link href="https://izmitetkinlik.com/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Kocaeli ve Sakarya'da çocuk etkinlikleri, doğum günü, okul şenliği ve özel günler için palyaço ve animatör rehberi.</description>
     <language>tr-TR</language>
-    <lastBuildDate>Tue, 17 Nov 2026 06:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 06:00:00 GMT</lastBuildDate>
+    <item>
+      <title>Doğum günü partisinden önceki gün neler kontrol edilir?</title>
+      <link>https://izmitetkinlik.com/blog/dogum-gunu-partisi-son-dakika-kontrol-listesi/</link>
+      <guid isPermaLink="true">https://izmitetkinlik.com/blog/dogum-gunu-partisi-son-dakika-kontrol-listesi/</guid>
+      <pubDate>Wed, 18 Nov 2026 06:00:00 GMT</pubDate>
+      <category>Doğum Günü</category>
+      <description>Çocuk doğum günü partisinden bir gün önce yapılacaklar: katılım teyidi, alan, ikram, pasta, müzik, animatörle akış ve yedek plan için kontrol listesi.</description>
+    </item>
     <item>
       <title>Bebeğin ilk doğum günü nasıl kutlanır?</title>
       <link>https://izmitetkinlik.com/blog/ilk-dogum-gunu-partisi-nasil-yapilir/</link>
@@ -238,14 +246,6 @@
       <pubDate>Tue, 20 Oct 2026 06:00:00 GMT</pubDate>
       <category>Hizmetler</category>
       <description>Palyaço ile animatörün farkı, yaşa, mekâna ve çocuğun mizacına göre hangisinin seçileceği ve ikisinin bir partide birlikte nasıl çalıştığı.</description>
-    </item>
-    <item>
-      <title>7-10 Yaş Doğum Gününde Hangi Aktiviteler Yapılır?</title>
-      <link>https://izmitetkinlik.com/blog/7-10-yas-dogum-gunu-aktiviteleri/</link>
-      <guid isPermaLink="true">https://izmitetkinlik.com/blog/7-10-yas-dogum-gunu-aktiviteleri/</guid>
-      <pubDate>Mon, 19 Oct 2026 06:00:00 GMT</pubDate>
-      <category>Doğum Günü</category>
-      <description>7-10 yaş doğum günü için takım oyunları, dans maratonu, mini disco, yüz boyama ve sosis balon gibi büyük çocuklara uygun aktivite önerileri.</description>
     </item>
   </channel>
 </rss>
