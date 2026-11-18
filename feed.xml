@@ -6,7 +6,15 @@
     <atom:link href="https://izmitetkinlik.com/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Kocaeli ve Sakarya'da çocuk etkinlikleri, doğum günü, okul şenliği ve özel günler için palyaço ve animatör rehberi.</description>
     <language>tr-TR</language>
-    <lastBuildDate>Wed, 18 Nov 2026 06:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 06:00:00 GMT</lastBuildDate>
+    <item>
+      <title>Çocuk doğum günü partisi hangi saatte yapılmalı?</title>
+      <link>https://izmitetkinlik.com/blog/cocuk-dogum-gunu-partisi-hangi-saatte-yapilmali/</link>
+      <guid isPermaLink="true">https://izmitetkinlik.com/blog/cocuk-dogum-gunu-partisi-hangi-saatte-yapilmali/</guid>
+      <pubDate>Thu, 19 Nov 2026 06:00:00 GMT</pubDate>
+      <category>Doğum Günü</category>
+      <description>Doğum günü partisi saatini yaşa, uyku ve yemek düzenine göre seçmenin yolları; hafta içi ve hafta sonu karşılaştırması ve kısa kontrol listesi.</description>
+    </item>
     <item>
       <title>Doğum günü partisinden önceki gün neler kontrol edilir?</title>
       <link>https://izmitetkinlik.com/blog/dogum-gunu-partisi-son-dakika-kontrol-listesi/</link>
@@ -238,14 +246,6 @@
       <pubDate>Wed, 21 Oct 2026 06:00:00 GMT</pubDate>
       <category>Doğum Günü</category>
       <description>1 ve 2 yaş doğum günü için sakin parti planı: doğru saat, kısa eğlence, müzik ve baloncuk, kaçınılacaklar ve animatöre iletilecek bilgiler.</description>
-    </item>
-    <item>
-      <title>Palyaço ile Animatör Arasındaki Fark Ne?</title>
-      <link>https://izmitetkinlik.com/blog/palyaco-ile-animator-farki/</link>
-      <guid isPermaLink="true">https://izmitetkinlik.com/blog/palyaco-ile-animator-farki/</guid>
-      <pubDate>Tue, 20 Oct 2026 06:00:00 GMT</pubDate>
-      <category>Hizmetler</category>
-      <description>Palyaço ile animatörün farkı, yaşa, mekâna ve çocuğun mizacına göre hangisinin seçileceği ve ikisinin bir partide birlikte nasıl çalıştığı.</description>
     </item>
   </channel>
 </rss>

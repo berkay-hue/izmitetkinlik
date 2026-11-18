@@ -1709,7 +1709,7 @@
     },
     {
       "slug": "cocuk-dogum-gunu-partisi-hangi-saatte-yapilmali",
-      "durum": "bekliyor",
+      "durum": "yayinlandi",
       "planlanan": "2026-11-19",
       "title": "Çocuk doğum günü partisi hangi saatte yapılmalı?",
       "question": "Çocuğun yaşına, uyku ve yemek düzenine göre doğum günü partisi için en uygun saat nasıl seçilir?",
@@ -1733,7 +1733,8 @@
         "Davetiyede bitiş saati yazılmalı mı?"
       ],
       "yazilmayacaklar": "Programın ya da animasyonun kaç saat süreceğine dair rakam verilmez; belirli saatlerin 'bilimsel olarak en doğru' olduğu ya da uyku konusunda tıbbi iddia yazılmaz; belirli mekânların açılış saatleri anılmaz; hafta sonu fiyat farkı gibi fiyat ifadesi kullanılmaz.",
-      "kaynak": "otomatik"
+      "kaynak": "otomatik",
+      "yayin": "2026-11-19"
     },
     {
       "slug": "animator-varken-ebeveynler-ne-yapmali",
