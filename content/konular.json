@@ -1738,7 +1738,7 @@
     },
     {
       "slug": "animator-varken-ebeveynler-ne-yapmali",
-      "durum": "bekliyor",
+      "durum": "yayinlandi",
       "planlanan": "2026-11-20",
       "title": "Animatör varken ebeveynler ne yapmalı?",
       "question": "Doğum gününde palyaço ya da animatör programı sürerken ev sahibi ve diğer veliler nasıl bir rol üstlenmeli?",
@@ -1762,7 +1762,8 @@
         "Ev sahibi programın sırasını değiştirmek isterse ne yapmalı?"
       ],
       "yazilmayacaklar": "Ekip sayısı, program süresi ya da animatörün 'eğitimli', 'uzman' olduğu yazılmaz; çocuk gelişimi ya da psikoloji uzmanlığı iddiası kurulmaz; uydurma parti anısı anlatılmaz; garantili memnuniyet ifadesi kullanılmaz.",
-      "kaynak": "otomatik"
+      "kaynak": "otomatik",
+      "yayin": "2026-11-20"
     },
     {
       "slug": "cocuk-partisinde-misafirlere-hediye-verilir-mi",
@@ -2127,6 +2128,433 @@
         "Hizmetleri parti günü değiştirmek mümkün mü?"
       ],
       "yazilmayacaklar": "Paket fiyatı, hizmet başı ücret ya da 'avantajlı paket' gibi fiyat ifadesi kullanılmaz; hizmetlerin süresi ya da ekip sayısı için rakam verilmez; sitede olmayan hizmet (sihirbaz, şişme oyun parkı, kostümlü karakter, süsleme vb.) önerilmez; parti günü değişikliğin kesin yapılacağı taahhüdü verilmez.",
+      "kaynak": "otomatik"
+    },
+    {
+      "slug": "dogum-gunu-cocugu-partide-aglarsa-ne-yapilir",
+      "durum": "bekliyor",
+      "planlanan": "2026-12-04",
+      "title": "Doğum günü çocuğu partide ağlarsa ne yapılır?",
+      "question": "Kendi doğum günü partisinde çocuğum ağlamaya başlarsa ya da huysuzlanırsa nasıl davranmalıyım, partiyi nasıl toparlarım?",
+      "category": "dogum-gunu",
+      "link_targets": [
+        "/#etkinlikler",
+        "/#sss",
+        "/#iletisim"
+      ],
+      "outline": [
+        "Doğum günü çocuğu neden ağlar? Yorgunluk, kalabalık, ilgi odağı olma baskısı, açlık gibi genel nedenler",
+        "İlk birkaç dakikada ne yapılır: sakin bir köşe, kısa mola, çocuğu kalabalığın önünde zorlamamak",
+        "Program sırasında esneklik: oyunu kısaltmak, sırayı değiştirmek, animatörle kısa işaretleşme",
+        "Ağlamayı önleyen hazırlıklar: uyku ve öğün saatine göre parti saati, programı önceden çocuğa anlatmak",
+        "Pasta ve hediye anında gerginlik olursa nasıl yumuşatılır",
+        "Velinin kontrol listesi: mola köşesi, sevdiği bir eşya, ikram saati, misafirlere kısa bilgi",
+        "Programı birlikte planlamak için bize yazın"
+      ],
+      "faq": [
+        "Ağlayan çocuk partiye geri dönmek istemezse parti devam eder mi?",
+        "Misafirlerin önünde çocuğu teselli etmek doğru mu?",
+        "Animatöre çocuğumun hassas olduğunu önceden söylemeli miyim?"
+      ],
+      "yazilmayacaklar": "Çocuk psikolojisi ya da gelişim uzmanlığı iddiası, tanı koyan ifadeler, 'animatörümüz her çocuğu susturur' gibi garanti cümleleri, uydurma parti anıları, program süresi ya da ekip sayısı.",
+      "kaynak": "otomatik"
+    },
+    {
+      "slug": "cocuk-oyunda-kaybedince-aglarsa-ne-yapilir",
+      "durum": "bekliyor",
+      "planlanan": "2026-12-05",
+      "title": "Çocuk oyunda kaybedince ağlarsa ne yapılır?",
+      "question": "Partide ya da okulda yarışmalı oyunlarda kaybeden çocuk ağlarsa ya da küserse ne yapmak gerekir, bunu önlemek mümkün mü?",
+      "category": "rehber",
+      "link_targets": [
+        "/#hizmetler",
+        "/#etkinlikler",
+        "/#iletisim"
+      ],
+      "outline": [
+        "Kaybetmeye üzülmek yaş grubuna göre neden doğaldır?",
+        "O an ne söylenir, ne söylenmez: duyguyu kabul etmek, kısa ve sakin cümleler",
+        "Elenmeyi yumuşatan oyun düzenleri: elenenlere yardımcı görevi, takım oyunları, herkesin kazandığı turlar",
+        "3–5 yaş ile 6–9 yaş arasında yarışma dozunu ayarlamak",
+        "Ödül ve alkış dengesi: yalnız birinciye değil, katılan herkese",
+        "Velinin ve öğretmenin kontrol listesi"
+      ],
+      "faq": [
+        "Küçük yaş grubunda yarışmalı oyun hiç oynanmamalı mı?",
+        "Kaybeden çocuğa ayrıca ödül vermek doğru mu?",
+        "Sürekli kaybeden bir çocuğu nasıl oyunda tutarız?"
+      ],
+      "yazilmayacaklar": "Pedagojik ya da psikolojik uzmanlık iddiası, 'bizim oyunlarımızda kimse ağlamaz' gibi garanti, oyun süresi rakamları, sitede olmayan oyun ya da hizmet adları, uydurma vakalar.",
+      "kaynak": "otomatik"
+    },
+    {
+      "slug": "palyaco-rezervasyonu-ne-kadar-onceden-yapilmali",
+      "durum": "bekliyor",
+      "planlanan": "2026-12-06",
+      "title": "Palyaço rezervasyonu ne kadar önceden yapılmalı?",
+      "question": "Doğum günü ya da okul etkinliği için palyaço veya animatörle ne kadar önceden iletişime geçmeliyim, hangi dönemler daha dolu olur?",
+      "category": "hizmet",
+      "link_targets": [
+        "/#hizmetler",
+        "/#bolgeler",
+        "/#sss",
+        "/#iletisim"
+      ],
+      "outline": [
+        "Kısa cevap: mümkün olduğunca erken yazmak neden önemli?",
+        "Hangi dönemler yoğundur? Hafta sonları, bayramlar ve okul dönemleri",
+        "Tarih kesinleşmeden yazılabilir mi: alternatif tarih ve saat belirtmenin faydası",
+        "Rezervasyon talebinde hazır olması gereken bilgiler: tarih, saat, ilçe/yer, çocuk sayısı, yaş aralığı, istenen hizmetler",
+        "Okullar için planlama: idare onayı ve sınıf sayısı netleşince yazmak",
+        "Son dakika taleplerinde neler yapılabilir?",
+        "Form ya da Instagram üzerinden nasıl yazılır"
+      ],
+      "faq": [
+        "Tarih henüz kesin değilse yine de yazabilir miyim?",
+        "Listede olmayan bir ilçe için rezervasyon sorabilir miyim?",
+        "Formu doldurduktan sonra ne olur?"
+      ],
+      "yazilmayacaklar": "Kesin gün ya da hafta sayısı ('en az 3 hafta önce'), kapora, iptal ya da ödeme koşulları, fiyat ve indirim, telefon/WhatsApp numarası, 'her zaman müsaitiz' gibi garanti, kampanya oranı ya da tarihi.",
+      "kaynak": "otomatik"
+    },
+    {
+      "slug": "gurultuden-rahatsiz-olan-cocuk-partide-nasil-rahatlar",
+      "durum": "bekliyor",
+      "planlanan": "2026-12-07",
+      "title": "Gürültüden rahatsız olan çocuk partide nasıl rahatlar?",
+      "question": "Çocuğum yüksek müzik ve kalabalıktan rahatsız oluyor; doğum günü partisinde ya da okul etkinliğinde onun için ne yapabilirim?",
+      "category": "rehber",
+      "link_targets": [
+        "/#etkinlikler",
+        "/#hizmetler",
+        "/#iletisim"
+      ],
+      "outline": [
+        "Kalabalık ve yüksek ses bazı çocukları neden yorar? Genel gözlemler",
+        "Partiden önce: programı çocuğa anlatmak, mekânı önceden göstermek",
+        "Sessiz köşe hazırlamak ve mola işaretini birlikte belirlemek",
+        "Ses düzeyini ve dans bölümünü planlamak: müziği kısma, sakin oyunları araya koyma",
+        "Çocuğun seçebileceği daha sakin etkinlikler: yüz boyama ya da sosis balon sırası",
+        "Kendi partisi değilse: ev sahibine ve öğretmene önceden bilgi vermek",
+        "Kontrol listesi"
+      ],
+      "faq": [
+        "Mini disco bölümünde müzik kısılabilir mi?",
+        "Çocuk partiden erken ayrılmak isterse ne yapılmalı?",
+        "Kulaklık takmak partide uygun olur mu?"
+      ],
+      "yazilmayacaklar": "Tanı, otizm veya duyusal işlemleme gibi tıbbi değerlendirme, tedavi önerisi, uzmanlık ya da özel eğitim iddiası, desibel gibi kesin rakamlar, 'çocuğunuz kesinlikle rahat eder' gibi garanti.",
+      "kaynak": "otomatik"
+    },
+    {
+      "slug": "okul-etkinligine-veliler-davet-edilmeli-mi",
+      "durum": "bekliyor",
+      "planlanan": "2026-12-08",
+      "title": "Okul etkinliğine veliler de davet edilmeli mi?",
+      "question": "Okulda ya da kreşte palyaço veya şenlik etkinliği yaparken velileri de davet etmeli miyiz, ederse nasıl düzenlemeliyiz?",
+      "category": "okul-kres",
+      "link_targets": [
+        "/#okullar",
+        "/#etkinlikler",
+        "/#iletisim"
+      ],
+      "outline": [
+        "Kısa cevap: etkinliğin türüne ve alana göre değişir",
+        "Velili ve velisiz etkinliğin artıları ve eksileri",
+        "Veliler gelirse alan, oturma ve izleme düzeni nasıl kurulur?",
+        "Küçük yaşlarda veli varlığının uyuma etkisi: ağlama ve ayrılma anları",
+        "Fotoğraf ve video kuralını önceden belirlemek",
+        "Karar için öğretmen kontrol listesi: alan, sınıf sayısı, saat, giriş-çıkış düzeni"
+      ],
+      "faq": [
+        "Velilerin de oyunlara katılması mümkün mü?",
+        "Veliler gelirse kardeşler de getirilebilir mi?",
+        "Sadece yıl sonu şenliğine veli çağırmak yeterli mi?"
+      ],
+      "yazilmayacaklar": "Belirli okul ya da kurum adı, mevzuat veya resmi izin konusunda hukuki yorum, kişi sayısı sınırı gibi rakamlar, program süresi, ekip sayısı, kampanya oranı ya da tarihi.",
+      "kaynak": "otomatik"
+    },
+    {
+      "slug": "okulda-sinif-sinif-etkinlik-sirasi-nasil-yapilir",
+      "durum": "bekliyor",
+      "planlanan": "2026-12-09",
+      "title": "Okulda sınıf sınıf etkinlik sırası nasıl yapılır?",
+      "question": "Birden fazla sınıfın katılacağı palyaço ya da animasyon etkinliğinde sınıfları nasıl sıraya koyar, çizelgeyi nasıl hazırlarız?",
+      "category": "okul-kres",
+      "link_targets": [
+        "/#okullar",
+        "/#hizmetler",
+        "/#iletisim"
+      ],
+      "outline": [
+        "Kısa cevap: önce sınıf sayısı, yaş grupları ve okulun günlük akışı netleştirilir",
+        "Küçük yaşlar mı önce, büyükler mi? Uyku, beslenme ve teneffüs saatlerine göre sıralama",
+        "Tek sınıf düzeni ile tüm okul şenliği arasında seçim",
+        "Örnek çizelge tablosu: sınıf, yaş grubu, saat dilimi, sorumlu öğretmen",
+        "Geçişlerde bekleme ve kalabalığı önlemek",
+        "Öğretmenlerle koordinasyon ve son kontrol listesi"
+      ],
+      "faq": [
+        "Farklı yaş grupları aynı anda etkinliğe katılabilir mi?",
+        "Çizelgeyi rezervasyondan önce mi hazırlamalıyız?",
+        "Bir sınıf geç kalırsa sıra nasıl değişir?"
+      ],
+      "yazilmayacaklar": "Sınıf başına dakika gibi kesin süreler, ekip sayısı, fiyat ya da kampanya ayrıntısı, belirli okul adı, uzman kadro iddiası.",
+      "kaynak": "otomatik"
+    },
+    {
+      "slug": "okulda-animasyon-sirasinda-ogretmen-ne-yapmali",
+      "durum": "bekliyor",
+      "planlanan": "2026-12-10",
+      "title": "Okulda animasyon sırasında öğretmen ne yapmalı?",
+      "question": "Sınıfa palyaço veya animatör geldiğinde öğretmen olarak benim görevim ne, nerede durmalı ve neye dikkat etmeliyim?",
+      "category": "okul-kres",
+      "link_targets": [
+        "/#okullar",
+        "/#sss",
+        "/#iletisim"
+      ],
+      "outline": [
+        "Kısa cevap: öğretmen çocukları tanıyan kişi olarak gözetimde ve köprü rolündedir",
+        "Etkinlikten önce paylaşılacak bilgiler: alerji ya da cilt hassasiyeti, çekingen çocuklar, sınıf kuralları",
+        "Etkinlik sırasında nerede durulur, ne zaman araya girilir?",
+        "Ağlayan, korkan ya da katılmak istemeyen çocukla ilgilenmek",
+        "Fotoğraf, tuvalet ve su molası düzeni",
+        "Etkinlik sonrası sınıfı toparlama",
+        "Öğretmen kontrol listesi"
+      ],
+      "faq": [
+        "Öğretmen oyunlara katılmalı mı?",
+        "Yüz boyama istemeyen çocuk için öğretmen ne yapabilir?",
+        "Etkinlik sırasında sınıf dışına çıkan çocuk olursa ne olur?"
+      ],
+      "yazilmayacaklar": "Animatörün çocuk gelişimi ya da pedagoji eğitimi aldığı iddiası, sorumluluk paylaşımına dair hukuki yorum, süre ve ekip sayısı, belirli okul adı, uydurma okul anıları.",
+      "kaynak": "otomatik"
+    },
+    {
+      "slug": "partiye-gec-gelen-cocuk-oyuna-nasil-katilir",
+      "durum": "bekliyor",
+      "planlanan": "2026-12-11",
+      "title": "Partiye geç gelen çocuk oyuna nasıl katılır?",
+      "question": "Doğum günü partisine geç gelen ya da erken giden misafir çocuklar programı nasıl etkiler, onları oyunlara nasıl dahil ederiz?",
+      "category": "rehber",
+      "link_targets": [
+        "/#etkinlikler",
+        "/#hizmetler",
+        "/#iletisim"
+      ],
+      "outline": [
+        "Kısa cevap: kapıda karşılayıp akıştaki bir sonraki oyuna katmak en kolayıdır",
+        "Geç gelen çocuk neden zorlanır: hazır grup, bitmiş oyun",
+        "Karşılama düzeni: kapıdan direkt kalabalığa değil, kısa tanışma",
+        "Sırası kaçmasın: yüz boyama ve sosis balon gibi bireysel bölümlerde liste tutmak",
+        "Davetiyede geliş saatini net yazmak ve erken gidecekleri önceden bilmek",
+        "Ev sahibi kontrol listesi"
+      ],
+      "faq": [
+        "Geç gelen çocuk için oyunu baştan başlatmak gerekir mi?",
+        "Erken ayrılan çocuk pasta anını kaçırırsa ne yapılır?",
+        "Animatöre geç gelecek misafirleri söylemek gerekir mi?"
+      ],
+      "yazilmayacaklar": "Program süresi ya da kesin dakika, ekip sayısı, 'her çocuğa ayrı ilgi gösteririz' gibi garanti cümleleri, uydurma parti anıları.",
+      "kaynak": "otomatik"
+    },
+    {
+      "slug": "dogum-gunu-sonrasi-tesekkur-mesaji-gonderilir-mi",
+      "durum": "bekliyor",
+      "planlanan": "2026-12-12",
+      "title": "Doğum gününden sonra teşekkür mesajı gönderilir mi?",
+      "question": "Çocuğumun doğum günü partisinden sonra gelen misafirlere ve hediye getirenlere teşekkür mesajı göndermeli miyim, nasıl yazmalıyım?",
+      "category": "dogum-gunu",
+      "link_targets": [
+        "/#etkinlikler",
+        "/#iletisim"
+      ],
+      "outline": [
+        "Kısa cevap: zorunlu değil ama kısa bir teşekkür ilişkileri güçlendirir",
+        "Ne zaman gönderilir: partiden sonraki birkaç gün",
+        "Mesaj, kart ya da çocuğun çizimi: yaşa göre seçenekler",
+        "Çocuğu teşekküre katmak: hediyeye özel tek cümle",
+        "Fotoğraf paylaşırken diğer çocukların izni",
+        "Örnek kısa teşekkür cümleleri",
+        "Gelemeyenlere ne söylenir?"
+      ],
+      "faq": [
+        "Toplu mesaj göndermek kaba sayılır mı?",
+        "Hediye getirmeyenlere de teşekkür edilir mi?",
+        "Teşekkür mesajına parti fotoğrafı eklenmeli mi?"
+      ],
+      "yazilmayacaklar": "Müşteri yorumu veya veli sözü, 'misafirleriniz çok memnun kalacak' gibi garanti, başka çocukların fotoğrafını izinsiz paylaşmayı öneren ifade, uydurma örnek aileler.",
+      "kaynak": "otomatik"
+    },
+    {
+      "slug": "cocuk-partisinde-ikram-ne-zaman-verilmeli",
+      "durum": "bekliyor",
+      "planlanan": "2026-12-13",
+      "title": "Çocuk partisinde ikram ne zaman verilmeli?",
+      "question": "Doğum günü partisinde yiyecek ve içecekleri oyunlardan önce mi, sonra mı vermeliyim; ikram anını programa nasıl yerleştiririm?",
+      "category": "dogum-gunu",
+      "link_targets": [
+        "/#etkinlikler",
+        "/#hizmetler",
+        "/#iletisim"
+      ],
+      "outline": [
+        "Kısa cevap: hareketli oyunlardan sonra, pastadan önce bir ikram arası genellikle rahat eder",
+        "Neden aç ya da tok çocukla oyun zorlaşır?",
+        "Örnek akış tablosu: karşılama, oyunlar, ikram arası, dans, pasta, final",
+        "Atıştırmalık masası mı, oturarak ikram mı?",
+        "Yüz boyama ve sosis balon sırasında yiyecek dağıtmamak",
+        "Dökülme ve temizlik için alan hazırlığı",
+        "Kontrol listesi"
+      ],
+      "faq": [
+        "İkram arasında animatör ne yapar?",
+        "Oyun sırasında su verilmeli mi?",
+        "Yetişkinlere ikram ayrı saatte mi olmalı?"
+      ],
+      "yazilmayacaklar": "Program süresi ya da dakika rakamları, işletmenin ikram veya yiyecek hizmeti verdiği iddiası, beslenme ve sağlık tavsiyesi, belirli marka ya da mekân adı.",
+      "kaynak": "otomatik"
+    },
+    {
+      "slug": "sosis-balon-patlayinca-cocuk-nasil-teselli-edilir",
+      "durum": "bekliyor",
+      "planlanan": "2026-12-14",
+      "title": "Sosis balon patlayınca çocuk nasıl teselli edilir?",
+      "question": "Partide çocuğun sosis balonu patladığında ya da sönünce ağlarsa ne yapılır, balon eve nasıl sağlam götürülür?",
+      "category": "rehber",
+      "link_targets": [
+        "/#hizmetler",
+        "/#sss",
+        "/#iletisim"
+      ],
+      "outline": [
+        "Kısa cevap: önce sakin bir dil, sonra çocuğun dikkatini yeni bir şeye yönlendirmek",
+        "Patlama sesi küçük çocukları neden korkutur?",
+        "Patlayan balonun parçalarını hemen toplamak",
+        "Balonu korumak için ipuçları: sivri yüzeyler, sıcak araç içi, sıkıştırmamak",
+        "Eve götürürken araçta ve yolda dikkat",
+        "Kardeşler ve misafirler arasında balon kıskançlığı"
+      ],
+      "faq": [
+        "Patlayan balonun yerine yenisi yapılabilir mi?",
+        "Sosis balon kaç gün dayanır?",
+        "Balonu eve götürmek için poşet kullanmak doğru mu?"
+      ],
+      "yazilmayacaklar": "Balonun belirli süre dayandığına dair rakam, malzeme güvenliği ya da 'zararsız' iddiası, marka adı, 'her çocuğa yedek balon' gibi sitede olmayan hizmet vaadi; patlayan parçaların küçük çocuklar için gözetim gerektirdiği genel uyarı dışında tıbbi ifade.",
+      "kaynak": "otomatik"
+    },
+    {
+      "slug": "yuz-boyama-istemeyen-cocuk-icin-ne-yapilir",
+      "durum": "bekliyor",
+      "planlanan": "2026-12-15",
+      "title": "Yüz boyama istemeyen çocuk için ne yapılır?",
+      "question": "Partide ya da okulda yüz boyama yaptırmak istemeyen ya da yaptıramayan çocuk dışlanmış hissetmesin diye ne yapılabilir?",
+      "category": "hizmet",
+      "link_targets": [
+        "/#hizmetler",
+        "/#etkinlikler",
+        "/#iletisim"
+      ],
+      "outline": [
+        "Kısa cevap: çocuk zorlanmaz; ona başka bir seçenek sunulur",
+        "Çocuklar neden istemez: dokunulmaktan hoşlanmamak, çekingenlik, cilt hassasiyeti",
+        "Daha küçük bir alan seçeneği: el ya da küçük bir desen",
+        "Alternatif etkinlikler: sosis balon, oyunlar, dans",
+        "Veli ve öğretmen olarak önceden bilgi vermek",
+        "Sırada bekleyen ama vazgeçen çocukla nasıl konuşulur?"
+      ],
+      "faq": [
+        "Yüz yerine ele boyama yapılabilir mi?",
+        "Çocuk sonradan fikrini değiştirirse sıraya girebilir mi?",
+        "Kardeşi boyatırken o istemezse sorun olur mu?"
+      ],
+      "yazilmayacaklar": "Boya için 'hipoalerjenik', 'zararsız', 'dermatolojik test' gibi ürün güvenliği iddiaları, marka adı, tıbbi tavsiye, sitede olmayan alternatif hizmetler (dövme, sim vb.).",
+      "kaynak": "otomatik"
+    },
+    {
+      "slug": "kreste-etkinlikten-sonra-cocuklar-nasil-sakinlesir",
+      "durum": "bekliyor",
+      "planlanan": "2026-12-16",
+      "title": "Kreşte etkinlikten sonra çocuklar nasıl sakinleşir?",
+      "question": "Palyaço, dans ya da mini disco gibi hareketli bir etkinlikten sonra kreşte çocukları günlük düzene nasıl geri döndürebiliriz?",
+      "category": "okul-kres",
+      "link_targets": [
+        "/#okullar",
+        "/#hizmetler",
+        "/#iletisim"
+      ],
+      "outline": [
+        "Kısa cevap: etkinliğin son bölümünü sakin bitirmek ve kısa bir geçiş ritüeli kullanmak",
+        "Programın sonunu yumuşatmak: hareketli finalden sonra sakin bir kapanış",
+        "Geçiş fikirleri: su molası, nefes oyunu, sessiz şarkı, resim çizme",
+        "Etkinlik saatini uyku ve beslenme düzenine göre seçmek",
+        "Yüz boyası ve balonlarla dönüş: masaya ve dolaba yerleştirme düzeni",
+        "Öğretmen kontrol listesi"
+      ],
+      "faq": [
+        "Etkinlik sabah mı öğleden sonra mı daha kolay toparlanır?",
+        "Kar spreyi finalinden sonra sınıf nasıl temizlenir?",
+        "Çocuklar etkinlik bitince ağlarsa ne yapılır?"
+      ],
+      "yazilmayacaklar": "Çocuk gelişimi ya da pedagoji uzmanlığı iddiası, kesin süre rakamları, belirli kreş adı, ürün güvenliği iddiası, kampanya oranı ya da tarihi.",
+      "kaynak": "otomatik"
+    },
+    {
+      "slug": "dogum-gunu-davetiyesine-neler-yazilmali",
+      "durum": "bekliyor",
+      "planlanan": "2026-12-17",
+      "title": "Doğum günü davetiyesine neler yazılmalı?",
+      "question": "Çocuk doğum günü davetiyesinde hangi bilgiler mutlaka yer almalı, velilere neyi önceden söylemeliyim?",
+      "category": "dogum-gunu",
+      "link_targets": [
+        "/#etkinlikler",
+        "/#hizmetler",
+        "/#iletisim"
+      ],
+      "outline": [
+        "Kısa cevap: tarih, başlangıç ve bitiş saati, adres, katılım bildirimi ve iletişim kişisi",
+        "Zorunlu bilgiler kontrol listesi",
+        "Veliler kalacak mı, çocuğu bırakıp mı gidecek?",
+        "Kıyafet notu: dans, oyun ve yüz boyama için rahat kıyafet",
+        "Alerji ve özel durum bildirimi isteği",
+        "Kardeşler davetli mi? Net yazmak",
+        "Örnek kısa davetiye metni"
+      ],
+      "faq": [
+        "Davetiyede hediye konusuna değinmek uygun mu?",
+        "Dijital davetiye yeterli mi?",
+        "Katılım bildirimi için son gün yazılmalı mı?"
+      ],
+      "yazilmayacaklar": "Davetiye gönderme zamanına dair yayındaki yazıyı tekrar etmek, belirli mekân ya da baskı firması adı, fiyat, sitede olmayan davetiye tasarım hizmeti iddiası.",
+      "kaynak": "otomatik"
+    },
+    {
+      "slug": "okulda-yuz-boyamadan-once-velilere-ne-sorulur",
+      "durum": "bekliyor",
+      "planlanan": "2026-12-18",
+      "title": "Okulda yüz boyamadan önce velilere ne sorulur?",
+      "question": "Okul veya kreşte yüz boyamalı bir etkinlik yapacağız; velilere önceden hangi bilgileri sormalı, nasıl duyurmalıyız?",
+      "category": "okul-kres",
+      "link_targets": [
+        "/#okullar",
+        "/#hizmetler",
+        "/#iletisim"
+      ],
+      "outline": [
+        "Kısa cevap: cilt hassasiyeti ve alerji bilgisi ile çocuğun boyatmak isteyip istemediği sorulur",
+        "Kısa bilgi notunda yer alacaklar: etkinlik günü, yapılacaklar, kıyafet önerisi",
+        "Örnek soru listesi: hassasiyet, istememe, küçük alan tercihi",
+        "Yanıtları sınıf listesine işlemek ve etkinlik günü paylaşmak",
+        "Yüz boyama yaptırmayacak çocuklar için seçenek: sosis balon ve oyunlar",
+        "Boyanın evde çıkarılması için velilere kısa not"
+      ],
+      "faq": [
+        "Velilerden yazılı onay almak gerekli mi?",
+        "Bilgi vermeyen veli olursa ne yapılır?",
+        "Yüz boyama okul fotoğraf gününe denk gelirse sorun olur mu?"
+      ],
+      "yazilmayacaklar": "Hukuki zorunluluk ya da mevzuat yorumu, boya için ürün güvenliği iddiaları ve marka adı, tıbbi tavsiye, belirli okul adı, kampanya oranı ya da tarihi.",
       "kaynak": "otomatik"
     }
   ]

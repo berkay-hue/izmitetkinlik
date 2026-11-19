@@ -6,7 +6,15 @@
     <atom:link href="https://izmitetkinlik.com/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Kocaeli ve Sakarya'da çocuk etkinlikleri, doğum günü, okul şenliği ve özel günler için palyaço ve animatör rehberi.</description>
     <language>tr-TR</language>
-    <lastBuildDate>Thu, 19 Nov 2026 06:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 06:00:00 GMT</lastBuildDate>
+    <item>
+      <title>Animatör varken ebeveynler ne yapmalı?</title>
+      <link>https://izmitetkinlik.com/blog/animator-varken-ebeveynler-ne-yapmali/</link>
+      <guid isPermaLink="true">https://izmitetkinlik.com/blog/animator-varken-ebeveynler-ne-yapmali/</guid>
+      <pubDate>Fri, 20 Nov 2026 06:00:00 GMT</pubDate>
+      <category>Doğum Günü</category>
+      <description>Doğum gününde animatör programı sürerken ev sahibi ve diğer veliler ne yapmalı? Bilgi paylaşımı, ikram zamanı ve görev listesi.</description>
+    </item>
     <item>
       <title>Çocuk doğum günü partisi hangi saatte yapılmalı?</title>
       <link>https://izmitetkinlik.com/blog/cocuk-dogum-gunu-partisi-hangi-saatte-yapilmali/</link>
@@ -238,14 +246,6 @@
       <pubDate>Thu, 22 Oct 2026 06:00:00 GMT</pubDate>
       <category>Hizmetler</category>
       <description>Yüz boyama öncesi velinin sorabileceği sorular, etiket kontrolü, hassas cilt, göz çevresi ve kızarıklık durumunda yapılabilecekler.</description>
-    </item>
-    <item>
-      <title>1 ve 2 yaş doğum gününde hangi etkinlikler yapılır?</title>
-      <link>https://izmitetkinlik.com/blog/1-2-yas-dogum-gunu-etkinlikleri/</link>
-      <guid isPermaLink="true">https://izmitetkinlik.com/blog/1-2-yas-dogum-gunu-etkinlikleri/</guid>
-      <pubDate>Wed, 21 Oct 2026 06:00:00 GMT</pubDate>
-      <category>Doğum Günü</category>
-      <description>1 ve 2 yaş doğum günü için sakin parti planı: doğru saat, kısa eğlence, müzik ve baloncuk, kaçınılacaklar ve animatöre iletilecek bilgiler.</description>
     </item>
   </channel>
 </rss>
