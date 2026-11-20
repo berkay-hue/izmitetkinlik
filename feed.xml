@@ -6,7 +6,15 @@
     <atom:link href="https://izmitetkinlik.com/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Kocaeli ve Sakarya'da çocuk etkinlikleri, doğum günü, okul şenliği ve özel günler için palyaço ve animatör rehberi.</description>
     <language>tr-TR</language>
-    <lastBuildDate>Fri, 20 Nov 2026 06:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 06:00:00 GMT</lastBuildDate>
+    <item>
+      <title>Çocuk partisinde misafirlere hediye verilir mi?</title>
+      <link>https://izmitetkinlik.com/blog/cocuk-partisinde-misafirlere-hediye-verilir-mi/</link>
+      <guid isPermaLink="true">https://izmitetkinlik.com/blog/cocuk-partisinde-misafirlere-hediye-verilir-mi/</guid>
+      <pubDate>Sat, 21 Nov 2026 06:00:00 GMT</pubDate>
+      <category>Doğum Günü</category>
+      <description>Doğum gününe gelen çocuklara dönüş hediyesi gerekli mi? Yaşa göre fikirler, dağıtım zamanı, yedek hediye ve kontrol listesi.</description>
+    </item>
     <item>
       <title>Animatör varken ebeveynler ne yapmalı?</title>
       <link>https://izmitetkinlik.com/blog/animator-varken-ebeveynler-ne-yapmali/</link>
@@ -238,14 +246,6 @@
       <pubDate>Fri, 23 Oct 2026 06:00:00 GMT</pubDate>
       <category>Rehber</category>
       <description>Palyaçodan korkan çocuğu partiye hazırlama, ilk tanışma, ara verme işaretleri ve palyaço yerine düşünülebilecek seçenekler.</description>
-    </item>
-    <item>
-      <title>Çocuklarda yüz boyama zararlı mı, nelere dikkat edilir?</title>
-      <link>https://izmitetkinlik.com/blog/yuz-boyamada-cilt-hassasiyeti-sorulacaklar/</link>
-      <guid isPermaLink="true">https://izmitetkinlik.com/blog/yuz-boyamada-cilt-hassasiyeti-sorulacaklar/</guid>
-      <pubDate>Thu, 22 Oct 2026 06:00:00 GMT</pubDate>
-      <category>Hizmetler</category>
-      <description>Yüz boyama öncesi velinin sorabileceği sorular, etiket kontrolü, hassas cilt, göz çevresi ve kızarıklık durumunda yapılabilecekler.</description>
     </item>
   </channel>
 </rss>

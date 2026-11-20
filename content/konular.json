@@ -1767,7 +1767,7 @@
     },
     {
       "slug": "cocuk-partisinde-misafirlere-hediye-verilir-mi",
-      "durum": "bekliyor",
+      "durum": "yayinlandi",
       "planlanan": "2026-11-21",
       "title": "Çocuk partisinde misafirlere hediye verilir mi?",
       "question": "Doğum günü partisine gelen çocuklara dönüş hediyesi vermek gerekli mi, verilecekse ne ve ne zaman verilir?",
@@ -1791,7 +1791,8 @@
         "Hediye torbalarına isim yazmak gerekir mi?"
       ],
       "yazilmayacaklar": "Hediye için rakam ya da bütçe aralığı verilmez; belirli marka ve mağaza adı geçmez; işletmenin hediye paketi, parti ürünü ya da süsleme sattığı ima edilmez; sosis balonun her ortamda dayanıklı kalacağı gibi garanti ifadesi kullanılmaz.",
-      "kaynak": "otomatik"
+      "kaynak": "otomatik",
+      "yayin": "2026-11-21"
     },
     {
       "slug": "dogum-gununde-yetiskin-misafirler-nasil-agirlanir",
