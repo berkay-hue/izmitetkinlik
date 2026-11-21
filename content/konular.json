@@ -1796,7 +1796,7 @@
     },
     {
       "slug": "dogum-gununde-yetiskin-misafirler-nasil-agirlanir",
-      "durum": "bekliyor",
+      "durum": "yayinlandi",
       "planlanan": "2026-11-22",
       "title": "Doğum gününde yetişkin misafirler nasıl ağırlanır?",
       "question": "Çocuk doğum gününe gelen anne, baba ve akrabalar için alan, ikram ve oturma düzeni nasıl planlanır?",
@@ -1820,7 +1820,8 @@
         "Yetişkinler için ayrı müzik gerekir mi?"
       ],
       "yazilmayacaklar": "Belirli kafe, salon ya da ikram firması adı geçmez; yetişkinler için ayrı bir hizmet ya da ikram sunulduğu iddia edilmez; davetli sayısı için kesin rakam verilmez; mekân kuralları hakkında genelleme yapılmaz.",
-      "kaynak": "otomatik"
+      "kaynak": "otomatik",
+      "yayin": "2026-11-22"
     },
     {
       "slug": "cocuga-surpriz-dogum-gunu-partisi-yapilir-mi",
