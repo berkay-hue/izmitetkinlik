@@ -1825,7 +1825,7 @@
     },
     {
       "slug": "cocuga-surpriz-dogum-gunu-partisi-yapilir-mi",
-      "durum": "bekliyor",
+      "durum": "yayinlandi",
       "planlanan": "2026-11-23",
       "title": "Çocuğa sürpriz doğum günü partisi yapılır mı?",
       "question": "Çocuklar için sürpriz doğum günü partisi iyi bir fikir mi, hangi yaşta ve nasıl yapılmalı?",
@@ -1849,7 +1849,8 @@
         "Kreşteki arkadaşlar sürpriz partiye nasıl davet edilir?"
       ],
       "yazilmayacaklar": "Sürprizin çocuk psikolojisine etkisi üzerine uzman görüşü ya da tıbbi iddia yazılmaz; pedagog veya psikolog tavsiyesine atıf yapılmaz; uydurma sürpriz parti anısı anlatılmaz; animatörün belirli dakikada geleceği gibi süre taahhüdü verilmez.",
-      "kaynak": "otomatik"
+      "kaynak": "otomatik",
+      "yayin": "2026-11-23"
     },
     {
       "slug": "salonda-kafede-partiden-once-mekana-ne-sorulur",
