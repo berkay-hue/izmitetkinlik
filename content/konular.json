@@ -1854,7 +1854,7 @@
     },
     {
       "slug": "salonda-kafede-partiden-once-mekana-ne-sorulur",
-      "durum": "bekliyor",
+      "durum": "yayinlandi",
       "planlanan": "2026-11-24",
       "title": "Salonda veya kafede partiden önce mekâna ne sorulur?",
       "question": "Kafede ya da salonda doğum günü yapacak veli, animasyon ve oyunlar için mekâna önceden neleri sormalı?",
@@ -1879,7 +1879,8 @@
         "Mekân bilgilerini animatöre nasıl iletmeliyim?"
       ],
       "yazilmayacaklar": "Gerçek kafe, salon, AVM ya da mekân adı geçmez; mekânların fiyatı, saati ya da kuralları hakkında genel iddia kurulmaz; kar spreyi ve köpük için güvenlik garantisi verilmez; işletmenin her mekânla çalıştığı ya da mekân önerdiği yazılmaz.",
-      "kaynak": "otomatik"
+      "kaynak": "otomatik",
+      "yayin": "2026-11-24"
     },
     {
       "slug": "cocuk-partisi-icin-muzik-listesi-nasil-hazirlanir",

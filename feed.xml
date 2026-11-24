@@ -6,7 +6,15 @@
     <atom:link href="https://izmitetkinlik.com/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Kocaeli ve Sakarya'da çocuk etkinlikleri, doğum günü, okul şenliği ve özel günler için palyaço ve animatör rehberi.</description>
     <language>tr-TR</language>
-    <lastBuildDate>Mon, 23 Nov 2026 06:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 06:00:00 GMT</lastBuildDate>
+    <item>
+      <title>Salonda veya kafede partiden önce mekâna ne sorulur?</title>
+      <link>https://izmitetkinlik.com/blog/salonda-kafede-partiden-once-mekana-ne-sorulur/</link>
+      <guid isPermaLink="true">https://izmitetkinlik.com/blog/salonda-kafede-partiden-once-mekana-ne-sorulur/</guid>
+      <pubDate>Tue, 24 Nov 2026 06:00:00 GMT</pubDate>
+      <category>Doğum Günü</category>
+      <description>Kafede ya da salonda doğum günü öncesi mekâna sorulacaklar: dışarıdan animatör izni, oyun alanı, ses, priz, köpük ve kar spreyi, saatler.</description>
+    </item>
     <item>
       <title>Çocuğa sürpriz doğum günü partisi yapılır mı?</title>
       <link>https://izmitetkinlik.com/blog/cocuga-surpriz-dogum-gunu-partisi-yapilir-mi/</link>
@@ -238,14 +246,6 @@
       <pubDate>Mon, 26 Oct 2026 06:00:00 GMT</pubDate>
       <category>Hizmetler</category>
       <description>Sosis balon küçük çocuklar için risk taşır mı? Balon parçalarını toplama, ağza almama, lateks hassasiyeti ve eve taşıma için pratik öneriler.</description>
-    </item>
-    <item>
-      <title>Okulda veya kreşte doğum günü kutlaması yapılabilir mi?</title>
-      <link>https://izmitetkinlik.com/blog/okulda-dogum-gunu-kutlamasi-yapilir-mi/</link>
-      <guid isPermaLink="true">https://izmitetkinlik.com/blog/okulda-dogum-gunu-kutlamasi-yapilir-mi/</guid>
-      <pubDate>Sun, 25 Oct 2026 06:00:00 GMT</pubDate>
-      <category>Okul &amp; Kreş</category>
-      <description>Okulda ya da kreşte doğum günü kutlamak isteyen veliler için izin, ikram, alerji, kısa sınıf programı ve animatör getirme üzerine pratik öneriler.</description>
     </item>
   </channel>
 </rss>
