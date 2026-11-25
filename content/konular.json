@@ -1884,7 +1884,7 @@
     },
     {
       "slug": "cocuk-partisi-icin-muzik-listesi-nasil-hazirlanir",
-      "durum": "bekliyor",
+      "durum": "yayinlandi",
       "planlanan": "2026-11-25",
       "title": "Çocuk partisi için müzik listesi nasıl hazırlanır?",
       "question": "Doğum günü ya da çocuk partisinde oyun, dans ve sakin anlar için müzik listesi nasıl oluşturulur?",
@@ -1908,7 +1908,8 @@
         "Animatör gelirse kendi müziğimi hazırlamam gerekir mi?"
       ],
       "yazilmayacaklar": "Belirli müzik uygulaması, hoparlör markası ya da sanatçı adı önerilmez; işletmenin ses sistemi getirdiği ya da teknik ekipman sağladığı iddia edilmez; şarkı telif hakları konusunda hukuki tavsiye verilmez; desibel gibi kesin rakam verilmez.",
-      "kaynak": "otomatik"
+      "kaynak": "otomatik",
+      "yayin": "2026-11-25"
     },
     {
       "slug": "halat-savasi-cocuklarla-nasil-guvenle-oynanir",
