@@ -1913,7 +1913,7 @@
     },
     {
       "slug": "halat-savasi-cocuklarla-nasil-guvenle-oynanir",
-      "durum": "bekliyor",
+      "durum": "yayinlandi",
       "planlanan": "2026-11-26",
       "title": "Halat savaşı çocuklarla nasıl güvenle oynanır?",
       "question": "Halat savaşı çocuk partisinde ya da okul etkinliğinde nasıl kurulur, takımlar nasıl dengelenir ve dikkat edilecekler nelerdir?",
@@ -1937,7 +1937,8 @@
         "Halat yerine ne kullanılabilir?"
       ],
       "yazilmayacaklar": "Sakatlanma riskine dair tıbbi bilgi ya da ilk yardım tavsiyesi verilmez; oyunun 'tamamen güvenli' olduğu garantisi yazılmaz; işletmenin belirli halat ya da ekipman getirdiği ayrıntısı uydurulmaz; kesin yaş ya da kilo sınırı verilmez.",
-      "kaynak": "otomatik"
+      "kaynak": "otomatik",
+      "yayin": "2026-11-26"
     },
     {
       "slug": "dans-maratonu-nasil-oynanir",
