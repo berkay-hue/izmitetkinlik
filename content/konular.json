@@ -1942,7 +1942,7 @@
     },
     {
       "slug": "dans-maratonu-nasil-oynanir",
-      "durum": "bekliyor",
+      "durum": "yayinlandi",
       "planlanan": "2026-11-27",
       "title": "Dans maratonu nasıl oynanır?",
       "question": "Çocuk partisinde dans maratonu nasıl oynanır, kurallar nasıl basit ve eğlenceli tutulur?",
@@ -1966,7 +1966,8 @@
         "Kazanana ödül vermek gerekir mi?"
       ],
       "yazilmayacaklar": "Oyunun kaç dakika süreceği gibi rakam verilmez; dansın çocuk gelişimine faydası üzerine uzman ya da tıbbi iddia kurulmaz; işletmenin özel ışık, sahne ya da ses sistemi getirdiği yazılmaz; uydurma parti örneği anlatılmaz.",
-      "kaynak": "otomatik"
+      "kaynak": "otomatik",
+      "yayin": "2026-11-27"
     },
     {
       "slug": "partide-cocuklar-tartisirsa-ne-yapilir",
