@@ -1971,7 +1971,7 @@
     },
     {
       "slug": "partide-cocuklar-tartisirsa-ne-yapilir",
-      "durum": "bekliyor",
+      "durum": "yayinlandi",
       "planlanan": "2026-11-28",
       "title": "Partide çocuklar tartışırsa ne yapılır?",
       "question": "Doğum günü partisinde çocuklar oyuncak, sıra ya da oyun yüzünden tartışırsa veli ne yapmalı?",
@@ -1995,7 +1995,8 @@
         "Animatör tartışmaya müdahale eder mi?"
       ],
       "yazilmayacaklar": "Psikolojik tanı, davranış bozukluğu ya da uzman tavsiyesi yazılmaz; pedagog veya psikolog görüşüne dayanan ifade kullanılmaz; animatörün her tartışmayı çözeceği garantisi verilmez; uydurma olay anlatılmaz.",
-      "kaynak": "otomatik"
+      "kaynak": "otomatik",
+      "yayin": "2026-11-28"
     },
     {
       "slug": "kalabalik-grupta-yuz-boyama-sirasi",
